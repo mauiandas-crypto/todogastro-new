@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [cartCount, setCartCount] = useState(0);
+  const [cartCount] = useState(0);
 
   return (
     <header className="bg-white shadow-sm dark:bg-gray-900">
