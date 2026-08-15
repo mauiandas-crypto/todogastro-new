@@ -5,3 +5,8 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// Cloudflare Pages configuration
+export const config = {
+  runtime: "edge",
+};
