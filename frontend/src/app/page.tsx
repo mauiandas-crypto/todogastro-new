@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 interface Product {
   id: string;
@@ -17,7 +17,7 @@ export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const fetchFeaturedProducts = async () => {
+  const fetchFeaturedProducts = useCallback(async () => {
     try {
       const response = await fetch(
         'http://localhost:3001/api/products?limit=6&page=1',
@@ -34,12 +34,12 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
     // Fetch featured products from API
     fetchFeaturedProducts();
-  }, []);
+  }, [fetchFeaturedProducts]);
 
   return (
     <div className="w-full">
