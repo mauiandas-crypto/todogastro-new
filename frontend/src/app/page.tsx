@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 
 interface Product {
   id: string;
@@ -17,29 +17,27 @@ export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const fetchFeaturedProducts = useCallback(async () => {
-    try {
-      const response = await fetch(
-        'http://localhost:3001/api/products?limit=6&page=1',
-        { mode: 'cors' }
-      );
-      if (response.ok) {
-        const data = await response.json();
-        setFeaturedProducts(data.products || []);
-      }
-    } catch (error) {
-      console.error('Error fetching products:', error);
-      // En desarrollo, mostrar productos dummy
-      setFeaturedProducts([]);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
   useEffect(() => {
-    // Fetch featured products from API
+    const fetchFeaturedProducts = async () => {
+      try {
+        const response = await fetch(
+          'http://localhost:3001/api/products?limit=6&page=1',
+          { mode: 'cors' }
+        );
+        if (response.ok) {
+          const data = await response.json();
+          setFeaturedProducts(data.products || []);
+        }
+      } catch (error) {
+        console.error('Error fetching products:', error);
+        setFeaturedProducts([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     fetchFeaturedProducts();
-  }, [fetchFeaturedProducts]);
+  }, []);
 
   return (
     <div className="w-full">
