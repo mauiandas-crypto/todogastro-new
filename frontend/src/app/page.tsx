@@ -20,8 +20,9 @@ export default function Home() {
   useEffect(() => {
     const fetchFeaturedProducts = async () => {
       try {
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
         const response = await fetch(
-          'http://localhost:3001/api/products?limit=6&page=1',
+          `${apiUrl}/api/products?limit=6&page=1`,
           { mode: 'cors' }
         );
         if (response.ok) {
