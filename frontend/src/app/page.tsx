@@ -17,11 +17,6 @@ export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Fetch featured products from API
-    fetchFeaturedProducts();
-  }, []);
-
   const fetchFeaturedProducts = async () => {
     try {
       const response = await fetch(
@@ -40,6 +35,11 @@ export default function Home() {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    // Fetch featured products from API
+    fetchFeaturedProducts();
+  }, []);
 
   return (
     <div className="w-full">
