@@ -21,7 +21,7 @@ export default function Home() {
   useEffect(() => {
     const fetchFeaturedProducts = async () => {
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
         const response = await fetch(
           `${apiUrl}/api/products?limit=6&page=1`,
           { mode: 'cors' }
