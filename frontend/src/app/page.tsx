@@ -1,181 +1,215 @@
 'use client';
 
-// Force rebuild with env variables - v2
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
-interface Product {
+interface Producto {
   id: string;
-  name: string;
-  price: number;
-  currency: string;
-  short_description: string;
-  in_stock: boolean;
-  images?: Array<{ src: string; alt: string }>;
+  sku: string;
+  nombre: string;
+  categoria: string;
+  precio: number;
+  precioAnterior?: number;
+  moneda: string;
+  stock: number;
+  imagenes: string[];
+  slug: string;
 }
 
 export default function Home() {
-  const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
+  const [productos, setProductos] = useState<Producto[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchFeaturedProducts = async () => {
+    const cargarProductos = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
-        const response = await fetch(
-          `${apiUrl}/api/products?limit=6&page=1`,
-          { mode: 'cors' }
-        );
+        const response = await fetch(`${apiUrl}/api/products?limit=20`, { mode: 'cors' });
         if (response.ok) {
           const data = await response.json();
-          setFeaturedProducts(data.products || []);
+          setProductos(data.products || []);
         }
       } catch (error) {
-        console.error('Error fetching products:', error);
-        setFeaturedProducts([]);
+        console.error('Error cargando productos:', error);
       } finally {
         setLoading(false);
       }
     };
-
-    fetchFeaturedProducts();
+    cargarProductos();
   }, []);
 
   return (
-    <div className="w-full">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 px-4">
-        <div className="mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            TodoGastro - Equipamiento Gastronómico
+    <div className="bg-white">
+      {/* 1. SLIDER PRINCIPAL (Banners) */}
+      <section className="bg-black text-white py-24 px-4 text-center">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-5xl md:text-6xl font-black mb-4 leading-tight">
+            EQUIPAMIENTO GASTRONÓMICO PROFESIONAL
           </h1>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Los mejores productos para tu negocio de comidas y bebidas.
-            Equipamiento profesional con garantía y calidad asegurada.
+          <p className="text-xl md:text-2xl mb-8 font-light">
+            Cocinas, refrigeración, elaboración. Todo para tu negocio.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <Link
-              href="/catalog"
-              className="px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition"
-            >
-              Ver Catálogo
+            <Link href="/catalogo" className="px-6 py-3 bg-white text-black font-bold hover:bg-gray-200">
+              VER CATÁLOGO
             </Link>
-            <Link
-              href="#"
-              className="px-8 py-3 border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition"
-            >
-              Contactar
-            </Link>
+            <a href="https://wa.me/598927155555" className="px-6 py-3 border-2 border-white font-bold hover:bg-white/10">
+              COTIZAR POR WHATSAPP
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Featured Products */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-800">
-        <div className="mx-auto max-w-7xl">
-          <h2 className="text-3xl font-bold mb-4 text-center">Productos Destacados</h2>
-          <p className="text-gray-600 dark:text-gray-400 text-center mb-12">
-            Descubre nuestra selección de equipamiento gastronómico
-          </p>
+      {/* 2. ACCESOS RÁPIDOS POR CATEGORÍA */}
+      <section className="border-b-2 border-black px-4 py-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            {['Cocción', 'Elaboración', 'Refrigeración', 'Equipamiento', 'Descuentos'].map((cat) => (
+              <Link
+                key={cat}
+                href={`/categoria/${cat.toLowerCase()}`}
+                className="border-2 border-black p-4 text-center hover:bg-black hover:text-white transition"
+              >
+                <div className="text-3xl mb-2">📦</div>
+                <h3 className="font-bold text-sm">{cat}</h3>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
-          {loading ? (
-            <div className="text-center py-12">
-              <p>Cargando productos...</p>
-            </div>
-          ) : featuredProducts.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {featuredProducts.map((product) => (
+      {/* 3. DESTACADOS */}
+      {!loading && productos.length > 0 && (
+        <section className="border-b-2 border-black px-4 py-12">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-3xl font-black mb-2">PRODUCTOS DESTACADOS</h2>
+            <p className="text-gray-600 mb-8 font-light">Los más buscados en equipamiento gastronómico</p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {productos.slice(0, 6).map((p) => (
                 <Link
-                  key={product.id}
-                  href={`/catalog/${product.id}`}
-                  className="bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition overflow-hidden"
+                  key={p.id}
+                  href={`/producto/${p.slug}`}
+                  className="border-2 border-black hover:shadow-lg transition group"
                 >
-                  <div className="h-48 bg-gray-200 dark:bg-gray-600 flex items-center justify-center">
-                    {product.images?.[0] ? (
-                      <img
-                        src={product.images[0].src}
-                        alt={product.name}
-                        className="w-full h-full object-cover"
+                  <div className="aspect-square bg-gray-100 overflow-hidden flex items-center justify-center">
+                    {p.imagenes[0] ? (
+                      <Image
+                        src={p.imagenes[0]}
+                        alt={p.nombre}
+                        width={300}
+                        height={300}
+                        className="w-full h-full object-cover group-hover:scale-105 transition"
                       />
                     ) : (
-                      <span className="text-gray-400">Sin imagen</span>
+                      <span className="text-gray-400 font-bold">Sin imagen</span>
                     )}
                   </div>
                   <div className="p-4">
-                    <h3 className="font-bold text-lg mb-2 line-clamp-2">
-                      {product.name}
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-2">
-                      {product.short_description}
-                    </p>
-                    <div className="flex justify-between items-center">
-                      <span className="text-2xl font-bold text-blue-600">
-                        {product.currency} {product.price.toLocaleString()}
-                      </span>
-                      <span
-                        className={`text-sm font-semibold px-3 py-1 rounded-full ${
-                          product.in_stock
-                            ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
-                            : 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
-                        }`}
-                      >
-                        {product.in_stock ? 'En Stock' : 'Agotado'}
+                    <h3 className="font-bold text-sm line-clamp-2 mb-2">{p.nombre}</h3>
+                    <div className="flex justify-between items-end">
+                      <div>
+                        {p.precioAnterior && (
+                          <span className="text-xs line-through text-gray-500 block">
+                            {p.moneda} {p.precioAnterior.toLocaleString()}
+                          </span>
+                        )}
+                        <span className="text-2xl font-black">{p.moneda} {p.precio.toLocaleString()}</span>
+                      </div>
+                      <span className={`text-xs font-bold px-2 py-1 ${p.stock > 0 ? 'bg-black text-white' : 'bg-gray-300'}`}>
+                        {p.stock > 0 ? 'STOCK' : 'AGOTADO'}
                       </span>
                     </div>
                   </div>
                 </Link>
               ))}
             </div>
-          ) : (
-            <div className="text-center py-12">
-              <p className="text-gray-600 dark:text-gray-400 mb-4">
-                No pudimos cargar los productos. Por favor intenta más tarde.
-              </p>
-              <p className="text-sm text-gray-500 dark:text-gray-500">
-                Nota: Asegúrate que el backend esté corriendo en http://localhost:3001
-              </p>
-            </div>
-          )}
+          </div>
+        </section>
+      )}
 
-          <div className="text-center mt-12">
-            <Link
-              href="/catalog"
-              className="px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition inline-block"
-            >
-              Ver Todos los Productos →
-            </Link>
+      {/* 4. BLOQUES TEMÁTICOS POR CATEGORÍA */}
+      <section className="border-b-2 border-black px-4 py-12">
+        <div className="max-w-7xl mx-auto">
+          {['Cocción', 'Refrigeración', 'Elaboración'].map((cat) => (
+            <div key={cat} className="mb-12 last:mb-0">
+              <h3 className="text-2xl font-black mb-4">
+                {cat.toUpperCase()} desde USD <span className="text-3xl">$</span>
+              </h3>
+              <p className="text-gray-600 text-sm mb-6">Equipamiento profesional {cat.toLowerCase()} para tu negocio</p>
+              <Link href={`/categoria/${cat.toLowerCase()}`} className="px-6 py-3 border-2 border-black font-bold hover:bg-black hover:text-white transition">
+                VER {cat.toUpperCase()} →
+              </Link>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5. BLOQUE INSTITUCIONAL */}
+      <section className="bg-gray-50 border-b-2 border-black px-4 py-12">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl font-black mb-4">SOMOS TODOGASTRO</h2>
+          <p className="text-lg mb-6 font-light max-w-2xl mx-auto">
+            Desde Aguada, Montevideo. Más de 20 años equipando bares, restaurantes, panaderías y hoteles con equipamiento profesional de calidad.
+          </p>
+          <div className="flex gap-8 justify-center flex-wrap text-sm font-bold">
+            <div>📍 Aguada, Montevideo</div>
+            <div>🕐 Lun-Vie 8:30-17:15</div>
+            <div>📞 +598 92715555</div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-16 px-4">
-        <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="text-4xl mb-4">✅</div>
-              <h3 className="text-xl font-bold mb-2">Productos Verificados</h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                Todos nuestros productos pasan por control de calidad
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">🚚</div>
-              <h3 className="text-xl font-bold mb-2">Envíos Rápidos</h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                Entrega en 24-48 horas en Montevideo
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">💳</div>
-              <h3 className="text-xl font-bold mb-2">Múltiples Formas de Pago</h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                Tarjetas, transferencias y MercadoPago
-              </p>
-            </div>
-          </div>
+      {/* 6. NEWSLETTER */}
+      <section className="border-b-2 border-black px-4 py-12">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-2xl font-black mb-4">RECIBÍ NOVEDADES Y DESCUENTOS</h2>
+          <form className="flex gap-2">
+            <input type="email" placeholder="Tu email..." className="flex-1 px-4 py-3 border-2 border-black focus:outline-none" required />
+            <button type="submit" className="px-6 py-3 bg-black text-white font-bold hover:bg-gray-800">
+              SUSCRIBIR
+            </button>
+          </form>
         </div>
       </section>
+
+      {/* FOOTER en negro */}
+      <footer className="bg-black text-white px-4 py-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-gray-600">
+            <div>
+              <h3 className="font-black text-xl mb-4">TODOGASTRO</h3>
+              <p className="text-sm text-gray-300">Equipamiento gastronómico profesional para tu negocio.</p>
+            </div>
+            <div>
+              <h4 className="font-bold mb-3">CATEGORÍAS</h4>
+              <ul className="text-sm space-y-2 text-gray-300">
+                {['Cocción', 'Elaboración', 'Refrigeración', 'Equipamiento'].map((c) => (
+                  <li key={c}><Link href={`/categoria/${c.toLowerCase()}`} className="hover:text-white">{c}</Link></li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold mb-3">CONTACTO</h4>
+              <p className="text-sm text-gray-300 mb-2">📍 Aguada, Montevideo</p>
+              <p className="text-sm text-gray-300 mb-2">🕐 Lun-Vie 8:30-17:15 hs</p>
+              <p className="text-sm text-gray-300">📞 +598 92715555</p>
+            </div>
+            <div>
+              <h4 className="font-bold mb-3">REDES</h4>
+              <ul className="text-sm space-y-2">
+                <li><a href="#" className="text-gray-300 hover:text-white">Facebook</a></li>
+                <li><a href="#" className="text-gray-300 hover:text-white">Instagram</a></li>
+                <li><a href="https://wa.me/598927155555" className="text-gray-300 hover:text-white">WhatsApp</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="text-center text-sm text-gray-400">
+            <p>&copy; 2026 TodoGastro. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

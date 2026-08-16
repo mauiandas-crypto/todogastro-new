@@ -1,74 +1,158 @@
 'use client';
 
-import Link from 'next/link';
 import { useState } from 'react';
+import Link from 'next/link';
+
+const CATEGORIAS = [
+  {
+    nombre: 'Cocción',
+    subcategorias: ['Cocinas y hornos', 'Freidoras', 'Anafes', 'Planchas', 'Parrillas']
+  },
+  {
+    nombre: 'Elaboración',
+    subcategorias: ['Amasadoras', 'Picadoras', 'Cortadoras', 'Procesadoras', 'Dulces']
+  },
+  {
+    nombre: 'Refrigeración',
+    subcategorias: ['Vitrinas', 'Freezers', 'Heladeras', 'Cámaras', 'Abatidores']
+  },
+  {
+    nombre: 'Equipamiento',
+    subcategorias: ['Mesadas', 'Cafeteras', 'Accesorios', 'Complementos']
+  }
+];
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [cartCount] = useState(0);
+  const [menuAbierto, setMenuAbierto] = useState(false);
+  const [categoriasHover, setCategoriasHover] = useState<string | null>(null);
 
   return (
-    <header className="bg-white shadow-sm dark:bg-gray-900">
-      <nav className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-blue-600">
-            TodoGastro
-          </Link>
+    <>
+      {/* Barra fija de info */}
+      <div className="bg-black text-white text-xs py-2 text-center border-b-2 border-black hidden sm:block">
+        <span className="inline-block mx-4">📍 Aguada, Montevideo</span>
+        <span className="inline-block mx-4">🕐 Lunes a Viernes 8:30-17:15</span>
+        <a href="https://wa.me/598927155555" className="inline-block mx-4 hover:text-gray-300">
+          📞 +598 92715555
+        </a>
+      </div>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8">
-            <Link href="/catalog" className="text-gray-700 hover:text-blue-600 dark:text-gray-300">
-              Catálogo
+      {/* Header principal */}
+      <header className="bg-white border-b-2 border-black sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="flex items-center justify-between gap-8">
+            {/* Logo */}
+            <Link href="/" className="flex-shrink-0 font-black text-2xl tracking-tight">
+              TODOGASTRO
             </Link>
-            <input
-              type="search"
-              placeholder="Buscar productos..."
-              className="px-4 py-2 rounded-lg border border-gray-300 dark:bg-gray-800 dark:border-gray-600"
-            />
+
+            {/* Buscador */}
+            <div className="hidden sm:flex flex-1 max-w-xs">
+              <input
+                type="text"
+                placeholder="Buscar..."
+                className="w-full px-4 py-2 border-2 border-black focus:outline-none focus:bg-gray-50"
+              />
+            </div>
+
+            {/* Acciones */}
+            <div className="flex items-center gap-4 sm:gap-6">
+              <a
+                href="https://wa.me/598927155555"
+                className="hidden sm:block px-4 py-2 bg-black text-white font-bold text-sm hover:bg-gray-800"
+              >
+                💬 WhatsApp
+              </a>
+
+              <Link href="/carrito" className="text-2xl hover:opacity-60">
+                🛒
+              </Link>
+
+              <Link href="/login" className="hidden sm:block text-sm font-bold hover:underline">
+                Ingresar
+              </Link>
+
+              <button
+                onClick={() => setMenuAbierto(!menuAbierto)}
+                className="sm:hidden text-2xl font-bold"
+              >
+                ☰
+              </button>
+            </div>
           </div>
 
-          {/* Right Actions */}
-          <div className="flex items-center gap-4">
-            {/* Cart */}
-            <Link href="/cart" className="relative flex items-center gap-2">
-              <span className="text-2xl">🛒</span>
-              {cartCount > 0 && (
-                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
-                  {cartCount}
-                </span>
-              )}
-            </Link>
+          {/* Mega-menú desktop */}
+          <nav className="hidden sm:flex gap-8 mt-4 border-t-2 border-black pt-3">
+            {CATEGORIAS.map((cat) => (
+              <div
+                key={cat.nombre}
+                className="relative group"
+                onMouseEnter={() => setCategoriasHover(cat.nombre)}
+                onMouseLeave={() => setCategoriasHover(null)}
+              >
+                <button className="font-bold text-sm hover:underline">
+                  {cat.nombre}
+                </button>
 
-            {/* Auth */}
-            <Link href="/auth/login" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-              Ingresar
+                {/* Submenu */}
+                {categoriasHover === cat.nombre && (
+                  <div className="absolute top-full left-0 bg-white border-2 border-black shadow-lg z-50 min-w-max">
+                    {cat.subcategorias.map((sub, i) => (
+                      <Link
+                        key={sub}
+                        href={`/categoria/${sub.toLowerCase().replace(/ /g, '-')}`}
+                        className={`block px-4 py-2 hover:bg-black hover:text-white text-sm font-medium ${
+                          i < cat.subcategorias.length - 1 ? 'border-b border-gray-200' : ''
+                        }`}
+                      >
+                        {sub}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+            <Link href="/descuentos" className="font-bold text-sm hover:underline text-red-700">
+              🔥 DESCUENTOS
             </Link>
+          </nav>
 
-            {/* Mobile Menu Button */}
-            <button
-              className="md:hidden"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              ☰
-            </button>
-          </div>
+          {/* Menú mobile */}
+          {menuAbierto && (
+            <nav className="sm:hidden mt-4 border-t-2 border-black pt-3 pb-3 space-y-4">
+              <input
+                type="text"
+                placeholder="Buscar..."
+                className="w-full px-4 py-2 border-2 border-black focus:outline-none"
+              />
+              {CATEGORIAS.map((cat) => (
+                <div key={cat.nombre}>
+                  <h3 className="font-bold text-sm mb-2">{cat.nombre}</h3>
+                  <div className="ml-4 space-y-1">
+                    {cat.subcategorias.map((sub) => (
+                      <Link
+                        key={sub}
+                        href={`/categoria/${sub.toLowerCase().replace(/ /g, '-')}`}
+                        className="block text-xs hover:underline"
+                      >
+                        {sub}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
+              <Link href="/descuentos" className="block font-bold text-sm text-red-700">
+                🔥 DESCUENTOS
+              </Link>
+              <div className="pt-3 border-t border-gray-300">
+                <Link href="/login" className="block text-sm font-bold mb-2">
+                  Ingresar
+                </Link>
+              </div>
+            </nav>
+          )}
         </div>
-
-        {/* Mobile Menu */}
-        {mobileMenuOpen && (
-          <div className="md:hidden mt-4 space-y-2">
-            <Link href="/catalog" className="block py-2 text-gray-700 dark:text-gray-300">
-              Catálogo
-            </Link>
-            <input
-              type="search"
-              placeholder="Buscar productos..."
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:bg-gray-800 dark:border-gray-600"
-            />
-          </div>
-        )}
-      </nav>
-    </header>
+      </header>
+    </>
   );
 }
