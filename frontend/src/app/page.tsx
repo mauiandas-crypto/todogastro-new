@@ -1,6 +1,6 @@
 'use client';
 
-// Force rebuild with env variables
+// Force rebuild with env variables - v2
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
