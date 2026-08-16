@@ -38,7 +38,5 @@ yarn-error.log*
 Thumbs.db
 
 # Project specific
-/backend/src/data/products.json
-/backend/src/data/products.meta.json
 *.db
 *.sqlite
