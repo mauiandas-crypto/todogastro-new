@@ -91,9 +91,9 @@ export default function Header() {
                 onMouseEnter={() => setCategoriasHover(cat.nombre)}
                 onMouseLeave={() => setCategoriasHover(null)}
               >
-                <button className="font-bold text-sm hover:underline text-gray-900">
+                <Link href={`/categoria/${cat.nombre.toLowerCase()}`} className="font-bold text-sm hover:underline text-gray-900 inline-block">
                   {cat.nombre}
-                </button>
+                </Link>
 
                 {/* Submenu */}
                 {categoriasHover === cat.nombre && (
