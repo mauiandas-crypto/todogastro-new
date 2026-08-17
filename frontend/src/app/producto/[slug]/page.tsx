@@ -21,21 +21,12 @@ interface Producto {
 export default function PaginaProducto({ params }: any) {
   const [producto, setProducto] = useState<Producto | null>(null);
   const [loading, setLoading] = useState(true);
-  const [slug, setSlug] = useState<string | null>(null);
 
   useEffect(() => {
-    if (typeof params.slug === 'string') {
-      setSlug(params.slug);
-    }
-  }, [params.slug]);
-
-  useEffect(() => {
-    if (!slug) return;
-
     const cargarProducto = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
-        const response = await fetch(`${apiUrl}/api/products/${slug}`, { mode: 'cors' });
+        const response = await fetch(`${apiUrl}/api/products/${params.slug}`, { mode: 'cors' });
         if (response.ok) {
           const data = await response.json();
           setProducto(data);
@@ -47,7 +38,7 @@ export default function PaginaProducto({ params }: any) {
       }
     };
     cargarProducto();
-  }, [slug]);
+  }, [params.slug]);
 
   if (loading) return <div className="text-center py-12">Cargando...</div>;
   if (!producto) return <div className="text-center py-12">Producto no encontrado</div>;
