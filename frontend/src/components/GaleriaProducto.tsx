@@ -104,9 +104,9 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
       )}
 
       {/* Contador */}
-      {imagenes.length > 1 && (
+      {imgs.length > 1 && (
         <div className="text-center text-xs text-gray-600 font-bold">
-          {imagenActual + 1} de {imagenes.length}
+          {imagenActual + 1} de {imgs.length}
         </div>
       )}
     </div>
