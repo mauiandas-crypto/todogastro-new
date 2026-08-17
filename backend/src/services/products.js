@@ -41,11 +41,18 @@ function getProducts(filters = {}) {
   // Filtrar por categoría si se proporciona
   if (filters.category) {
     const categoryFilter = filters.category.toLowerCase();
-    filtered = filtered.filter(p =>
-      p.categories && p.categories.some(cat =>
-        cat.toLowerCase().includes(categoryFilter)
-      )
-    );
+    filtered = filtered.filter(p => {
+      // Intentar filtrar por categories (nuevo) o categoria (antiguo)
+      if (p.categories && Array.isArray(p.categories)) {
+        return p.categories.some(cat =>
+          cat.toLowerCase().includes(categoryFilter)
+        );
+      } else if (p.categoria) {
+        // Fallback: buscar en el campo categoria string
+        return p.categoria.toLowerCase().includes(categoryFilter);
+      }
+      return false;
+    });
   }
 
   // Búsqueda por texto
