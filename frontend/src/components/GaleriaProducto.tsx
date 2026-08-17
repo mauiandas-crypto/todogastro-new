@@ -26,18 +26,18 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
     <div className="space-y-4">
       {/* Imagen principal con zoom */}
       <div
-        className="relative bg-gray-50 border-2 border-black overflow-hidden cursor-zoom-in aspect-square"
+        className="bg-gray-50 border-2 border-black overflow-hidden cursor-zoom-in aspect-square"
         onMouseEnter={() => setZoomActivo(true)}
         onMouseLeave={() => setZoomActivo(false)}
       >
         <Image
           src={imagenUrl}
           alt={`${nombre} - Imagen ${imagenActual + 1}`}
-          fill
-          className={`object-cover transition-transform ${
+          width={500}
+          height={500}
+          className={`w-full h-full object-cover transition-transform ${
             zoomActivo ? 'scale-150' : 'scale-100'
           }`}
-          sizes="(max-width: 768px) 100vw, 50vw"
           priority={imagenActual === 0}
         />
 
