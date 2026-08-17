@@ -91,7 +91,7 @@ export default function Header() {
                 onMouseEnter={() => setCategoriasHover(cat.nombre)}
                 onMouseLeave={() => setCategoriasHover(null)}
               >
-                <button className="font-bold text-sm hover:underline">
+                <button className="font-bold text-sm hover:underline text-gray-900">
                   {cat.nombre}
                 </button>
 
@@ -102,7 +102,7 @@ export default function Header() {
                       <Link
                         key={sub}
                         href={`/categoria/${sub.toLowerCase().replace(/ /g, '-')}`}
-                        className={`block px-4 py-2 hover:bg-black hover:text-white text-sm font-medium ${
+                        className={`block px-4 py-2 hover:bg-black hover:text-white text-sm font-medium text-gray-900 ${
                           i < cat.subcategorias.length - 1 ? 'border-b border-gray-200' : ''
                         }`}
                       >
