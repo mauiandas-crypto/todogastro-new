@@ -20,6 +20,7 @@ interface Producto {
 export default function Home() {
   const [productos, setProductos] = useState<Producto[]>([]);
   const [loading, setLoading] = useState(true);
+  // Cache buster
 
   useEffect(() => {
     const cargarProductos = async () => {
