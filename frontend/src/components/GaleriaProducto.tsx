@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 interface GaleriaProductoProps {
-  imagenes: Array<{ src: string; alt: string }>;
+  imagenes?: Array<{ src: string; alt: string }> | null;
   nombre: string;
 }
 
@@ -12,7 +12,9 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
   const [imagenActual, setImagenActual] = useState(0);
   const [zoomActivo, setZoomActivo] = useState(false);
 
-  if (!imagenes || imagenes.length === 0) {
+  const imgs = Array.isArray(imagenes) ? imagenes : [];
+
+  if (imgs.length === 0) {
     return (
       <div className="bg-gray-100 border-2 border-black w-full aspect-square flex items-center justify-center">
         <span className="text-gray-500 font-bold">Sin imagen disponible</span>
@@ -20,7 +22,7 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
     );
   }
 
-  const imagenUrl = imagenes[imagenActual]?.src || '';
+  const imagenUrl = imgs[imagenActual]?.src || '';
 
   return (
     <div className="space-y-4">
@@ -54,7 +56,7 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
             </button>
 
             <button
-              onClick={() => setImagenActual((prev) => (prev === imagenes.length - 1 ? 0 : prev + 1))}
+              onClick={() => setImagenActual((prev) => (prev === imgs.length - 1 ? 0 : prev + 1))}
               className="absolute right-2 top-1/2 -translate-y-1/2 bg-black text-white px-3 py-2 font-bold hover:bg-gray-800 z-10"
               aria-label="Imagen siguiente"
             >
@@ -63,7 +65,7 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
 
             {/* Indicadores de posición */}
             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1 z-10">
-              {imagenes.map((_, idx) => (
+              {imgs.map((_, idx) => (
                 <button
                   key={idx}
                   onClick={() => setImagenActual(idx)}
@@ -79,9 +81,9 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
       </div>
 
       {/* Miniaturas */}
-      {imagenes.length > 1 && (
+      {imgs.length > 1 && (
         <div className="grid grid-cols-6 gap-2 sm:gap-3">
-          {imagenes.map((img, idx) => (
+          {imgs.map((img, idx) => (
             <button
               key={idx}
               onClick={() => setImagenActual(idx)}
