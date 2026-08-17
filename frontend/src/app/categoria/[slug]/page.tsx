@@ -88,7 +88,7 @@ export default function PaginaCategoria({ params }: Props) {
                 className="border-2 border-black hover:shadow-lg transition group"
               >
                 <div className="aspect-square bg-gray-100 overflow-hidden flex items-center justify-center">
-                  {p.imagenes[0] ? (
+                  {p.imagenes?.[0] ? (
                     <Image
                       src={p.imagenes[0]}
                       alt={p.nombre}
