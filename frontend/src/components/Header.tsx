@@ -124,17 +124,17 @@ export default function Header() {
               <input
                 type="text"
                 placeholder="Buscar..."
-                className="w-full px-4 py-2 border-2 border-black focus:outline-none"
+                className="w-full px-4 py-2 border-2 border-black focus:outline-none text-gray-900"
               />
               {CATEGORIAS.map((cat) => (
                 <div key={cat.nombre}>
-                  <h3 className="font-bold text-sm mb-2">{cat.nombre}</h3>
+                  <h3 className="font-bold text-sm mb-2 text-gray-900">{cat.nombre}</h3>
                   <div className="ml-4 space-y-1">
                     {cat.subcategorias.map((sub) => (
                       <Link
                         key={sub}
                         href={`/categoria/${sub.toLowerCase().replace(/ /g, '-')}`}
-                        className="block text-xs hover:underline"
+                        className="block text-xs hover:underline text-gray-900"
                       >
                         {sub}
                       </Link>
@@ -146,7 +146,7 @@ export default function Header() {
                 🔥 DESCUENTOS
               </Link>
               <div className="pt-3 border-t border-gray-300">
-                <Link href="/login" className="block text-sm font-bold mb-2">
+                <Link href="/login" className="block text-sm font-bold mb-2 text-gray-900">
                   Ingresar
                 </Link>
               </div>

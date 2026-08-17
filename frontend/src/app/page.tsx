@@ -81,7 +81,7 @@ export default function Home() {
                 className="border-2 border-black p-4 text-center hover:bg-black hover:text-white transition"
               >
                 <div className="text-3xl mb-2">📦</div>
-                <h3 className="font-bold text-sm">{cat}</h3>
+                <h3 className="font-bold text-sm text-gray-900">{cat}</h3>
               </Link>
             ))}
           </div>
@@ -142,10 +142,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           {['Cocción', 'Refrigeración', 'Elaboración'].map((cat) => (
             <div key={cat} className="mb-12 last:mb-0">
-              <h3 className="text-2xl font-black mb-4">
+              <h3 className="text-2xl font-black mb-4 text-gray-900">
                 {cat.toUpperCase()} desde USD <span className="text-3xl">$</span>
               </h3>
-              <p className="text-gray-800 text-sm mb-6">Equipamiento profesional {cat.toLowerCase()} para tu negocio</p>
+              <p className="text-gray-900 text-sm mb-6">Equipamiento profesional {cat.toLowerCase()} para tu negocio</p>
               <Link href={`/categoria/${cat.toLowerCase()}`} className="px-6 py-3 border-2 border-black font-bold hover:bg-black hover:text-white transition">
                 VER {cat.toUpperCase()} →
               </Link>
@@ -157,11 +157,11 @@ export default function Home() {
       {/* 5. BLOQUE INSTITUCIONAL */}
       <section className="bg-gray-50 border-b-2 border-black px-4 py-12">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-black mb-4">SOMOS TODOGASTRO</h2>
-          <p className="text-lg mb-6 font-light max-w-2xl mx-auto">
+          <h2 className="text-3xl font-black mb-4 text-gray-900">SOMOS TODOGASTRO</h2>
+          <p className="text-lg mb-6 font-light max-w-2xl mx-auto text-gray-900">
             Desde Aguada, Montevideo. Más de 20 años equipando bares, restaurantes, panaderías y hoteles con equipamiento profesional de calidad.
           </p>
-          <div className="flex gap-8 justify-center flex-wrap text-sm font-bold">
+          <div className="flex gap-8 justify-center flex-wrap text-sm font-bold text-gray-900">
             <div>📍 Aguada, Montevideo</div>
             <div>🕐 Lun-Vie 8:30-17:15</div>
             <div>📞 +598 92715555</div>
@@ -172,9 +172,9 @@ export default function Home() {
       {/* 6. NEWSLETTER */}
       <section className="border-b-2 border-black px-4 py-12">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-2xl font-black mb-4">RECIBÍ NOVEDADES Y DESCUENTOS</h2>
+          <h2 className="text-2xl font-black mb-4 text-gray-900">RECIBÍ NOVEDADES Y DESCUENTOS</h2>
           <form className="flex gap-2">
-            <input type="email" placeholder="Tu email..." className="flex-1 px-4 py-3 border-2 border-black focus:outline-none" required />
+            <input type="email" placeholder="Tu email..." className="flex-1 px-4 py-3 border-2 border-black focus:outline-none text-gray-900" required />
             <button type="submit" className="px-6 py-3 bg-black text-white font-bold hover:bg-gray-800">
               SUSCRIBIR
             </button>
