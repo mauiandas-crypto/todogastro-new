@@ -18,7 +18,11 @@ interface Producto {
   imagenes: string[];
 }
 
-export default function PaginaProducto({ params }: any) {
+interface Props {
+  params: { slug: string };
+}
+
+export default function PaginaProducto({ params }: Props) {
   const [producto, setProducto] = useState<Producto | null>(null);
   const [loading, setLoading] = useState(true);
 
