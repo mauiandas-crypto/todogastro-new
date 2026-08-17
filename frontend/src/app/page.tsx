@@ -95,7 +95,7 @@ export default function Home() {
             <h2 className="text-3xl font-black mb-2 text-gray-900">PRODUCTOS DESTACADOS</h2>
             <p className="text-gray-900 mb-8 font-light">Los más buscados en equipamiento gastronómico</p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {productos.slice(0, 6).map((p) => {
                 const imageSrc = p.images?.[0]?.src || '';
                 const imageAlt = p.images?.[0]?.alt || p.name;
@@ -110,19 +110,19 @@ export default function Home() {
                       <Image
                         src={imageSrc}
                         alt={imageAlt}
-                        width={300}
-                        height={300}
+                        width={250}
+                        height={250}
                         className="w-full h-full object-cover group-hover:scale-105 transition"
                       />
                     ) : (
-                      <span className="text-gray-400 font-bold">Sin imagen</span>
+                      <span className="text-gray-400 font-bold text-sm">Sin imagen</span>
                     )}
                   </div>
-                  <div className="p-4">
+                  <div className="p-3">
                     <h3 className="font-bold text-sm line-clamp-2 mb-2 text-gray-900">{p.name}</h3>
                     <div className="flex justify-between items-end">
                       <div>
-                        <span className="text-2xl font-black text-gray-900">{p.currency} {p.price.toLocaleString()}</span>
+                        <span className="text-lg font-black text-gray-900">{p.currency} {p.price.toLocaleString()}</span>
                       </div>
                       <span className={`text-xs font-bold px-2 py-1 ${p.in_stock ? 'bg-black text-white' : 'bg-gray-300'}`}>
                         {p.in_stock ? 'STOCK' : 'AGOTADO'}

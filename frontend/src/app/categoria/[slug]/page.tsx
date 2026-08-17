@@ -85,7 +85,7 @@ export default function PaginaCategoria({ params }: Props) {
         {loading ? (
           <div className="text-center py-12">Cargando productos...</div>
         ) : productos.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {productos.map((p) => {
               const imageSrc = p.images?.[0]?.src || '';
               const imageAlt = p.images?.[0]?.alt || p.name;
@@ -100,21 +100,21 @@ export default function PaginaCategoria({ params }: Props) {
                     <Image
                       src={imageSrc}
                       alt={imageAlt}
-                      width={300}
-                      height={300}
+                      width={200}
+                      height={200}
                       className="w-full h-full object-cover group-hover:scale-105 transition"
                     />
                   ) : (
-                    <span className="text-gray-400 font-bold">Sin imagen</span>
+                    <span className="text-gray-400 font-bold text-xs">Sin imagen</span>
                   )}
                 </div>
-                <div className="p-4">
-                  <h3 className="font-bold text-sm line-clamp-2 mb-2">{p.name}</h3>
-                  <div className="flex justify-between items-end">
+                <div className="p-2">
+                  <h3 className="font-bold text-xs line-clamp-2 mb-1">{p.name}</h3>
+                  <div className="flex justify-between items-end gap-1">
                     <div>
-                      <span className="text-2xl font-black">{p.currency} {p.price.toLocaleString()}</span>
+                      <span className="text-sm font-black">{p.currency} {p.price.toLocaleString()}</span>
                     </div>
-                    <span className={`text-xs font-bold px-2 py-1 ${p.in_stock ? 'bg-black text-white' : 'bg-gray-300'}`}>
+                    <span className={`text-xs font-bold px-1 py-0.5 ${p.in_stock ? 'bg-black text-white' : 'bg-gray-300'}`}>
                       {p.in_stock ? 'STOCK' : 'AGOTADO'}
                     </span>
                   </div>
