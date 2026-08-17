@@ -15,6 +15,15 @@ function loadProductsFromCache() {
       const data = fs.readFileSync(dataPath, 'utf8');
       products = JSON.parse(data);
       console.log(`✅ Cargados ${products.length} productos del caché`);
+      // Verificar que categories es array
+      if (products.length > 0 && products[0].categories && !Array.isArray(products[0].categories)) {
+        console.warn('⚠️ Categorías no es array, convirtiendo...');
+        products.forEach(p => {
+          if (p.categories && typeof p.categories === 'object' && !Array.isArray(p.categories)) {
+            p.categories = Object.values(p.categories);
+          }
+        });
+      }
       return true;
     }
   } catch (error) {
