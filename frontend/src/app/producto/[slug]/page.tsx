@@ -72,17 +72,15 @@ export default function PaginaProducto({ params }: Props) {
   return (
     <div className="bg-white min-h-screen">
       {/* Breadcrumb */}
-      <div className="max-w-7xl mx-auto px-4 py-4 border-b border-gray-200">
+      <div className="max-w-7xl mx-auto px-4 py-4 border-b border-gray-200 text-sm">
         <Link href="/" className="hover:underline">Inicio</Link>
         {' > '}
         {producto.category && (
-          <>
-            <Link href={`/categoria/${producto.category.toLowerCase()}`} className="hover:underline">
-              {producto.category}
-            </Link>
-            {' > '}
-          </>
+          <Link href={`/categoria/${producto.category.toLowerCase()}`} className="hover:underline">
+            {producto.category}
+          </Link>
         )}
+        {producto.category && ' > '}
         <span className="font-bold">{producto.name}</span>
       </div>
 
