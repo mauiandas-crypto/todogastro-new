@@ -36,6 +36,11 @@ function loadProductsFromCache() {
  * Obtener todos los productos con paginación
  */
 function getProducts(filters = {}) {
+  // Recargar datos si está vacío o si se solicita una categoría
+  if (products.length === 0 || filters.category) {
+    loadProductsFromCache();
+  }
+
   let filtered = [...products];
 
   // Filtrar por categoría si se proporciona
