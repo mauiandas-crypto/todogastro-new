@@ -7,14 +7,14 @@ import { useEffect, useState } from 'react';
 interface Producto {
   id: string;
   sku: string;
-  nombre: string;
-  categoria: string;
-  precio: number;
-  precioAnterior?: number;
-  moneda: string;
-  stock: number;
-  imagenes: string[];
-  slug: string;
+  name: string;
+  category: string;
+  price: number;
+  currency: string;
+  in_stock: boolean;
+  stock_quantity?: number;
+  images: Array<{ src: string; alt: string }>;
+  url: string;
 }
 
 export default function Home() {
@@ -87,17 +87,20 @@ export default function Home() {
             <p className="text-gray-600 mb-8 font-light">Los más buscados en equipamiento gastronómico</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {productos.slice(0, 6).map((p) => (
+              {productos.slice(0, 6).map((p) => {
+                const imageSrc = p.images?.[0]?.src || '';
+                const imageAlt = p.images?.[0]?.alt || p.name;
+                return (
                 <Link
                   key={p.id}
-                  href={`/producto/${p.slug}`}
+                  href={`/producto/${p.id}`}
                   className="border-2 border-black hover:shadow-lg transition group"
                 >
                   <div className="aspect-square bg-gray-100 overflow-hidden flex items-center justify-center">
-                    {p.imagenes?.[0] ? (
+                    {imageSrc ? (
                       <Image
-                        src={p.imagenes[0]}
-                        alt={p.nombre}
+                        src={imageSrc}
+                        alt={imageAlt}
                         width={300}
                         height={300}
                         className="w-full h-full object-cover group-hover:scale-105 transition"
@@ -107,23 +110,19 @@ export default function Home() {
                     )}
                   </div>
                   <div className="p-4">
-                    <h3 className="font-bold text-sm line-clamp-2 mb-2">{p.nombre}</h3>
+                    <h3 className="font-bold text-sm line-clamp-2 mb-2">{p.name}</h3>
                     <div className="flex justify-between items-end">
                       <div>
-                        {p.precioAnterior && (
-                          <span className="text-xs line-through text-gray-500 block">
-                            {p.moneda} {p.precioAnterior.toLocaleString()}
-                          </span>
-                        )}
-                        <span className="text-2xl font-black">{p.moneda} {p.precio.toLocaleString()}</span>
+                        <span className="text-2xl font-black">{p.currency} {p.price.toLocaleString()}</span>
                       </div>
-                      <span className={`text-xs font-bold px-2 py-1 ${p.stock > 0 ? 'bg-black text-white' : 'bg-gray-300'}`}>
-                        {p.stock > 0 ? 'STOCK' : 'AGOTADO'}
+                      <span className={`text-xs font-bold px-2 py-1 ${p.in_stock ? 'bg-black text-white' : 'bg-gray-300'}`}>
+                        {p.in_stock ? 'STOCK' : 'AGOTADO'}
                       </span>
                     </div>
                   </div>
                 </Link>
-              ))}
+              );
+              })}
             </div>
           </div>
         </section>

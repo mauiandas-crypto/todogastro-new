@@ -7,15 +7,16 @@ import GaleriaProducto from '@/components/GaleriaProducto';
 interface Producto {
   id: string;
   sku: string;
-  nombre: string;
-  categoria: string;
-  subcategoria: string;
-  descripcion: string;
-  precio: number;
-  precioAnterior?: number;
-  moneda: string;
-  stock: number;
-  imagenes: string[];
+  name: string;
+  category: string;
+  categories?: string[];
+  description: string;
+  price: number;
+  currency: string;
+  in_stock: boolean;
+  stock_quantity?: number;
+  images: Array<{ src: string; alt: string }>;
+  url: string;
 }
 
 interface Props {
@@ -68,11 +69,11 @@ export default function PaginaProducto({ params }: Props) {
       <div className="max-w-7xl mx-auto px-4 py-4 border-b border-gray-200">
         <Link href="/" className="hover:underline">Inicio</Link>
         {' > '}
-        <Link href={`/categoria/${producto.categoria.toLowerCase()}`} className="hover:underline">
-          {producto.categoria}
+        <Link href={`/categoria/${producto.category.toLowerCase()}`} className="hover:underline">
+          {producto.category}
         </Link>
         {' > '}
-        <span className="font-bold">{producto.nombre}</span>
+        <span className="font-bold">{producto.name}</span>
       </div>
 
       {/* Contenido principal */}
@@ -80,32 +81,27 @@ export default function PaginaProducto({ params }: Props) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Galería */}
           <div>
-            <GaleriaProducto imagenes={producto.imagenes} nombre={producto.nombre} />
+            <GaleriaProducto imagenes={producto.images} nombre={producto.name} />
           </div>
 
           {/* Info del producto */}
           <div>
-            <h1 className="text-3xl font-black mb-2">{producto.nombre}</h1>
+            <h1 className="text-3xl font-black mb-2">{producto.name}</h1>
             <p className="text-gray-600 mb-4 text-sm">SKU: {producto.sku}</p>
 
             {/* Precio */}
             <div className="border-2 border-black p-4 mb-6">
-              {producto.precioAnterior && (
-                <p className="text-sm line-through text-gray-500 mb-1">
-                  {producto.moneda} {producto.precioAnterior.toLocaleString()}
-                </p>
-              )}
               <p className="text-4xl font-black mb-2">
-                {producto.moneda} {producto.precio.toLocaleString()}
+                {producto.currency} {producto.price.toLocaleString()}
               </p>
               <p className="text-xs text-gray-600">IVA incluido</p>
             </div>
 
             {/* Stock */}
             <div className={`p-3 mb-6 font-bold text-sm ${
-              producto.stock > 0 ? 'bg-black text-white' : 'bg-gray-300 text-black'
+              producto.in_stock ? 'bg-black text-white' : 'bg-gray-300 text-black'
             }`}>
-              {producto.stock > 0 ? `✓ EN STOCK (${producto.stock} unidades)` : 'AGOTADO'}
+              {producto.in_stock ? `✓ EN STOCK` : 'AGOTADO'}
             </div>
 
             {/* Botones */}
@@ -114,7 +110,7 @@ export default function PaginaProducto({ params }: Props) {
                 🛒 AGREGAR AL CARRITO
               </button>
               <a
-                href={`https://wa.me/598927155555?text=Me interesa el producto: ${producto.nombre}`}
+                href={`https://wa.me/598927155555?text=Me interesa el producto: ${producto.name}`}
                 target="_blank"
                 className="w-full block text-center bg-white border-2 border-black py-3 font-bold hover:bg-black hover:text-white transition"
               >
@@ -126,7 +122,7 @@ export default function PaginaProducto({ params }: Props) {
             <div className="border-2 border-black p-4">
               <h3 className="font-bold mb-3">ESPECIFICACIONES TÉCNICAS</h3>
               <div className="text-sm space-y-2 text-gray-700 whitespace-pre-line">
-                {producto.descripcion}
+                {producto.description}
               </div>
             </div>
           </div>

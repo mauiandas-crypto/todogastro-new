@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 interface GaleriaProductoProps {
-  imagenes: string[];
+  imagenes: Array<{ src: string; alt: string }>;
   nombre: string;
 }
 
@@ -20,7 +20,7 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
     );
   }
 
-  const imagenUrl = imagenes[imagenActual];
+  const imagenUrl = imagenes[imagenActual]?.src || '';
 
   return (
     <div className="space-y-4">
@@ -90,11 +90,11 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
               }`}
             >
               <Image
-                src={img}
-                alt={`${nombre} - Miniatura ${idx + 1}`}
-                fill
-                className="object-cover"
-                sizes="80px"
+                src={img.src}
+                alt={img.alt || `${nombre} - Miniatura ${idx + 1}`}
+                width={80}
+                height={80}
+                className="w-full h-full object-cover"
               />
             </button>
           ))}
