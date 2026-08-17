@@ -85,7 +85,7 @@ export default function PaginaCategoria({ params }: Props) {
         {loading ? (
           <div className="text-center py-12">Cargando productos...</div>
         ) : productos.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
             {productos.map((p) => {
               const imageSrc = p.images?.[0]?.src || '';
               const imageAlt = p.images?.[0]?.alt || p.name;
@@ -93,28 +93,28 @@ export default function PaginaCategoria({ params }: Props) {
               <Link
                 key={p.id}
                 href={`/producto/${p.id}`}
-                className="border-2 border-black hover:shadow-lg transition group"
+                className="border border-black hover:shadow-lg transition group"
               >
                 <div className="aspect-square bg-gray-100 overflow-hidden flex items-center justify-center">
                   {imageSrc ? (
                     <Image
                       src={imageSrc}
                       alt={imageAlt}
-                      width={200}
-                      height={200}
+                      width={120}
+                      height={120}
                       className="w-full h-full object-cover group-hover:scale-105 transition"
                     />
                   ) : (
                     <span className="text-gray-400 font-bold text-xs">Sin imagen</span>
                   )}
                 </div>
-                <div className="p-2">
-                  <h3 className="font-bold text-xs line-clamp-2 mb-1">{p.name}</h3>
-                  <div className="flex justify-between items-end gap-1">
+                <div className="p-1.5">
+                  <h3 className="font-bold text-xs line-clamp-2 mb-0.5 text-gray-900">{p.name}</h3>
+                  <div className="flex justify-between items-end gap-0.5">
                     <div>
-                      <span className="text-sm font-black">{p.currency} {p.price.toLocaleString()}</span>
+                      <span className="text-xs font-black text-gray-900">{p.currency} {p.price.toLocaleString()}</span>
                     </div>
-                    <span className={`text-xs font-bold px-1 py-0.5 ${p.in_stock ? 'bg-black text-white' : 'bg-gray-300'}`}>
+                    <span className={`text-xs font-bold px-1 py-0.5 whitespace-nowrap ${p.in_stock ? 'bg-black text-white' : 'bg-gray-300'}`}>
                       {p.in_stock ? 'STOCK' : 'AGOTADO'}
                     </span>
                   </div>
