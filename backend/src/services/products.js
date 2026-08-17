@@ -10,7 +10,12 @@ let lastSync = null;
  */
 function loadProductsFromCache() {
   try {
-    const dataPath = path.join(__dirname, '../data/products.json');
+    // Intentar cargar productos.json (nuevo) primero, luego products.json (viejo)
+    let dataPath = path.join(__dirname, '../data/productos.json');
+    if (!fs.existsSync(dataPath)) {
+      dataPath = path.join(__dirname, '../data/products.json');
+    }
+
     if (fs.existsSync(dataPath)) {
       const data = fs.readFileSync(dataPath, 'utf8');
       products = JSON.parse(data);
