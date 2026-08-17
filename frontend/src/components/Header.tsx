@@ -41,9 +41,9 @@ export default function Header() {
       <header className="bg-white border-b-2 border-black sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-8">
-            {/* Logo */}
-            <Link href="/" className="flex-shrink-0 font-black text-2xl tracking-tight">
-              TODOGASTRO
+            {/* Logo SVG Real */}
+            <Link href="/" className="flex-shrink-0 h-12">
+              <img src="/logo.svg" alt="TodoGastro" className="h-full w-auto" />
             </Link>
 
             {/* Buscador */}
