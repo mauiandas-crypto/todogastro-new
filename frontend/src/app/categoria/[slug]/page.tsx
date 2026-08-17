@@ -16,19 +16,34 @@ interface Producto {
 }
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default function PaginaCategoria({ params }: Props) {
   const [productos, setProductos] = useState<Producto[]>([]);
   const [loading, setLoading] = useState(true);
+  const [slug, setSlug] = useState<string | null>(null);
 
   useEffect(() => {
+    let mounted = true;
+    (async () => {
+      const resolvedParams = await params;
+      if (mounted) {
+        setSlug(resolvedParams.slug);
+      }
+    })();
+    return () => {
+      mounted = false;
+    };
+  }, [params]);
+
+  useEffect(() => {
+    if (!slug) return;
     const cargarProductos = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
         const response = await fetch(
-          `${apiUrl}/api/products?categoria=${decodeURIComponent(params.slug)}&limit=100`,
+          `${apiUrl}/api/products?categoria=${decodeURIComponent(slug)}&limit=100`,
           { mode: 'cors' }
         );
         if (response.ok) {
@@ -42,11 +57,13 @@ export default function PaginaCategoria({ params }: Props) {
       }
     };
     cargarProductos();
-  }, [params.slug]);
+  }, [slug]);
 
-  const nombreCategoria = decodeURIComponent(params.slug)
-    .replace(/-/g, ' ')
-    .replace(/\b\w/g, (l) => l.toUpperCase());
+  const nombreCategoria = slug
+    ? decodeURIComponent(slug)
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, (l) => l.toUpperCase())
+    : 'Categoría';
 
   return (
     <div className="bg-white min-h-screen">

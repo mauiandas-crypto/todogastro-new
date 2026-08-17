@@ -19,18 +19,33 @@ interface Producto {
 }
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default function PaginaProducto({ params }: Props) {
   const [producto, setProducto] = useState<Producto | null>(null);
   const [loading, setLoading] = useState(true);
+  const [slug, setSlug] = useState<string | null>(null);
 
   useEffect(() => {
+    let mounted = true;
+    (async () => {
+      const resolvedParams = await params;
+      if (mounted) {
+        setSlug(resolvedParams.slug);
+      }
+    })();
+    return () => {
+      mounted = false;
+    };
+  }, [params]);
+
+  useEffect(() => {
+    if (!slug) return;
     const cargarProducto = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
-        const response = await fetch(`${apiUrl}/api/products/${params.slug}`, { mode: 'cors' });
+        const response = await fetch(`${apiUrl}/api/products/${slug}`, { mode: 'cors' });
         if (response.ok) {
           const data = await response.json();
           setProducto(data);
@@ -42,7 +57,7 @@ export default function PaginaProducto({ params }: Props) {
       }
     };
     cargarProducto();
-  }, [params.slug]);
+  }, [slug]);
 
   if (loading) return <div className="text-center py-12">Cargando...</div>;
   if (!producto) return <div className="text-center py-12">Producto no encontrado</div>;
