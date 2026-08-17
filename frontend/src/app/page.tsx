@@ -25,10 +25,18 @@ export default function Home() {
     const cargarProductos = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
-        const response = await fetch(`${apiUrl}/api/products?limit=20`, { mode: 'cors' });
+        const url = `${apiUrl}/api/products?limit=20`;
+        console.log('Fetching from:', url);
+
+        const response = await fetch(url, { mode: 'cors' });
+        console.log('Response status:', response.status);
+
         if (response.ok) {
           const data = await response.json();
-          setProductos(data.products || []);
+          console.log('Data received:', data);
+          setProductos(Array.isArray(data.products) ? data.products : []);
+        } else {
+          console.error('API responded with status:', response.status);
         }
       } catch (error) {
         console.error('Error cargando productos:', error);

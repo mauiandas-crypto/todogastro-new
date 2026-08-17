@@ -44,13 +44,16 @@ export default function PaginaCategoria({ params }: Props) {
     const cargarProductos = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
-        const response = await fetch(
-          `${apiUrl}/api/products?categoria=${decodeURIComponent(slug)}&limit=100`,
-          { mode: 'cors' }
-        );
+        const url = `${apiUrl}/api/products?category=${decodeURIComponent(slug)}&limit=100`;
+        console.log('Fetching category:', url);
+
+        const response = await fetch(url, { mode: 'cors' });
+        console.log('Response status:', response.status);
+
         if (response.ok) {
           const data = await response.json();
-          setProductos(data.products || []);
+          console.log('Category data:', data);
+          setProductos(Array.isArray(data.products) ? data.products : []);
         }
       } catch (error) {
         console.error('Error cargando categoría:', error);
