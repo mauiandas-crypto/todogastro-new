@@ -80,7 +80,7 @@ export default function Home() {
       </section>
 
       {/* 3. DESTACADOS */}
-      {!loading && productos.length > 0 && false && (
+      {!loading && productos.length > 0 && (
         <section className="border-b-2 border-black px-4 py-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-black mb-2">PRODUCTOS DESTACADOS</h2>
