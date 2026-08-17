@@ -92,8 +92,8 @@ export default function Home() {
       {!loading && productos.length > 0 && (
         <section className="border-b-2 border-black px-4 py-12">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-black mb-2">PRODUCTOS DESTACADOS</h2>
-            <p className="text-gray-800 mb-8 font-light">Los más buscados en equipamiento gastronómico</p>
+            <h2 className="text-3xl font-black mb-2 text-gray-900">PRODUCTOS DESTACADOS</h2>
+            <p className="text-gray-900 mb-8 font-light">Los más buscados en equipamiento gastronómico</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {productos.slice(0, 6).map((p) => {
