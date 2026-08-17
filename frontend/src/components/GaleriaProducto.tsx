@@ -48,7 +48,7 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
           <>
             {/* Flechas */}
             <button
-              onClick={() => setImagenActual((prev) => (prev === 0 ? imagenes.length - 1 : prev - 1))}
+              onClick={() => setImagenActual((prev) => (prev === 0 ? imgs.length - 1 : prev - 1))}
               className="absolute left-2 top-1/2 -translate-y-1/2 bg-black text-white px-3 py-2 font-bold hover:bg-gray-800 z-10"
               aria-label="Imagen anterior"
             >
