@@ -55,6 +55,24 @@ router.get('/debug/sample', (req, res) => {
 });
 
 /**
+ * POST /api/products/sync/reload
+ * Admin: recarga los productos desde el archivo JSON
+ */
+router.post('/sync/reload', (req, res) => {
+  try {
+    productsService.loadProductsFromCache();
+    const result = productsService.getProducts({ limit: 1 });
+    res.json({
+      success: true,
+      message: 'Products reloaded from cache',
+      productCount: productsService.getProducts({ limit: 999999 }).pagination.total
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+/**
  * GET /api/products
  * Obtiene lista de productos con paginación y filtros
  * Query params:
