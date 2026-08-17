@@ -87,7 +87,13 @@ export default function PaginaProducto({ params }: Props) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Galería */}
           <div>
-            <GaleriaProducto imagenes={producto.images} nombre={producto.name} />
+            {producto?.images ? (
+              <GaleriaProducto imagenes={producto.images} nombre={producto.name} />
+            ) : (
+              <div className="bg-gray-100 border-2 border-black w-full aspect-square flex items-center justify-center">
+                <span className="text-gray-500 font-bold">Sin imagen</span>
+              </div>
+            )}
           </div>
 
           {/* Info del producto */}
