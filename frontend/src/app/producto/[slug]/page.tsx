@@ -55,7 +55,7 @@ export default function PaginaProducto({ params }: Props) {
         if (response.ok) {
           const data = await response.json();
           console.log('Product data:', data);
-          setProducto(data);
+          setProducto(data.product || data);
         }
       } catch (error) {
         console.error('Error cargando producto:', error);
