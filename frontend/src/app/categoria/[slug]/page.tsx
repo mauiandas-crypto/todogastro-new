@@ -15,16 +15,25 @@ interface Producto {
   slug: string;
 }
 
-export default function PaginaCategoria({ params }: { params: { slug: string } }) {
+export default function PaginaCategoria({ params }: any) {
   const [productos, setProductos] = useState<Producto[]>([]);
   const [loading, setLoading] = useState(true);
+  const [slug, setSlug] = useState<string | null>(null);
 
   useEffect(() => {
+    if (typeof params.slug === 'string') {
+      setSlug(params.slug);
+    }
+  }, [params.slug]);
+
+  useEffect(() => {
+    if (!slug) return;
+
     const cargarProductos = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
         const response = await fetch(
-          `${apiUrl}/api/products?categoria=${decodeURIComponent(params.slug)}&limit=100`,
+          `${apiUrl}/api/products?categoria=${decodeURIComponent(slug)}&limit=100`,
           { mode: 'cors' }
         );
         if (response.ok) {
@@ -38,7 +47,7 @@ export default function PaginaCategoria({ params }: { params: { slug: string } }
       }
     };
     cargarProductos();
-  }, [params.slug]);
+  }, [slug]);
 
   const nombreCategoria = decodeURIComponent(params.slug)
     .replace(/-/g, ' ')
