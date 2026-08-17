@@ -31,8 +31,11 @@ function getProducts(filters = {}) {
 
   // Filtrar por categoría si se proporciona
   if (filters.category) {
+    const categoryFilter = filters.category.toLowerCase();
     filtered = filtered.filter(p =>
-      p.categories.includes(filters.category)
+      p.categories && p.categories.some(cat =>
+        cat.toLowerCase().includes(categoryFilter)
+      )
     );
   }
 

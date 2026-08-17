@@ -36,12 +36,20 @@ const productos = records
 
     const moneda = r['Meta: _wm_currency_id']?.trim() === 'UYU' ? 'UYU' : 'USD';
 
+    // Crear array de categorías para filtrado jerárquico
+    const catParts = categoria.split(' > ').filter(c => c.trim());
+    const categories = [];
+    catParts.forEach((part, idx) => {
+      categories.push(catParts.slice(0, idx + 1).join(' > '));
+    });
+
     return {
       id: r.ID?.trim() || sku,
       sku,
       nombre,
       categoria,
-      subcategoria: categoria.split(' > ')[1] || '',
+      categories, // Array para filtrado
+      subcategoria: catParts[1] || '',
       descripcion: descripcion.substring(0, 500),
       precio: precioNormal || precioRebajado,
       precioAnterior: precioRebajado && precioRebajado > 0 ? precioNormal : null,
