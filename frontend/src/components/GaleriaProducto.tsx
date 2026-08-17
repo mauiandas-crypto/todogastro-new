@@ -44,7 +44,7 @@ export default function GaleriaProducto({ imagenes, nombre }: GaleriaProductoPro
         />
 
         {/* Controles de navegación */}
-        {imagenes.length > 1 && (
+        {imgs.length > 1 && (
           <>
             {/* Flechas */}
             <button
