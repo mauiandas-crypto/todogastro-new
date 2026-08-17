@@ -93,7 +93,7 @@ export default function Home() {
         <section className="border-b-2 border-black px-4 py-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-black mb-2">PRODUCTOS DESTACADOS</h2>
-            <p className="text-gray-600 mb-8 font-light">Los más buscados en equipamiento gastronómico</p>
+            <p className="text-gray-800 mb-8 font-light">Los más buscados en equipamiento gastronómico</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {productos.slice(0, 6).map((p) => {
@@ -119,10 +119,10 @@ export default function Home() {
                     )}
                   </div>
                   <div className="p-4">
-                    <h3 className="font-bold text-sm line-clamp-2 mb-2">{p.name}</h3>
+                    <h3 className="font-bold text-sm line-clamp-2 mb-2 text-gray-900">{p.name}</h3>
                     <div className="flex justify-between items-end">
                       <div>
-                        <span className="text-2xl font-black">{p.currency} {p.price.toLocaleString()}</span>
+                        <span className="text-2xl font-black text-gray-900">{p.currency} {p.price.toLocaleString()}</span>
                       </div>
                       <span className={`text-xs font-bold px-2 py-1 ${p.in_stock ? 'bg-black text-white' : 'bg-gray-300'}`}>
                         {p.in_stock ? 'STOCK' : 'AGOTADO'}
@@ -145,7 +145,7 @@ export default function Home() {
               <h3 className="text-2xl font-black mb-4">
                 {cat.toUpperCase()} desde USD <span className="text-3xl">$</span>
               </h3>
-              <p className="text-gray-600 text-sm mb-6">Equipamiento profesional {cat.toLowerCase()} para tu negocio</p>
+              <p className="text-gray-800 text-sm mb-6">Equipamiento profesional {cat.toLowerCase()} para tu negocio</p>
               <Link href={`/categoria/${cat.toLowerCase()}`} className="px-6 py-3 border-2 border-black font-bold hover:bg-black hover:text-white transition">
                 VER {cat.toUpperCase()} →
               </Link>
