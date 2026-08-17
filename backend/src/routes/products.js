@@ -77,4 +77,28 @@ router.get('/sync/info', (req, res) => {
   }
 });
 
+/**
+ * GET /api/products/debug/sample
+ * Debug: retorna un producto de ejemplo para verificar estructura
+ */
+router.get('/debug/sample', (req, res) => {
+  try {
+    const result = productsService.getProducts({ limit: 1 });
+    if (result.data.length > 0) {
+      const p = result.data[0];
+      res.json({
+        product: p,
+        categoriesType: typeof p.categories,
+        categoriesIsArray: Array.isArray(p.categories),
+        categoriesKeys: p.categories ? Object.keys(p.categories) : [],
+        categoriesValue: p.categories
+      });
+    } else {
+      res.json({ error: 'No products found' });
+    }
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 module.exports = router;
