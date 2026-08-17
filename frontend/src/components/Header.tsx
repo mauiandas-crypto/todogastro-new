@@ -44,7 +44,7 @@ export default function Header() {
           <div className="flex items-center justify-between gap-8">
             {/* Logo SVG Real */}
             <Link href="/" className="flex-shrink-0 h-12">
-              <Image src="/logo.svg" alt="TodoGastro" width={120} height={48} className="h-full w-auto" />
+              <img src="/logo.svg" alt="TodoGastro" className="h-full w-auto" />
             </Link>
 
             {/* Buscador */}
