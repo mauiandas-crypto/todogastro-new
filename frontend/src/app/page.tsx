@@ -182,42 +182,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER en negro */}
-      <footer className="bg-black text-white px-4 py-12">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-gray-600">
-            <div>
-              <h3 className="font-black text-xl mb-4">TODOGASTRO</h3>
-              <p className="text-sm text-gray-300">Equipamiento gastronómico profesional para tu negocio.</p>
-            </div>
-            <div>
-              <h4 className="font-bold mb-3">CATEGORÍAS</h4>
-              <ul className="text-sm space-y-2 text-gray-300">
-                {['Cocción', 'Elaboración', 'Refrigeración', 'Equipamiento'].map((c) => (
-                  <li key={c}><Link href={`/categoria/${c.toLowerCase()}`} className="hover:text-white">{c}</Link></li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold mb-3">CONTACTO</h4>
-              <p className="text-sm text-gray-300 mb-2">📍 Aguada, Montevideo</p>
-              <p className="text-sm text-gray-300 mb-2">🕐 Lun-Vie 8:30-17:15 hs</p>
-              <p className="text-sm text-gray-300">📞 +598 92715555</p>
-            </div>
-            <div>
-              <h4 className="font-bold mb-3">REDES</h4>
-              <ul className="text-sm space-y-2">
-                <li><a href="#" className="text-gray-300 hover:text-white">Facebook</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-white">Instagram</a></li>
-                <li><a href="https://wa.me/598927155555" className="text-gray-300 hover:text-white">WhatsApp</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="text-center text-sm text-gray-400">
-            <p>&copy; 2026 TodoGastro. Todos los derechos reservados.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
