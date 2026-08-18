@@ -25,6 +25,7 @@ interface LayoutProps {
 }
 
 export default function RootLayout({ children }: LayoutProps) {
+  // Force rebuild
   return (
     <html
       lang="es"
