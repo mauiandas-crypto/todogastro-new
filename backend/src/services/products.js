@@ -69,8 +69,8 @@ function getProducts(filters = {}) {
   if (filters.search) {
     const term = filters.search.toLowerCase();
     filtered = filtered.filter(p =>
-      p.name.toLowerCase().includes(term) ||
-      p.description.toLowerCase().includes(term)
+      p.nombre.toLowerCase().includes(term) ||
+      p.descripcion.toLowerCase().includes(term)
     );
   }
 
@@ -81,8 +81,27 @@ function getProducts(filters = {}) {
 
   const paginated = filtered.slice(start, start + limit);
 
+  // Transformar campos de español a inglés
+  const transformed = paginated.map(p => ({
+    id: p.id,
+    sku: p.sku,
+    name: p.nombre,
+    category: p.categoria ? p.categoria.split(' > ')[0] : 'Sin categoría',
+    categories: p.categories,
+    description: p.descripcion,
+    price: p.precio,
+    currency: p.moneda,
+    in_stock: p.stock > 0,
+    stock_quantity: p.stock,
+    images: (p.imagenes || []).map(img => ({
+      src: img,
+      alt: p.nombre
+    })),
+    url: `/producto/${p.id}`
+  }));
+
   return {
-    data: paginated,
+    data: transformed,
     pagination: {
       page,
       limit,
@@ -96,7 +115,27 @@ function getProducts(filters = {}) {
  * Obtener un producto por ID
  */
 function getProductById(id) {
-  return products.find(p => p.id === id);
+  const p = products.find(p => p.id === id);
+  if (!p) return null;
+
+  // Transformar campos de español a inglés
+  return {
+    id: p.id,
+    sku: p.sku,
+    name: p.nombre,
+    category: p.categoria ? p.categoria.split(' > ')[0] : 'Sin categoría',
+    categories: p.categories,
+    description: p.descripcion,
+    price: p.precio,
+    currency: p.moneda,
+    in_stock: p.stock > 0,
+    stock_quantity: p.stock,
+    images: (p.imagenes || []).map(img => ({
+      src: img,
+      alt: p.nombre
+    })),
+    url: `/producto/${p.id}`
+  };
 }
 
 /**
