@@ -54,7 +54,7 @@ function getProducts(filters: any = {}) {
 
   const paginated = filtered.slice(start, start + limit);
 
-  const transformed = paginated.map(p => ({
+  const transformed = paginated.map((p: any) => ({
     id: p.id,
     sku: p.sku,
     name: p.nombre,
@@ -65,7 +65,7 @@ function getProducts(filters: any = {}) {
     currency: p.moneda,
     in_stock: p.stock > 0,
     stock_quantity: p.stock,
-    images: (p.imagenes || []).map(img => ({
+    images: (p.imagenes || []).map((img: string) => ({
       src: img,
       alt: p.nombre
     })),

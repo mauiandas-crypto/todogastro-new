@@ -37,7 +37,7 @@ function getProductById(id: string) {
     currency: p.moneda,
     in_stock: p.stock > 0,
     stock_quantity: p.stock,
-    images: (p.imagenes || []).map(img => ({
+    images: (p.imagenes || []).map((img: string) => ({
       src: img,
       alt: p.nombre
     })),
