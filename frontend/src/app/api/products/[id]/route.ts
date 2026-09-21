@@ -63,7 +63,7 @@ function getProductById(id: string) {
 }
 
 export async function GET(
-  request: NextRequest,
+  _request: unknown,
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
