@@ -23,10 +23,10 @@ function getCategories() {
     loadProductsFromCache();
   }
 
-  const categoriesSet = new Set();
-  products.forEach(p => {
+  const categoriesSet = new Set<string>();
+  products.forEach((p: any) => {
     if (Array.isArray(p.categories)) {
-      p.categories.forEach(cat => categoriesSet.add(cat));
+      p.categories.forEach((cat: string) => categoriesSet.add(cat));
     }
   });
   return Array.from(categoriesSet).sort();
