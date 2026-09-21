@@ -20,7 +20,7 @@ interface Producto {
 export default function Home() {
   const [productos, setProductos] = useState<Producto[]>([]);
   const [loading, setLoading] = useState(true);
-  // Force rebuild 2
+  // Force rebuild - Using local API routes
 
   useEffect(() => {
     const cargarProductos = async () => {
