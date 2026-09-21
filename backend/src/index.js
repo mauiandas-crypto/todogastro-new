@@ -49,4 +49,5 @@ app.use((req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Backend corriendo en http://localhost:${PORT}`);
   console.log(`📁 Directorio de datos: ${path.join(__dirname, 'data')}`);
+  console.log(`📝 Productos normalizados cargados`);
 });
