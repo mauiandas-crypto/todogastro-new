@@ -45,8 +45,8 @@ export default function PaginaProducto({ params }: Props) {
     if (!slug) return;
     const cargarProducto = async () => {
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
-        const url = `${apiUrl}/api/products/${slug}`;
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || '/api';
+        const url = `${apiUrl}/products/${slug}`;
         console.log('Fetching product:', url);
 
         const response = await fetch(url, { mode: 'cors' });

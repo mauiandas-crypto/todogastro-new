@@ -25,8 +25,8 @@ export default function Home() {
   useEffect(() => {
     const cargarProductos = async () => {
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://todogastro-new-production.up.railway.app';
-        const url = `${apiUrl}/api/products?limit=20`;
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || '/api';
+        const url = `${apiUrl}/products?limit=20`;
         console.log('Fetching from:', url);
 
         const response = await fetch(url, { mode: 'cors' });
