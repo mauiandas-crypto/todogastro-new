@@ -2,7 +2,31 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-let products: any[] = [];
+interface Producto {
+  id: string;
+  sku: string;
+  nombre: string;
+  categoria: string;
+  categories: string[];
+  subcategoria: string;
+  descripcion: string;
+  precio: number;
+  precioAnterior: number | null;
+  moneda: string;
+  stock: number;
+  activo: boolean;
+  imagenes: string[];
+  slug: string;
+}
+
+interface Filters {
+  page?: string;
+  limit?: string;
+  category?: string;
+  search?: string;
+}
+
+let products: Producto[] = [];
 
 function loadProductsFromCache() {
   try {
@@ -19,7 +43,7 @@ function loadProductsFromCache() {
   return false;
 }
 
-function getProducts(filters: any = {}) {
+function getProducts(filters: Filters = {}) {
   if (products.length === 0 || filters.category) {
     loadProductsFromCache();
   }
@@ -48,13 +72,13 @@ function getProducts(filters: any = {}) {
     );
   }
 
-  const page = Math.max(1, parseInt(filters.page) || 1);
-  const limit = Math.min(100, parseInt(filters.limit) || 20);
+  const page = Math.max(1, parseInt(filters.page || '1'));
+  const limit = Math.min(100, parseInt(filters.limit || '20'));
   const start = (page - 1) * limit;
 
   const paginated = filtered.slice(start, start + limit);
 
-  const transformed = paginated.map((p: any) => ({
+  const transformed = paginated.map((p: Producto) => ({
     id: p.id,
     sku: p.sku,
     name: p.nombre,

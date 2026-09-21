@@ -1,8 +1,25 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-let products: any[] = [];
+interface Producto {
+  id: string;
+  sku: string;
+  nombre: string;
+  categoria: string;
+  categories: string[];
+  subcategoria: string;
+  descripcion: string;
+  precio: number;
+  precioAnterior: number | null;
+  moneda: string;
+  stock: number;
+  activo: boolean;
+  imagenes: string[];
+  slug: string;
+}
+
+let products: Producto[] = [];
 
 function loadProductsFromCache() {
   try {
@@ -19,7 +36,7 @@ function loadProductsFromCache() {
   return false;
 }
 
-export async function POST(request: NextRequest) {
+export async function POST() {
   try {
     loadProductsFromCache();
     return NextResponse.json({

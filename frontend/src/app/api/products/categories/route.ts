@@ -1,8 +1,25 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-let products: any[] = [];
+interface Producto {
+  id: string;
+  sku: string;
+  nombre: string;
+  categoria: string;
+  categories: string[];
+  subcategoria: string;
+  descripcion: string;
+  precio: number;
+  precioAnterior: number | null;
+  moneda: string;
+  stock: number;
+  activo: boolean;
+  imagenes: string[];
+  slug: string;
+}
+
+let products: Producto[] = [];
 
 function loadProductsFromCache() {
   try {
@@ -24,7 +41,7 @@ function getCategories() {
   }
 
   const categoriesSet = new Set<string>();
-  products.forEach((p: any) => {
+  products.forEach((p: Producto) => {
     if (Array.isArray(p.categories)) {
       p.categories.forEach((cat: string) => categoriesSet.add(cat));
     }
@@ -32,7 +49,7 @@ function getCategories() {
   return Array.from(categoriesSet).sort();
 }
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
     const categories = getCategories();
     return NextResponse.json({ categories });
