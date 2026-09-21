@@ -20,10 +20,10 @@ interface Producto {
 }
 
 interface Filters {
-  page?: string;
-  limit?: string;
-  category?: string;
-  search?: string;
+  page?: string | null;
+  limit?: string | null;
+  category?: string | null;
+  search?: string | null;
 }
 
 let products: Producto[] = [];
@@ -72,8 +72,8 @@ function getProducts(filters: Filters = {}) {
     );
   }
 
-  const page = Math.max(1, parseInt(filters.page || '1'));
-  const limit = Math.min(100, parseInt(filters.limit || '20'));
+  const page = Math.max(1, parseInt(filters.page ?? '1'));
+  const limit = Math.min(100, parseInt(filters.limit ?? '20'));
   const start = (page - 1) * limit;
 
   const paginated = filtered.slice(start, start + limit);
