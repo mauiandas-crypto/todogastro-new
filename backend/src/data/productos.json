@@ -2,7 +2,7 @@
   {
     "id": "351",
     "sku": "PIME_ADB_02",
-    "nombre": "Maquina Hacer Algodon Dulce Monofasica 150 Unid X Hora Alum",
+    "nombre": "Maquina Hacer Algodón Dulce Monofásica 150 Unid x Hora Alum",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -24,7 +24,7 @@
   {
     "id": "353",
     "sku": "UNQ_HEF81A",
-    "nombre": "Fritador Freidora Electrico Una Cuba 6 Lt con Tapa Comercial",
+    "nombre": "Fritador Eléctrico Una Cuba 6 Lt con Tapa Comercial",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -97,7 +97,7 @@
   {
     "id": "359",
     "sku": "PIME_158",
-    "nombre": "Fritadora a Gas Lundar Gf 72",
+    "nombre": "Fritador a Gas Lundar Gf 72",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -121,7 +121,7 @@
   {
     "id": "361",
     "sku": "DALO_ETV10L",
-    "nombre": "Embutidora Vertical Automatica 10 Litros Demet",
+    "nombre": "Embutidora Vertical Automática 10 Litros Demet",
     "categoria": "Elaboración > Carnes > Embutidoras",
     "categories": [
       "Elaboración",
@@ -168,7 +168,7 @@
   {
     "id": "369",
     "sku": "JAMES_7352",
-    "nombre": "Freezer Heladera James 210 Horizontal Color Blanco 198l",
+    "nombre": "Freezer James 210 Horizontal Color Blanco 198l",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -192,7 +192,7 @@
   {
     "id": "372",
     "sku": "PIME_EGD_20",
-    "nombre": "Sandwichera Electrica Grillada C Doble Prensa Lundar",
+    "nombre": "Sandwichera Eléctrica Grillada C Doble Prensa Lundar",
     "categoria": "Cocción > Bocadillos > Sandwiches y tostados",
     "categories": [
       "Cocción",
@@ -214,7 +214,7 @@
   {
     "id": "375",
     "sku": "PIME_EGD_14",
-    "nombre": "Sandwichera Electrica Grillada con Prensa",
+    "nombre": "Sandwichera Eléctrica Grillada con Prensa",
     "categoria": "Cocción > Bocadillos > Sandwiches y tostados",
     "categories": [
       "Cocción",
@@ -238,7 +238,7 @@
   {
     "id": "377",
     "sku": "DALO_02A_0201",
-    "nombre": "Camara Frigorifica 400kg 1480 X 750 X 2100 Klima Brasil",
+    "nombre": "Cámara Frigorífica 400kg 1480 x 750 x 2100 Klima Brasil",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -260,7 +260,7 @@
   {
     "id": "379",
     "sku": "DALO_SF350",
-    "nombre": "Embutidora Vertical Automatica Demet 25kg",
+    "nombre": "Embutidora Vertical Automática Demet 25kg",
     "categoria": "Elaboración > Carnes > Embutidoras",
     "categories": [
       "Elaboración",
@@ -330,7 +330,7 @@
   {
     "id": "387",
     "sku": "PIME_ MT_380",
-    "nombre": "Vitrina Exhibidor Vertical 395 LTS Inelro Mt 380",
+    "nombre": "Vitrina Exhibidor Vertical 395 Lts Inelro Mt 380",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -396,7 +396,7 @@
   {
     "id": "393",
     "sku": "DALO_01B_0181",
-    "nombre": "Camara de Crecimiento 40 Latas Debras Klima Brasil",
+    "nombre": "Cámara de Crecimiento 40 Latas Debras Klima Brasil",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -462,7 +462,7 @@
   {
     "id": "399",
     "sku": "DALO_01B_0190",
-    "nombre": "Camara de Refrigeracion 20 Latas Debras Klima Brasil",
+    "nombre": "Cámara de Refrigeración 20 Latas Debras Klima Brasil",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -484,7 +484,7 @@
   {
     "id": "401",
     "sku": "DALO_02A_0203",
-    "nombre": "Camara Figorifica 600kg 1780 X 750 X 2100 Klima Brasil",
+    "nombre": "Cámara Figorifica 600kg 1780 x 750 x 2100 Klima Brasil",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -506,7 +506,7 @@
   {
     "id": "403",
     "sku": "DALO_02A_0205",
-    "nombre": "Camara Figorifica 800kg 2000 X 850 X 2150 Klima Brasil",
+    "nombre": "Cámara Figorifica 800kg 2000 x 850 x 2150 Klima Brasil",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -596,7 +596,7 @@
   {
     "id": "426",
     "sku": "UNQ_HEF82A",
-    "nombre": "Fritador Freidora Electrico Dos Cubas 6 Lt 6 Lt",
+    "nombre": "Fritador Eléctrico Dos Cubas 6 Lt 6 Lt",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -620,7 +620,7 @@
   {
     "id": "428",
     "sku": "",
-    "nombre": "Freezer Vertical James 82 LTS Clase a Fvj 100 Kn Todo Gastro",
+    "nombre": "Freezer Vertical James 82 Lts Clase a Fvj 100 Kn Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -644,7 +644,7 @@
   {
     "id": "430",
     "sku": "JAMES_4261",
-    "nombre": "Freezer Vertical James 82 LTS Clase a Fvj 100 Kn Todo Gastro - Blanco",
+    "nombre": "Freezer Vertical James 82 Lts Clase a Fvj 100 Kn Todo Gastro - Blanco",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -664,7 +664,7 @@
   {
     "id": "431",
     "sku": "DCK_KMGS008B",
-    "nombre": "Anafe Cocinilla Cocina a Gas Decakila Dos Hornallas con Tapa",
+    "nombre": "Anafe Cocina a Gas Decakila Dos Hornallas con Tapa",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -710,7 +710,7 @@
   {
     "id": "437",
     "sku": "GEL_FVENX22262NF",
-    "nombre": "Freezer Vertical Frio Seco Enxuta Fvenx22262nf 262 Lt Efi A",
+    "nombre": "Freezer Vertical Frio Seco Enxuta Fvenx22262nf 262 Lt Efi a",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -758,7 +758,7 @@
   {
     "id": "444",
     "sku": "HEF-12L",
-    "nombre": "Freidora Fritador Comercial Electrico 12 Lt de Mesa",
+    "nombre": "Fritador Comercial Eléctrico 12 Lt de Mesa",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -782,7 +782,7 @@
   {
     "id": "447",
     "sku": "dck_kmgs009b",
-    "nombre": "Anafe Cocinilla Cocina a Gas Decakila Tres Hornallas con Tap",
+    "nombre": "Anafe Cocina a Gas Decakila Tres Hornallas con Tap",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -806,7 +806,7 @@
   {
     "id": "450",
     "sku": "UNQ_HWB-1S",
-    "nombre": "Waflera Waffle Rectangular Electrica Comercial 1.6 Kw",
+    "nombre": "Waflera Waffle Rectangular Eléctrica Comercial 1.6 Kw",
     "categoria": "Descuentos, Cocción > Bocadillos > Wafles",
     "categories": [
       "Descuentos, Cocción",
@@ -946,7 +946,7 @@
   {
     "id": "466",
     "sku": "UNQ_HR-6",
-    "nombre": "Waflera Waffle Electrica Un Disco Rotativa 1kw Comercial",
+    "nombre": "Waflera Waffle Eléctrica Un Disco Rotativa 1kw Comercial",
     "categoria": "Cocción > Bocadillos > Wafles",
     "categories": [
       "Cocción",
@@ -990,7 +990,7 @@
   {
     "id": "470",
     "sku": "DALO_05B 0501.1",
-    "nombre": "Expositor Heladera 3 Puertas Bebidas y Lacteos Klima",
+    "nombre": "Expositor Heladera 3 Puertas Bebidas Y Lacteos Klima",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -1015,7 +1015,7 @@
   {
     "id": "473",
     "sku": "DALO_05B 0500_1",
-    "nombre": "Expositor 2 Puertas Bebidas y Lacteos Debras Klima Brasil",
+    "nombre": "Expositor 2 Puertas Bebidas Y Lacteos Debras Klima Brasil",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -1059,7 +1059,7 @@
   {
     "id": "479",
     "sku": "punktal_PK-HS258",
-    "nombre": "Freezer Horizontal Dual Punktal 198 LTS Pk Hs258 Todo Gastro",
+    "nombre": "Freezer Horizontal Dual Punktal 198 Lts Pk Hs258 Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -1083,7 +1083,7 @@
   {
     "id": "483",
     "sku": "UNQ_HGJ366",
-    "nombre": "Horno Spiedo a Gas Comercial 4 Canastos 8 o 12 Pollos",
+    "nombre": "Horno Spiedo a Gas Comercial 4 Canastos 8 O 12 Pollos",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -1107,7 +1107,7 @@
   {
     "id": "485",
     "sku": "UNQ_HGF72",
-    "nombre": "Fritador Freidora a Gas Dos Cubas 6 Lt 6 Lt Hgf 72 Comerci",
+    "nombre": "Fritador a Gas Dos Cubas 6 Lt 6 Lt Hgf 72 Comerci",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -1132,7 +1132,7 @@
   {
     "id": "487",
     "sku": "UNQ_HES-936",
-    "nombre": "Gratinador Electrico 61x31 Cm Comercial Una Bandeja",
+    "nombre": "Gratinador Eléctrico 61x31 Cm Comercial Una Bandeja",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -1225,7 +1225,7 @@
   {
     "id": "498",
     "sku": "",
-    "nombre": "Cocina Industrial 6 Hornalla y Horno Piso de Piedra Morelli",
+    "nombre": "Cocina Industrial 6 Hornalla Y Horno Piso de Piedra Morelli",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -1251,7 +1251,7 @@
   {
     "id": "502",
     "sku": "PIME_NOVA_1100_6H",
-    "nombre": "Cocina Industrial 6 Hornalla y Horno Piso de Piedra Morelli - Plateado",
+    "nombre": "Cocina Industrial 6 Hornalla Y Horno Piso de Piedra Morelli - Plateado",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -1271,7 +1271,7 @@
   {
     "id": "503",
     "sku": "UNQ_HEC-03",
-    "nombre": "Maquina Hacer Algodon Dulce Azucar 150 Unid X Hora Aluminio",
+    "nombre": "Maquina Hacer Algodón Dulce Azucar 150 Unid x Hora Aluminio",
     "categoria": "Descuentos, Elaboración > Otros > Dulces y helados",
     "categories": [
       "Descuentos, Elaboración",
@@ -1341,7 +1341,7 @@
   {
     "id": "509",
     "sku": "PIME_SFPPCL_MAX",
-    "nombre": "Sierra sin Fin Cortadora Carne Carnicera Monofasica 1 2hp",
+    "nombre": "Sierra sin Fin Cortadora Carne Carnicera Monofásica 1 2hp",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -1365,7 +1365,7 @@
   {
     "id": "511",
     "sku": "UNQ_ERC_28L",
-    "nombre": "Olla Arrocera 28l Electrica Unique Todo Gastro",
+    "nombre": "Olla Arrocera 28l Eléctrica Unique Todo Gastro",
     "categoria": "Cocción > Bocadillos > Arroceras",
     "categories": [
       "Cocción",
@@ -1387,7 +1387,7 @@
   {
     "id": "514",
     "sku": "PIME_PR70G",
-    "nombre": "Freidora de Mesa Industrial a Gas Solo Aceite",
+    "nombre": "Fritador de Mesa Industrial a Gas Solo Aceite",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -1435,7 +1435,7 @@
   {
     "id": "518",
     "sku": "UNQ_HEC03C",
-    "nombre": "Maquina Hacer Algodon Dulce Azucar 150 U X H C Ruedas Comerc",
+    "nombre": "Maquina Hacer Algodón Dulce Azucar 150 U x H C Ruedas Comerc",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -1457,7 +1457,7 @@
   {
     "id": "520",
     "sku": "JAMES_6345",
-    "nombre": "Freezer Horizontal James 418 LTS Fhj 410 M Todo Gastro",
+    "nombre": "Freezer Horizontal James 418 Lts Fhj 410 M Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -1506,7 +1506,7 @@
   {
     "id": "527",
     "sku": "",
-    "nombre": "Crepera Electrica para 6 Crepes Suizo Consumo 13kw H Progas",
+    "nombre": "Crepera Eléctrica para 6 Crepes Suizo Consumo 13kw H Progas",
     "categoria": "Cocción > Bocadillos > Creperas",
     "categories": [
       "Cocción",
@@ -1530,7 +1530,7 @@
   {
     "id": "529",
     "sku": "PRK-06E",
-    "nombre": "Crepera Electrica para 6 Crepes Suizo Consumo 13kw H Progas - Gris",
+    "nombre": "Crepera Eléctrica para 6 Crepes Suizo Consumo 13kw H Progas - Gris",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -1550,7 +1550,7 @@
   {
     "id": "530",
     "sku": "PIME_PR_350E",
-    "nombre": "Prensa Electrica Profesional para Asar Pr 350e Style Progas",
+    "nombre": "Prensa Eléctrica Profesional para Asar Pr 350e Style Progas",
     "categoria": "Cocción > Bocadillos > Chiveteros",
     "categories": [
       "Cocción",
@@ -1670,7 +1670,7 @@
   {
     "id": "551",
     "sku": "UNQ_HC-03",
-    "nombre": "Cortador de Frutas y Verduras Manual Comercial",
+    "nombre": "Cortador de Frutas Y Verduras Manual Comercial",
     "categoria": "Elaboración > Corte > Cortadoras de papas",
     "categories": [
       "Elaboración",
@@ -1716,7 +1716,7 @@
   {
     "id": "555",
     "sku": "DES-60",
-    "nombre": "Despulpador de Frutas 60 LTS Braesi Des 60 Todo Gastro",
+    "nombre": "Despulpador de Frutas 60 Lts Braesi Des 60 Todo Gastro",
     "categoria": "Elaboración > Procesamiento > Procesadoras",
     "categories": [
       "Elaboración",
@@ -1786,7 +1786,7 @@
   {
     "id": "567",
     "sku": "JAMES_3250",
-    "nombre": "Freezer Heladera James Fhj 250 Kr Horizontal Color Blanco",
+    "nombre": "Freezer James Fhj 250 Kr Horizontal Color Blanco",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -1855,7 +1855,7 @@
   {
     "id": "575",
     "sku": "UNQ_HEG-820",
-    "nombre": "Plancha Chivitera Electrica Comercial 73x47 Cm Comercial",
+    "nombre": "Plancha Chivitera Eléctrica Comercial 73x47 Cm Comercial",
     "categoria": "Descuentos, Cocción > A la plancha > Planchas",
     "categories": [
       "Descuentos, Cocción",
@@ -1899,7 +1899,7 @@
   {
     "id": "580",
     "sku": "ITJ_10024-2",
-    "nombre": "Fritador Electrico 19 Litros de Mesa con Canasto Cooklab",
+    "nombre": "Fritador Eléctrico 19 Litros de Mesa con Canasto Cooklab",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -1992,7 +1992,7 @@
   {
     "id": "592",
     "sku": "PIME_CB_30",
-    "nombre": "Sobadora de Mesa 30 Cm Electrica Braesi",
+    "nombre": "Sobadora de Mesa 30 Cm Eléctrica Braesi",
     "categoria": "Descuentos, Elaboración > Masas > Sobadoras",
     "categories": [
       "Descuentos, Elaboración",
@@ -2016,7 +2016,7 @@
   {
     "id": "594",
     "sku": "PIME_CBPI_40",
-    "nombre": "Sobadora de Pie 40 Cm Capacidad 5 Kg 1hp Electrica",
+    "nombre": "Sobadora de Pie 40 Cm Capacidad 5 Kg 1hp Eléctrica",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -2068,7 +2068,7 @@
   {
     "id": "604",
     "sku": "DALO_01B_0180",
-    "nombre": "Camara de Crecimiento 20 Latas Debras Klima Brasil",
+    "nombre": "Cámara de Crecimiento 20 Latas Debras Klima Brasil",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -2259,7 +2259,7 @@
   {
     "id": "633",
     "sku": "UNQ_HEF_161C",
-    "nombre": "Fritador Freidora Electrico Una Cuba 16 Lt Comercial",
+    "nombre": "Fritador Eléctrico Una Cuba 16 Lt Comercial",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -2281,7 +2281,7 @@
   {
     "id": "636",
     "sku": "UNQ_HWM-430",
-    "nombre": "Aplicadora de Film Comercial Embalaje Electrica 0 75kw",
+    "nombre": "Aplicadora de Film Comercial Embalaje Eléctrica 0 75kw",
     "categoria": "Elaboración > Otros > Envasadoras",
     "categories": [
       "Elaboración",
@@ -2329,7 +2329,7 @@
   {
     "id": "641",
     "sku": "HR-100Y",
-    "nombre": "Molinillo para Elaboracion de Mantequilla de Mani y Otros",
+    "nombre": "Molinillo para Elaboracion de Mantequilla de Mani Y Otros",
     "categoria": "Descuentos",
     "categories": [
       "Descuentos"
@@ -2351,7 +2351,7 @@
   {
     "id": "645",
     "sku": "HCB-1",
-    "nombre": "Maquina Conos Cucuruchos Electrica 1.2 Kw Comercial Un Disco",
+    "nombre": "Maquina Conos Cucuruchos Eléctrica 1.2 Kw Comercial Un Disco",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -2445,7 +2445,7 @@
   {
     "id": "655",
     "sku": "UNQ_ERC_36L",
-    "nombre": "Olla Arrocera 36l Electrica",
+    "nombre": "Olla Arrocera 36l Eléctrica",
     "categoria": "Cocción > Bocadillos > Arroceras",
     "categories": [
       "Cocción",
@@ -2467,7 +2467,7 @@
   {
     "id": "657",
     "sku": "UNQ_2000E-1",
-    "nombre": "Exprimidor Automatico Citricos 2000e1 Cubas Ac Inox",
+    "nombre": "Exprimidor Automática Citricos 2000e1 Cubas Ac Inox",
     "categoria": "Equipamiento y servicio > Bebidas > Jugos y licuados",
     "categories": [
       "Equipamiento y servicio",
@@ -2492,7 +2492,7 @@
   {
     "id": "659",
     "sku": "INS_316_2621",
-    "nombre": "Sobadora Electrica 37 Cm Anodilar con Cortador",
+    "nombre": "Sobadora Eléctrica 37 Cm Anodilar con Cortador",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -2610,7 +2610,7 @@
   {
     "id": "677",
     "sku": "UNQ_HWM_550",
-    "nombre": "Aplicadora de Film Comercial Embalaje Electrica 45 Cm 0 21kw",
+    "nombre": "Aplicadora de Film Comercial Embalaje Eléctrica 45 Cm 0 21kw",
     "categoria": "Elaboración > Otros > Envasadoras",
     "categories": [
       "Elaboración",
@@ -2634,7 +2634,7 @@
   {
     "id": "679",
     "sku": "UNQ_HWB-2",
-    "nombre": "Waflera Waffle Doble Electrica 2kw Comercial",
+    "nombre": "Waflera Waffle Doble Eléctrica 2kw Comercial",
     "categoria": "Descuentos, Cocción > Bocadillos > Wafles",
     "categories": [
       "Descuentos, Cocción",
@@ -2656,7 +2656,7 @@
   {
     "id": "681",
     "sku": "UNQ_HWB-1",
-    "nombre": "Waflera Waffle Electrica Un Disco 1kw Comercial",
+    "nombre": "Waflera Waffle Eléctrica Un Disco 1kw Comercial",
     "categoria": "Descuentos, Cocción > Bocadillos > Wafles",
     "categories": [
       "Descuentos, Cocción",
@@ -2722,7 +2722,7 @@
   {
     "id": "687",
     "sku": "UNQ_HGC-03C",
-    "nombre": "Maquina de Algodon Comercial a Gas con Carro",
+    "nombre": "Maquina de Algodón Comercial a Gas con Carro",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -2794,7 +2794,7 @@
   {
     "id": "694",
     "sku": "UNQ_JD_162A",
-    "nombre": "Dispensador de Jugos 2 Cubas X 16 Lt Unique Comercial",
+    "nombre": "Dispensador de Jugos 2 Cubas x 16 Lt Unique Comercial",
     "categoria": "Descuentos, Equipamiento y servicio > Bebidas > Jugos y licuados",
     "categories": [
       "Descuentos, Equipamiento y servicio",
@@ -2817,7 +2817,7 @@
   {
     "id": "697",
     "sku": "UNQ_HP-BC",
-    "nombre": "Maquina Pop Popera Electrica 1 44 Kw con Ruedas",
+    "nombre": "Maquina Pop Popera Eléctrica 1 44 Kw con Ruedas",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -2956,7 +2956,7 @@
   {
     "id": "716",
     "sku": "UNQ_RESISTENCIAREPUE",
-    "nombre": "Repuesto Resistencia Fritador Freidora",
+    "nombre": "Repuesto Resistencia Fritador",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -3168,7 +3168,7 @@
   {
     "id": "745",
     "sku": "UNQ_HEG-811",
-    "nombre": "Sandwichera Electrica Comercial Pan Sandwiches 30x40 Cm",
+    "nombre": "Sandwichera Eléctrica Comercial Pan Sandwiches 30x40 Cm",
     "categoria": "Cocción > Bocadillos > Sandwiches y tostados",
     "categories": [
       "Cocción",
@@ -3241,7 +3241,7 @@
   {
     "id": "755",
     "sku": "UNQ_HGF971",
-    "nombre": "Fritador Freidora a Gas Una Cuba 8 Lt Comercial",
+    "nombre": "Fritador a Gas Una Cuba 8 Lt Comercial",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -3263,7 +3263,7 @@
   {
     "id": "757",
     "sku": "UNQ_HCM-2",
-    "nombre": "Crepera Panquequera Comercial Doble Electrica Comercial",
+    "nombre": "Crepera Panquequera Comercial Doble Eléctrica Comercial",
     "categoria": "Cocción > Bocadillos > Creperas, Descuentos",
     "categories": [
       "Cocción",
@@ -3285,7 +3285,7 @@
   {
     "id": "759",
     "sku": "UNQ_HGF71",
-    "nombre": "Fritador Freidora a Gas Una Cubas 6 Lt Hgf 71 Comercial",
+    "nombre": "Fritador a Gas Una Cubas 6 Lt Hgf 71 Comercial",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -3382,7 +3382,7 @@
   {
     "id": "775",
     "sku": "UNQ_HCM-1",
-    "nombre": "Crepera Panquequera Comercial Electrica 40cm Consumo 3kw H",
+    "nombre": "Crepera Panquequera Comercial Eléctrica 40cm Consumo 3kw H",
     "categoria": "Cocción > Bocadillos > Creperas, Descuentos",
     "categories": [
       "Cocción",
@@ -3426,7 +3426,7 @@
   {
     "id": "779",
     "sku": "UNQ_BOWL_HP6B",
-    "nombre": "Olla Repuesto para Popera Maquina de Pop HP 6b Todo Gastro",
+    "nombre": "Olla Repuesto para Popera Maquina de Pop Hp 6b Todo Gastro",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -3448,7 +3448,7 @@
   {
     "id": "782",
     "sku": "UNQ_HEF88",
-    "nombre": "Fritador Freidora Electrico Una Cuba 8 Lt 2.8 Kw Comercial",
+    "nombre": "Fritador Eléctrico Una Cuba 8 Lt 2.8 Kw Comercial",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -3516,7 +3516,7 @@
   {
     "id": "789",
     "sku": "JAMES_4265",
-    "nombre": "Freezer Vertical James J261kn 5 Cajones 187 LTS Todo Gastro",
+    "nombre": "Freezer Vertical James J261kn 5 Cajones 187 Lts Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -3587,7 +3587,7 @@
   {
     "id": "799",
     "sku": "FSI-680N",
-    "nombre": "Horno a Gas Piso Chapa Progas 05 X 079 X 037 Util Fsi 680",
+    "nombre": "Horno a Gas Piso Chapa Progas 05 x 079 x 037 Util Fsi 680",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -3684,7 +3684,7 @@
   {
     "id": "815",
     "sku": "",
-    "nombre": "Freezer Heladera James 150 Horizontal Doble Accion Tg",
+    "nombre": "Freezer James 150 Horizontal Doble Accion Tg",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -3708,7 +3708,7 @@
   {
     "id": "818",
     "sku": "JAMES_7351",
-    "nombre": "Freezer Heladera James 150 Horizontal Doble Accion Tg - Blanco",
+    "nombre": "Freezer James 150 Horizontal Doble Accion Tg - Blanco",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -3932,7 +3932,7 @@
   {
     "id": "867",
     "sku": "NOVA 750",
-    "nombre": "Cocina 4 Hornallas y Horno Piso de Piedra Morelli Nova 750",
+    "nombre": "Cocina 4 Hornallas Y Horno Piso de Piedra Morelli Nova 750",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -4004,7 +4004,7 @@
   {
     "id": "876",
     "sku": "PIME_FSI_680",
-    "nombre": "Horno a Gas Piso Chapa 05 X 079 X 037 Util Fsi 680",
+    "nombre": "Horno a Gas Piso Chapa 05 x 079 x 037 Util Fsi 680",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -4136,7 +4136,7 @@
   {
     "id": "891",
     "sku": "INS_A6179-2789",
-    "nombre": "Rallador de Queso Master Electrico Anodilar Todo Gastro",
+    "nombre": "Rallador de Queso Master Eléctrico Anodilar Todo Gastro",
     "categoria": "Elaboración > Procesamiento > Procesadoras",
     "categories": [
       "Elaboración",
@@ -4160,7 +4160,7 @@
   {
     "id": "894",
     "sku": "JCMAR_XI_H330",
-    "nombre": "Vitrina Refrigerada 330 LTS Xion Todo Gastro",
+    "nombre": "Vitrina Refrigerada 330 Lts Xion Todo Gastro",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -4339,7 +4339,7 @@
   {
     "id": "918",
     "sku": "UNQ_H50",
-    "nombre": "Amasadoras Comercial Panaderia 50 LTS H50 Unique",
+    "nombre": "Amasadoras Comercial Panaderia 50 Lts H50 Unique",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -4455,7 +4455,7 @@
   {
     "id": "929",
     "sku": "GEL_fhenx16420",
-    "nombre": "Freezer Horizontal Enxuta 420 LTS Fhenx 16420 Clase a Tg",
+    "nombre": "Freezer Horizontal Enxuta 420 Lts Fhenx 16420 Clase a Tg",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -4578,7 +4578,7 @@
   {
     "id": "953",
     "sku": "FIG30",
-    "nombre": "Fritador a Gas 30l con Corte Automatico Metvisa Fig30",
+    "nombre": "Fritador a Gas 30l con Corte Automática Metvisa Fig30",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -4602,7 +4602,7 @@
   {
     "id": "958",
     "sku": "PIME_GHDE_310",
-    "nombre": "Freezer 307 LTS Ghde310 Gelopar Todo Gastro",
+    "nombre": "Freezer 307 Lts Ghde310 Gelopar Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -4955,7 +4955,7 @@
   {
     "id": "1008",
     "sku": "UNQ_TR_31",
-    "nombre": "Cortadora Rebanadora de Pan Comercial 8mm 1.2 HP Todo Gastro",
+    "nombre": "Cortadora Rebanadora de Pan Comercial 8mm 1.2 Hp Todo Gastro",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
@@ -5071,7 +5071,7 @@
   {
     "id": "1023",
     "sku": "UNQ_F65",
-    "nombre": "Filtro de Aceite de Papel para Freidoras Profesional Unique",
+    "nombre": "Filtro de Aceite de Papel para Fritador Profesional Unique",
     "categoria": "Descuentos",
     "categories": [
       "Descuentos"
@@ -5095,7 +5095,7 @@
   {
     "id": "1031",
     "sku": "PIME_EB_4F",
-    "nombre": "Horno Electrico Convector Lundar 4 Bandejas 44x32",
+    "nombre": "Horno Eléctrico Convector Lundar 4 Bandejas 44x32",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -5211,7 +5211,7 @@
   {
     "id": "1049",
     "sku": "B7WHITE",
-    "nombre": "Batidora 7 LTS Blanca Demet China",
+    "nombre": "Batidora 7 Lts Blanca Demet China",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -5232,7 +5232,7 @@
   {
     "id": "1053",
     "sku": "PIME_PRPE_770",
-    "nombre": "Horno Electrico con Gratinador Progas Prpe 770",
+    "nombre": "Horno Eléctrico con Gratinador Progas Prpe 770",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -5256,7 +5256,7 @@
   {
     "id": "1056",
     "sku": "PIME_BM_107",
-    "nombre": "Mezcladora de Carne de Pie Bermar 100 LTS 2 HP",
+    "nombre": "Mezcladora de Carne de Pie Bermar 100 Lts 2 Hp",
     "categoria": "Descuentos, Elaboración > Carnes > Picadoras",
     "categories": [
       "Descuentos, Elaboración",
@@ -5305,7 +5305,7 @@
   {
     "id": "1064",
     "sku": "",
-    "nombre": "Horno Convector Electrico 4 Bandejas Progas Brasilero",
+    "nombre": "Horno Convector Eléctrico 4 Bandejas Progas Brasilero",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -5329,7 +5329,7 @@
   {
     "id": "1068",
     "sku": "PIME_PRP_004PLUS",
-    "nombre": "Horno Convector Electrico 4 Bandejas Progas Brasilero - Gris",
+    "nombre": "Horno Convector Eléctrico 4 Bandejas Progas Brasilero - Gris",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -5374,7 +5374,7 @@
   {
     "id": "1075",
     "sku": "PRKF-101E",
-    "nombre": "Crepera Progas Electrica 33 Cms Modelo Prkf 101e Todo Gastro",
+    "nombre": "Crepera Progas Eléctrica 33 Cms Modelo Prkf 101e Todo Gastro",
     "categoria": "Cocción > Bocadillos > Creperas, Descuentos",
     "categories": [
       "Cocción",
@@ -5396,7 +5396,7 @@
   {
     "id": "1078",
     "sku": "",
-    "nombre": "Batidora 20 LTS Planetaria Lundar B20ga Todo Gastro",
+    "nombre": "Batidora 20 Lts Planetaria Lundar B20ga Todo Gastro",
     "categoria": "Elaboración > Masas > Batidoras planetarias",
     "categories": [
       "Elaboración",
@@ -5472,7 +5472,7 @@
   {
     "id": "1097",
     "sku": "PIME_SDQ_700",
-    "nombre": "Freezer Pozo de Frio 645 LTS Aucma Sdq 700 F R",
+    "nombre": "Freezer Pozo de Frio 645 Lts Aucma Sdq 700 F R",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -5516,7 +5516,7 @@
   {
     "id": "1102",
     "sku": "PIME_PR_800E",
-    "nombre": "Plancha Chivetera Electrica Progas Style Pr 800e",
+    "nombre": "Plancha Chivetera Eléctrica Progas Style Pr 800e",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -5539,7 +5539,7 @@
   {
     "id": "1106",
     "sku": "DALO_HEC_03",
-    "nombre": "Maquina de Algodon de Azucar Demet",
+    "nombre": "Maquina de Algodón de Azucar Demet",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -5561,7 +5561,7 @@
   {
     "id": "1108",
     "sku": "",
-    "nombre": "Vitrinas Carniceras 25 Mts Lundar con Bodega y Frio Forzado",
+    "nombre": "Vitrinas Carniceras 25 Mts Lundar con Bodega Y Frio Forzado",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -5581,7 +5581,7 @@
   {
     "id": "1111",
     "sku": "PIME_BM_92",
-    "nombre": "Rallador de Queso Pintado 1.2 HP 70kg H Bermar",
+    "nombre": "Rallador de Queso Pintado 1.2 Hp 70kg H Bermar",
     "categoria": "Elaboración > Procesamiento > Procesadoras",
     "categories": [
       "Elaboración",
@@ -5603,7 +5603,7 @@
   {
     "id": "1114",
     "sku": "PIME_BMC_022",
-    "nombre": "Picadora de Carne Braesi 22 Produccion 300kg H Monofasica",
+    "nombre": "Picadora de Carne Braesi 22 Produccion 300kg H Monofásica",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -5669,7 +5669,7 @@
   {
     "id": "1123",
     "sku": "PIME_BM_68",
-    "nombre": "Sierra para Carnes Bermar Acero Inox 2 HP",
+    "nombre": "Sierra para Carnes Bermar Acero Inox 2 Hp",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -5715,7 +5715,7 @@
   {
     "id": "1128",
     "sku": "PIME_MHS20",
-    "nombre": "Amasadora 20 LTS 12kg Masa Lundar Mhs20 Todo Gastro",
+    "nombre": "Amasadora 20 Lts 12kg Masa Lundar Mhs20 Todo Gastro",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -5740,7 +5740,7 @@
   {
     "id": "1130",
     "sku": "PIME_SFGP MAX",
-    "nombre": "Sierra sin Fin Grande para Carniceria Metvisa 1.5 HP",
+    "nombre": "Sierra sin Fin Grande para Carniceria Metvisa 1.5 Hp",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -5859,7 +5859,7 @@
   {
     "id": "1145",
     "sku": "PIME_MHS60",
-    "nombre": "Amasadora 60 LTS 40 Kg Masa Lundar Mhs60 Todo Gastro",
+    "nombre": "Amasadora 60 Lts 40 Kg Masa Lundar Mhs60 Todo Gastro",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -5883,7 +5883,7 @@
   {
     "id": "1146",
     "sku": "PIME_SD_2100",
-    "nombre": "Freezer 690 LTS Isla Pozo Lundar Vidrios Curvos Sd 2100",
+    "nombre": "Freezer 690 Lts Isla Pozo Lundar Vidrios Curvos Sd 2100",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -5927,7 +5927,7 @@
   {
     "id": "1151",
     "sku": "MBEL_CORREA",
-    "nombre": "Correa Repuesto Maquina de Algodon de Azucar",
+    "nombre": "Correa Repuesto Maquina de Algodón de Azucar",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -6157,7 +6157,7 @@
   {
     "id": "1178",
     "sku": "PIME_GHDE_220",
-    "nombre": "Freezer 220 LTS Ghde220 Gelopar Todo Gastro",
+    "nombre": "Freezer 220 Lts Ghde220 Gelopar Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -6202,7 +6202,7 @@
   {
     "id": "1185",
     "sku": "PIME_MHS30",
-    "nombre": "Amasadora 30 LTS 18 Kg Masa Lundar Mhs30 Todo Gastro",
+    "nombre": "Amasadora 30 Lts 18 Kg Masa Lundar Mhs30 Todo Gastro",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -6226,7 +6226,7 @@
   {
     "id": "1186",
     "sku": "PIME_MPA",
-    "nombre": "Procesador de Legumbres Metvisa en Acero Inox y 6 Discos",
+    "nombre": "Procesador de Legumbres Metvisa en Acero Inox Y 6 Discos",
     "categoria": "Elaboración > Procesamiento > Procesadoras",
     "categories": [
       "Elaboración",
@@ -6250,7 +6250,7 @@
   {
     "id": "1193",
     "sku": "UNQ_HGG48",
-    "nombre": "Plancha Chivitera a Gas Comercial Industrial 1215 X 620 X 44",
+    "nombre": "Plancha Chivitera a Gas Comercial Industrial 1215 x 620 x 44",
     "categoria": "Descuentos, Cocción > A la plancha > Planchas",
     "categories": [
       "Descuentos, Cocción",
@@ -6433,7 +6433,7 @@
   {
     "id": "1212",
     "sku": "PIME_GCTP_1200AI",
-    "nombre": "Camara Fermentadora Gelopar C Aire Forzado P 40 Bandejas 58",
+    "nombre": "Cámara Fermentadora Gelopar C Aire Forzado P 40 Bandejas 58",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -6455,7 +6455,7 @@
   {
     "id": "1214",
     "sku": "HEN-6A",
-    "nombre": "Cuece Cocinador de Pasta Electrico Unique 6 Canastos de Mesa",
+    "nombre": "Cuece Cocinador de Pasta Eléctrico Unique 6 Canastos de Mesa",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -6501,7 +6501,7 @@
   {
     "id": "1219",
     "sku": "GMPG-1980",
-    "nombre": "Camara para Hielo o Pan Congelado Gelopar Gmpg 1980",
+    "nombre": "Cámara para Hielo O Pan Congelado Gelopar Gmpg 1980",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -6525,7 +6525,7 @@
   {
     "id": "1223",
     "sku": "PIME_GMPG_950",
-    "nombre": "Camara Cap 126 Bolsas Hielo 3kg 72 de 5 Kg",
+    "nombre": "Cámara Cap 126 Bolsas Hielo 3kg 72 de 5 Kg",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -6621,7 +6621,7 @@
   {
     "id": "1236",
     "sku": "PIME_MT_400",
-    "nombre": "Vitrina Exhibidor Vertical 390 LTS Inelro Mt 400",
+    "nombre": "Vitrina Exhibidor Vertical 390 Lts Inelro Mt 400",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -6779,7 +6779,7 @@
   {
     "id": "1252",
     "sku": "PIME_BV_79",
-    "nombre": "Mesada 070m Pileton C Base y Zocalo Desarmable Bv 79",
+    "nombre": "Mesada 070m Pileton C Base Y Zocalo Desarmable Bv 79",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -6803,7 +6803,7 @@
   {
     "id": "1254",
     "sku": "PIME_MT_750",
-    "nombre": "Vitrina Exhibidor Vertical 2 Puertas 775 LTS Inelro Mt 750",
+    "nombre": "Vitrina Exhibidor Vertical 2 Puertas 775 Lts Inelro Mt 750",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -6847,7 +6847,7 @@
   {
     "id": "1260",
     "sku": "PIME_BV_76A1",
-    "nombre": "Mesada 150m Pileta C Base y Zocalo Desarmable Bv 76a1",
+    "nombre": "Mesada 150m Pileta C Base Y Zocalo Desarmable Bv 76a1",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -6917,7 +6917,7 @@
   {
     "id": "1266",
     "sku": "PIME_MT_980",
-    "nombre": "Vitrina Exhibidor Vertical 2 Puertas 1020 LTS Inelro Mt 980",
+    "nombre": "Vitrina Exhibidor Vertical 2 Puertas 1020 Lts Inelro Mt 980",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -7031,7 +7031,7 @@
   {
     "id": "1277",
     "sku": "PIME_PMSD_402",
-    "nombre": "Anafe 4 Hornallas y Horno Piso de Chapa Pmsd 402",
+    "nombre": "Anafe 4 Hornallas Y Horno Piso de Chapa Pmsd 402",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -7123,7 +7123,7 @@
   {
     "id": "1289",
     "sku": "UNQ_MDXZ25",
-    "nombre": "Freidora Fritador 25 Lt a Presion Gas Comercial Unique",
+    "nombre": "Fritador 25 Lt a Presion Gas Comercial Unique",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -7213,7 +7213,7 @@
   {
     "id": "1297",
     "sku": "PIME_P9",
-    "nombre": "Base Leudadora P 8 Bandejas de 60 X 40 GN 1 1 Todo Gastro",
+    "nombre": "Base Leudadora P 8 Bandejas de 60 x 40 Gn 1 1 Todo Gastro",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -7233,7 +7233,7 @@
   {
     "id": "1299",
     "sku": "ITJ_10021-2",
-    "nombre": "Fritador Electrico 19 Litros de Pie con Canasto Cooklab",
+    "nombre": "Fritador Eléctrico 19 Litros de Pie con Canasto Cooklab",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -7371,7 +7371,7 @@
   {
     "id": "1319",
     "sku": "PIME_AES40_MONOF",
-    "nombre": "Amasadora Semi Rapida 2 Vel Aes 40 Braesi Monofasica",
+    "nombre": "Amasadora Semi Rapida 2 Vel Aes 40 Braesi Monofásica",
     "categoria": "Elaboración > Masas > Amasadoras, Descuentos",
     "categories": [
       "Elaboración",
@@ -7418,7 +7418,7 @@
   {
     "id": "1325",
     "sku": "PIME_450demesa",
-    "nombre": "Sobadora de Mesa Ma Ar Acrilic 45 Cm 0 75 HP Bandeja de Made",
+    "nombre": "Sobadora de Mesa Ma Ar Acrilic 45 Cm 0 75 Hp Bandeja de Made",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -7440,7 +7440,7 @@
   {
     "id": "1327",
     "sku": "PIME_FIH_270PI",
-    "nombre": "Freezer Puertas de Vidrio Inelro 255 LTS",
+    "nombre": "Freezer Puertas de Vidrio Inelro 255 Lts",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -7484,7 +7484,7 @@
   {
     "id": "1331",
     "sku": "PIME_224",
-    "nombre": "Licuadora Industrial 10 LTS Monofasica 3.4 HP Metvisa",
+    "nombre": "Licuadora Industrial 10 Lts Monofásica 3.4 Hp Metvisa",
     "categoria": "Elaboración > Procesamiento > Licuadoras y batidoras",
     "categories": [
       "Elaboración",
@@ -7506,7 +7506,7 @@
   {
     "id": "1333",
     "sku": "PIME_PMSD402CHAPA",
-    "nombre": "Anafe 4 Hornallas C 2 Quem de 12cm y 2 de 16cm C Base Progas",
+    "nombre": "Anafe 4 Hornallas C 2 Quem de 12cm Y 2 de 16cm C Base Progas",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -7666,7 +7666,7 @@
   {
     "id": "1349",
     "sku": "UNQ_HEG_908",
-    "nombre": "Plancha Chivitera Electrica C Fritador 76x63 Industrial",
+    "nombre": "Plancha Chivitera Eléctrica C Fritador 76x63 Industrial",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -7759,7 +7759,7 @@
   {
     "id": "1360",
     "sku": "PIME_FIH_350PI",
-    "nombre": "Freezer Puertas de Vidrio 350 LTS 2 Puertas de Vidrio Curvo",
+    "nombre": "Freezer Puertas de Vidrio 350 Lts 2 Puertas de Vidrio Curvo",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -7781,7 +7781,7 @@
   {
     "id": "1362",
     "sku": "UNQ_TR-31",
-    "nombre": "Cortadora Rebanadora de Pan Comercial 12mm 1.2 HP",
+    "nombre": "Cortadora Rebanadora de Pan Comercial 12mm 1.2 Hp",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
@@ -7828,7 +7828,7 @@
   {
     "id": "1370",
     "sku": "UNQ_PUNTERO_CHURRERA",
-    "nombre": "Puntero para Churros Churrera Comun y Relleno",
+    "nombre": "Puntero para Churros Churrera Comun Y Relleno",
     "categoria": "Elaboración > Masas > Máquinas de churros",
     "categories": [
       "Elaboración",
@@ -7942,7 +7942,7 @@
   {
     "id": "1388",
     "sku": "PIME_BV700_180B",
-    "nombre": "Mesada Lisa 1 80m C Zocalo y Estante Lundar Bv700 180b",
+    "nombre": "Mesada Lisa 1 80m C Zocalo Y Estante Lundar Bv700 180b",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -8101,7 +8101,7 @@
   {
     "id": "1424",
     "sku": "PIME_GCTP_600AI",
-    "nombre": "Camara Fermentadora Gelopar C Aire Forzado P 20 Bandejas 58",
+    "nombre": "Cámara Fermentadora Gelopar C Aire Forzado P 20 Bandejas 58",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -8197,7 +8197,7 @@
   {
     "id": "1433",
     "sku": "UNQ_HGJ368",
-    "nombre": "Horno Spiedo a Gas Comercial 4 Canastos 12 o 16 Pollos",
+    "nombre": "Horno Spiedo a Gas Comercial 4 Canastos 12 O 16 Pollos",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -8219,7 +8219,7 @@
   {
     "id": "1435",
     "sku": "PIME_MT_470",
-    "nombre": "Vitrina Exhibidor Vertical 470 LTS Inelro Mt 470",
+    "nombre": "Vitrina Exhibidor Vertical 470 Lts Inelro Mt 470",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -8329,7 +8329,7 @@
   {
     "id": "1447",
     "sku": "PIME_SFMP max",
-    "nombre": "Sierra Carnicera Chacinera Mesada Movil Metvisa 1 HP",
+    "nombre": "Sierra Carnicera Chacinera Mesada Movil Metvisa 1 Hp",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -8400,7 +8400,7 @@
   {
     "id": "1458",
     "sku": "PIME_FIH_550PI",
-    "nombre": "Freezer Puertas de Vidrio 550 LTS 2 Puertas de Vidrio Curvo",
+    "nombre": "Freezer Puertas de Vidrio 550 Lts 2 Puertas de Vidrio Curvo",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -8446,7 +8446,7 @@
   {
     "id": "1462",
     "sku": "UNQ_H30",
-    "nombre": "Amasadoras Comercial Panaderia 30 LTS Modelo H30",
+    "nombre": "Amasadoras Comercial Panaderia 30 Lts Modelo H30",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -8577,7 +8577,7 @@
   {
     "id": "1482",
     "sku": "UNQ_HDF_9T_3",
-    "nombre": "Maquina para Hacer Donas Automatica 3 Tamanos Ind Comercial",
+    "nombre": "Maquina para Hacer Donas Automática 3 Tamanos Ind Comercial",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -8694,7 +8694,7 @@
   {
     "id": "1499",
     "sku": "PIME_SDQ_500",
-    "nombre": "Pozo Aucma 445 LTS Vidrios Curvos 1 50x0 70x0 85m",
+    "nombre": "Pozo Aucma 445 Lts Vidrios Curvos 1 50x0 70x0 85m",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -8761,7 +8761,7 @@
   {
     "id": "1506",
     "sku": "PMS-510FCH",
-    "nombre": "Anafe 5 Hornallas Progas Pms 510fch 154 X 84 X 89 5 Cm",
+    "nombre": "Anafe 5 Hornallas Progas Pms 510fch 154 x 84 x 89 5 Cm",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -8785,7 +8785,7 @@
   {
     "id": "1511",
     "sku": "PIME_MHS50",
-    "nombre": "Amasadora 50 LTS 30 Kg Masa Lundar Mhs50 Todo Gastro",
+    "nombre": "Amasadora 50 Lts 30 Kg Masa Lundar Mhs50 Todo Gastro",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -8833,7 +8833,7 @@
   {
     "id": "1514",
     "sku": "PIME_SD_282",
-    "nombre": "Freezer 282l 2 Puertas Vidrio Curvo Ruedas y Canastos Sd 28",
+    "nombre": "Freezer 282l 2 Puertas Vidrio Curvo Ruedas Y Canastos Sd 28",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -8881,7 +8881,7 @@
   {
     "id": "1523",
     "sku": "PMS-400",
-    "nombre": "Anafe 4 Hornallas Progas Pms 400 74 X 82 X 88 Cm",
+    "nombre": "Anafe 4 Hornallas Progas Pms 400 74 x 82 x 88 Cm",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -8905,7 +8905,7 @@
   {
     "id": "1525",
     "sku": "PIME_PRB_0603N",
-    "nombre": "Mesa Buffet Electrica Progas Prb 0603n",
+    "nombre": "Mesa Buffet Eléctrica Progas Prb 0603n",
     "categoria": "Refrigeración > Buffet > Mesas buffet",
     "categories": [
       "Refrigeración",
@@ -9019,7 +9019,7 @@
   {
     "id": "1538",
     "sku": "UNQ_TR8SH",
-    "nombre": "Tiernizador de Carne Electrico Unique Comercial Profesional",
+    "nombre": "Tiernizador de Carne Eléctrico Unique Comercial Profesional",
     "categoria": "Descuentos, Elaboración > Carnes > Tiernizadores",
     "categories": [
       "Descuentos, Elaboración",
@@ -9069,7 +9069,7 @@
   {
     "id": "1544",
     "sku": "PIME_MP_300",
-    "nombre": "Rallador de Pan Electrico Tubular Chapa Pintada Monofasi",
+    "nombre": "Rallador de Pan Eléctrico Tubular Chapa Pintada Monofasi",
     "categoria": "Elaboración > Procesamiento > Procesadoras",
     "categories": [
       "Elaboración",
@@ -9093,7 +9093,7 @@
   {
     "id": "1546",
     "sku": "PMS-100",
-    "nombre": "Anafe 1 Hornalla Progas Pms 100 39 5 X 49 X 88 Cm",
+    "nombre": "Anafe 1 Hornalla Progas Pms 100 39 5 x 49 x 88 Cm",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -9210,7 +9210,7 @@
   {
     "id": "1560",
     "sku": "PRD-200",
-    "nombre": "Maquina Derretidora de Chocolate y Queso 2 Cubas Progas",
+    "nombre": "Maquina Derretidora de Chocolate Y Queso 2 Cubas Progas",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -9278,7 +9278,7 @@
   {
     "id": "1577",
     "sku": "UNQ_HEN-6HX",
-    "nombre": "Cuece Cocinador de Pasta Electrico Unique 6 Canastos Industr",
+    "nombre": "Cuece Cocinador de Pasta Eléctrico Unique 6 Canastos Industr",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -9458,7 +9458,7 @@
   {
     "id": "1601",
     "sku": "PIME_PRP_10000E",
-    "nombre": "Horno Turbinado Electrico 10 Bandejas Trifasico 220v",
+    "nombre": "Horno Turbinado Eléctrico 10 Bandejas Trifasico 220v",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -9550,7 +9550,7 @@
   {
     "id": "1614",
     "sku": "",
-    "nombre": "Cocina 4 Hornallas y Horno Piso de Chapa 075 X 086 X 080m",
+    "nombre": "Cocina 4 Hornallas Y Horno Piso de Chapa 075 x 086 x 080m",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -9596,7 +9596,7 @@
   {
     "id": "1621",
     "sku": "UNQ_HCB-2",
-    "nombre": "Maquina Conos Cucuruchos Electrica 2 Kw Comercial Tg",
+    "nombre": "Maquina Conos Cucuruchos Eléctrica 2 Kw Comercial Tg",
     "categoria": "Descuentos, Elaboración > Otros > Dulces y helados",
     "categories": [
       "Descuentos, Elaboración",
@@ -9644,7 +9644,7 @@
   {
     "id": "1627",
     "sku": "ITJ_11045",
-    "nombre": "Plancha Chivetera Electrica Extra Pratica 77x40 Cooklab",
+    "nombre": "Plancha Chivetera Eléctrica Extra Pratica 77x40 Cooklab",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -9852,7 +9852,7 @@
   {
     "id": "1652",
     "sku": "UNQ_APD300",
-    "nombre": "Armadora Formadora de Pizza Automatico Unique 30cm Comercial",
+    "nombre": "Armadora Formadora de Pizza Automática Unique 30cm Comercial",
     "categoria": "Elaboración > Masas > Amasadoras, Descuentos",
     "categories": [
       "Elaboración",
@@ -10082,7 +10082,7 @@
   {
     "id": "1681",
     "sku": "punktal_PK-HS400",
-    "nombre": "Freezers Freezer Horizontal Punktal Pk Hs400 295 LTS Efic B",
+    "nombre": "Freezers Freezer Horizontal Punktal Pk Hs400 295 Lts Efic B",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -10106,7 +10106,7 @@
   {
     "id": "1684",
     "sku": "",
-    "nombre": "Horno Turbinado Elect 8 Bandejas 58 X 68 Progas Prp 8000e",
+    "nombre": "Horno Turbinado Elect 8 Bandejas 58 x 68 Progas Prp 8000e",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -10129,7 +10129,7 @@
   {
     "id": "1686",
     "sku": "PIME_PRP_8000E",
-    "nombre": "Horno Turbinado Elect 8 Bandejas 58 X 68 Progas Prp 8000e - Gris",
+    "nombre": "Horno Turbinado Elect 8 Bandejas 58 x 68 Progas Prp 8000e - Gris",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -10149,7 +10149,7 @@
   {
     "id": "1687",
     "sku": "PIME_PRP_5000NE",
-    "nombre": "Horno Turbinado Electrico Cap 5 Band 58 X 68cm Prp 5000ne",
+    "nombre": "Horno Turbinado Eléctrico Cap 5 Band 58 x 68cm Prp 5000ne",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -10173,7 +10173,7 @@
   {
     "id": "1690",
     "sku": "PIME_PRPE_200",
-    "nombre": "Horno Progas Electrico Modelo Prpe 200l",
+    "nombre": "Horno Progas Eléctrico Modelo Prpe 200l",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -10196,7 +10196,7 @@
   {
     "id": "1696",
     "sku": "DALO_H50",
-    "nombre": "Amasadoras Comercial Panaderia Demet 50 LTS Mod H50",
+    "nombre": "Amasadoras Comercial Panaderia Demet 50 Lts Mod H50",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -10241,7 +10241,7 @@
   {
     "id": "1704",
     "sku": "PIME_PRPE_400ST",
-    "nombre": "Horno Electrico de Mesa C Gratinador Prpe 400st Progas",
+    "nombre": "Horno Eléctrico de Mesa C Gratinador Prpe 400st Progas",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -10264,7 +10264,7 @@
   {
     "id": "1707",
     "sku": "EHS-330",
-    "nombre": "Mantenedor de Papas Fritas Bandeja 53 X 33 Cm Lundar",
+    "nombre": "Mantenedor de Papas Fritas Bandeja 53 x 33 Cm Lundar",
     "categoria": "Refrigeración > Buffet > Mesas buffet",
     "categories": [
       "Refrigeración",
@@ -10288,7 +10288,7 @@
   {
     "id": "1710",
     "sku": "GMPG-950",
-    "nombre": "Camara para Hielo o Pan Congelado Gelopar Gmpg 950",
+    "nombre": "Cámara para Hielo O Pan Congelado Gelopar Gmpg 950",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -10358,7 +10358,7 @@
   {
     "id": "1719",
     "sku": "B30GA2",
-    "nombre": "Batidora 30 LTS Planetaria Lundar B30ga2 Todo Gastro",
+    "nombre": "Batidora 30 Lts Planetaria Lundar B30ga2 Todo Gastro",
     "categoria": "Elaboración > Masas > Batidoras planetarias",
     "categories": [
       "Elaboración",
@@ -10382,7 +10382,7 @@
   {
     "id": "1721",
     "sku": "DALO_WY-15",
-    "nombre": "Amasadora 15 LTS 9 Kg Masa Demet",
+    "nombre": "Amasadora 15 Lts 9 Kg Masa Demet",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -10492,7 +10492,7 @@
   {
     "id": "1736",
     "sku": "PIME_RTS_62L",
-    "nombre": "Vitrina Sobre Mostrador Refrigerada Lundar Rts 62 LTS",
+    "nombre": "Vitrina Sobre Mostrador Refrigerada Lundar Rts 62 Lts",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -10514,7 +10514,7 @@
   {
     "id": "1739",
     "sku": "P8",
-    "nombre": "Camara Fermentadora 8 Bandejas Mod P8 Dogado Todo Gastro",
+    "nombre": "Cámara Fermentadora 8 Bandejas Mod P8 Dogado Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -10585,7 +10585,7 @@
   {
     "id": "1749",
     "sku": "GEL_VENX9211",
-    "nombre": "Vitrina Enfriador con Cenefa LED Enxuta Frio Humedo Venx9211",
+    "nombre": "Vitrina Enfriador con Cenefa Led Enxuta Frio Humedo Venx9211",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -10750,7 +10750,7 @@
   {
     "id": "1781",
     "sku": "PIME_RE_30",
-    "nombre": "Raviolera Electrica en Acero Inox Ma Ar Acrilic 30cm",
+    "nombre": "Raviolera Eléctrica en Acero Inox Ma Ar Acrilic 30cm",
     "categoria": "Descuentos, Elaboración > Masas > Máquinas de pasta",
     "categories": [
       "Descuentos, Elaboración",
@@ -10772,7 +10772,7 @@
   {
     "id": "1784",
     "sku": "BAM-12",
-    "nombre": "Batidora Industrial Metvisa Bam 12 12 Litros 1 2 HP",
+    "nombre": "Batidora Industrial Metvisa Bam 12 12 Litros 1 2 Hp",
     "categoria": "Elaboración > Masas > Batidoras planetarias",
     "categories": [
       "Elaboración",
@@ -10797,7 +10797,7 @@
   {
     "id": "1790",
     "sku": "Pime_AR-15",
-    "nombre": "Amasadora Rapida 15 Kg Monofasica Motor 2hp Braesi",
+    "nombre": "Amasadora Rapida 15 Kg Monofásica Motor 2hp Braesi",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -10821,7 +10821,7 @@
   {
     "id": "1792",
     "sku": "B10GFA",
-    "nombre": "Batidora 10 LTS Planetaria Lundar B10gfa Todo Gastro",
+    "nombre": "Batidora 10 Lts Planetaria Lundar B10gfa Todo Gastro",
     "categoria": "Elaboración > Masas > Batidoras planetarias",
     "categories": [
       "Elaboración",
@@ -10869,7 +10869,7 @@
   {
     "id": "1797",
     "sku": "PIME_BM_99",
-    "nombre": "Mezcladora de Carne 60 LTS Bermar Bm 99",
+    "nombre": "Mezcladora de Carne 60 Lts Bermar Bm 99",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -10917,7 +10917,7 @@
   {
     "id": "1803",
     "sku": "nova 1100 4H",
-    "nombre": "Cocina Ind 4 Hor Plancha y Horno Piso de Piedra Morelli",
+    "nombre": "Cocina Ind 4 Hor Plancha Y Horno Piso de Piedra Morelli",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -10964,7 +10964,7 @@
   {
     "id": "1811",
     "sku": "FTG-300",
-    "nombre": "Horno Electrico Turbinado 10 Bandeja Trifasico Ftg 300",
+    "nombre": "Horno Eléctrico Turbinado 10 Bandeja Trifasico Ftg 300",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -11011,7 +11011,7 @@
   {
     "id": "1818",
     "sku": "FSP-6800AT",
-    "nombre": "Horno a Gas Piso Piedra Reloj de Temp y Chispero Fsp 6800",
+    "nombre": "Horno a Gas Piso Piedra Reloj de Temp Y Chispero Fsp 6800",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -11126,7 +11126,7 @@
   {
     "id": "1833",
     "sku": "GCTP-1200AI",
-    "nombre": "Camara Fermentadora 40 Bandejas Gelopar Gctp 1200",
+    "nombre": "Cámara Fermentadora 40 Bandejas Gelopar Gctp 1200",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -11152,7 +11152,7 @@
   {
     "id": "1836",
     "sku": "FTG-150",
-    "nombre": "Horno Turbinado Ind Electrico Capacidad 5 Bandejas Metvisa",
+    "nombre": "Horno Turbinado Ind Eléctrico Capacidad 5 Bandejas Metvisa",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -11175,7 +11175,7 @@
   {
     "id": "1839",
     "sku": "B40FA",
-    "nombre": "Batidora 30 LTS Planetaria Lundar B30ga2 Todo Gastro 2",
+    "nombre": "Batidora 30 Lts Planetaria Lundar B30ga2 Todo Gastro 2",
     "categoria": "Elaboración > Masas > Batidoras planetarias",
     "categories": [
       "Elaboración",
@@ -11199,7 +11199,7 @@
   {
     "id": "1846",
     "sku": "PIME_PRMQ_10",
-    "nombre": "Misturador Mezclador Tacho Aluminio C Quemador y Digital",
+    "nombre": "Misturador Mezclador Tacho Aluminio C Quemador Y Digital",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -11245,7 +11245,7 @@
   {
     "id": "1853",
     "sku": "",
-    "nombre": "Tallarinera Electrica en Acero Inox Ma Ar Acrilic 30cm",
+    "nombre": "Tallarinera Eléctrica en Acero Inox Ma Ar Acrilic 30cm",
     "categoria": "Elaboración > Masas > Máquinas de pasta",
     "categories": [
       "Elaboración",
@@ -11267,7 +11267,7 @@
   {
     "id": "1856",
     "sku": "GCTP-600AI",
-    "nombre": "Camara Fermentadora 20 Bandejas Gelopar Gctp 600 Todo Gastro",
+    "nombre": "Cámara Fermentadora 20 Bandejas Gelopar Gctp 600 Todo Gastro",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -11314,7 +11314,7 @@
   {
     "id": "1867",
     "sku": "PIME_SOBADORA",
-    "nombre": "Maquina Pasta Tallarinera y Sobadora Electrica 30cm Ma Ar",
+    "nombre": "Maquina Pasta Tallarinera Y Sobadora Eléctrica 30cm Ma Ar",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -11338,7 +11338,7 @@
   {
     "id": "1869",
     "sku": "DALO_HEF_81A",
-    "nombre": "Fritadores Comerciales Electrico Demet Hef 81a 6 LTS",
+    "nombre": "Fritadores Comerciales Eléctrico Demet Hef 81a 6 Lts",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -11384,7 +11384,7 @@
   {
     "id": "1876",
     "sku": "PIME_BV_81",
-    "nombre": "Mesada 120m Doble Pileton C Base y Zocalo Desarmable Bv 81",
+    "nombre": "Mesada 120m Doble Pileton C Base Y Zocalo Desarmable Bv 81",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -11430,7 +11430,7 @@
   {
     "id": "1880",
     "sku": "PIME_AES_25",
-    "nombre": "Amasadora 25kg Braesi Aes 25 15kg Harina Monofasica",
+    "nombre": "Amasadora 25kg Braesi Aes 25 15kg Harina Monofásica",
     "categoria": "Elaboración > Masas > Amasadoras, Descuentos",
     "categories": [
       "Elaboración",
@@ -11454,7 +11454,7 @@
   {
     "id": "1882",
     "sku": "PIME_ RT_400",
-    "nombre": "Expositor Masas y Potres 4 Caras Rt 400 Lundar",
+    "nombre": "Expositor Masas Y Potres 4 Caras Rt 400 Lundar",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -11478,7 +11478,7 @@
   {
     "id": "1884",
     "sku": "PIME_BV700_090B",
-    "nombre": "Mesada Lisa 090m C Zocalo y Estante Lundar Bv700 090b",
+    "nombre": "Mesada Lisa 090m C Zocalo Y Estante Lundar Bv700 090b",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -11500,7 +11500,7 @@
   {
     "id": "1886",
     "sku": "PIME_FTG_300",
-    "nombre": "Horno Turbinado Electrico Cap 10 Bandejas Trif 14.7 Kw H",
+    "nombre": "Horno Turbinado Eléctrico Cap 10 Bandejas Trif 14.7 Kw H",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -11566,7 +11566,7 @@
   {
     "id": "1892",
     "sku": "PIME_802",
-    "nombre": "Maquina de Pop 13 Kw 220 V Monofasica",
+    "nombre": "Maquina de Pop 13 Kw 220 V Monofásica",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -11588,7 +11588,7 @@
   {
     "id": "1896",
     "sku": "PIME_ EF_101",
-    "nombre": "Fritador Electrico de Mesa 5 a 6 LTS 3 Kw 1 Cuba Ef 101",
+    "nombre": "Fritador Eléctrico de Mesa 5 a 6 Lts 3 Kw 1 Cuba Ef 101",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -11661,7 +11661,7 @@
   {
     "id": "1902",
     "sku": "PIME_BV700_150B",
-    "nombre": "Mesada Lisa 1 50m C Zocalo y Estante Lundar Bv700 150b",
+    "nombre": "Mesada Lisa 1 50m C Zocalo Y Estante Lundar Bv700 150b",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -11821,7 +11821,7 @@
   {
     "id": "1931",
     "sku": "ACS-C1 LED 6K",
-    "nombre": "Balanza Electronica LED con Calculo de Precio 6kg Latu",
+    "nombre": "Balanza Electronica Led con Calculo de Precio 6kg Latu",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -11843,7 +11843,7 @@
   {
     "id": "1934",
     "sku": "CUORA Neo",
-    "nombre": "Balanza Auto Gestion con Ticket y Torre Latu",
+    "nombre": "Balanza Auto Gestion con Ticket Y Torre Latu",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -11913,7 +11913,7 @@
   {
     "id": "1948",
     "sku": "PIME_MPPA_100 PR",
-    "nombre": "Vidriera Pan Panera Mural Vertical con Iluminacion LED",
+    "nombre": "Vidriera Pan Panera Mural Vertical con Iluminacion Led",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -12030,7 +12030,7 @@
   {
     "id": "1975",
     "sku": "PMS-600",
-    "nombre": "Anafe 6 Hornallas Progas Pms 600 108 X 82 X 82 Cm",
+    "nombre": "Anafe 6 Hornallas Progas Pms 600 108 x 82 x 82 Cm",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -12146,7 +12146,7 @@
   {
     "id": "1988",
     "sku": "PMS-510",
-    "nombre": "Anafe 5 Hornallas Progas Pms 510 1195 X 88 X 82 Cm",
+    "nombre": "Anafe 5 Hornallas Progas Pms 510 1195 x 88 x 82 Cm",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -12194,7 +12194,7 @@
   {
     "id": "1994",
     "sku": "PMS-200",
-    "nombre": "Anafe 2 Hornallas Progas Pms 200 740 X 490 X 880 Mm",
+    "nombre": "Anafe 2 Hornallas Progas Pms 200 740 x 490 x 880 Mm",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -12218,7 +12218,7 @@
   {
     "id": "1996",
     "sku": "TCS-D 1000Kg",
-    "nombre": "Bascula Electronica de Plataforma 1t 05kg LED",
+    "nombre": "Bascula Electronica de Plataforma 1t 05kg Led",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -12310,7 +12310,7 @@
   {
     "id": "2007",
     "sku": "PMS-200MOD",
-    "nombre": "Anafe 2 Hornallas Frontal Progas Pms 200mod 49 X 74 X 88",
+    "nombre": "Anafe 2 Hornallas Frontal Progas Pms 200mod 49 x 74 x 88",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -12357,7 +12357,7 @@
   {
     "id": "2129",
     "sku": "ITJ_99093",
-    "nombre": "Horno Pizzero Refractario Extra 80 X 62 2 Gratinadores Cookl",
+    "nombre": "Horno Pizzero Refractario Extra 80 x 62 2 Gratinadores Cookl",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -12382,7 +12382,7 @@
   {
     "id": "2134",
     "sku": "ITJ_99257",
-    "nombre": "Horno Pizzero Refractario Compacto Extra 80 X 62 2 Gratinado",
+    "nombre": "Horno Pizzero Refractario Compacto Extra 80 x 62 2 Gratinado",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -12407,7 +12407,7 @@
   {
     "id": "2139",
     "sku": "ITJ_9257",
-    "nombre": "Horno Pizzero Refractario Compacto Extra 80 X 62 Cooklab",
+    "nombre": "Horno Pizzero Refractario Compacto Extra 80 x 62 Cooklab",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -12432,7 +12432,7 @@
   {
     "id": "2144",
     "sku": "ITJ_9093",
-    "nombre": "Horno Pizzero Refractario Extra 80 X 62 Cooklab",
+    "nombre": "Horno Pizzero Refractario Extra 80 x 62 Cooklab",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -12457,7 +12457,7 @@
   {
     "id": "2158",
     "sku": "ITJ_9098",
-    "nombre": "Horno Pizzero Refractario Pintado 95 X 95 Cm Cooklab Compact",
+    "nombre": "Horno Pizzero Refractario Pintado 95 x 95 Cm Cooklab Compact",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -12657,7 +12657,7 @@
   {
     "id": "2183",
     "sku": "DYD_KS_FZ300HL",
-    "nombre": "Freezer Horizontal 300 LTS Clase a Kassel",
+    "nombre": "Freezer Horizontal 300 Lts Clase a Kassel",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -12704,7 +12704,7 @@
   {
     "id": "2190",
     "sku": "DYD_KS_FZ150H",
-    "nombre": "Freezer Horizontal 150 LTS Clase a Kassel",
+    "nombre": "Freezer Horizontal 150 Lts Clase a Kassel",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -12728,7 +12728,7 @@
   {
     "id": "2193",
     "sku": "DYD_KS_FZ131H",
-    "nombre": "Freezer Horizontal 100 LTS Clase a Ks Fz131h 77100",
+    "nombre": "Freezer Horizontal 100 Lts Clase a Ks Fz131h 77100",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -12776,7 +12776,7 @@
   {
     "id": "2200",
     "sku": "PIME_GEAS_6P LB PR",
-    "nombre": "Refrigerador Expositor Visicooler 6 Puertas 2340 LTS Gelopar",
+    "nombre": "Refrigerador Expositor Visicooler 6 Puertas 2340 Lts Gelopar",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -12872,7 +12872,7 @@
   {
     "id": "2211",
     "sku": "PIME_M_120",
-    "nombre": "Mesada Lisa En Acero Inox, C/zocalo, C/estante. M-120",
+    "nombre": "Mesada Lisa en Acero Inox, C/zocalo, C/estante. M-120",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -12918,7 +12918,7 @@
   {
     "id": "2216",
     "sku": "PIME_GEAS_2P LB PR",
-    "nombre": "Expositor Refrigerado Visi Cooler Gelopar 820 Lts -2 A +10",
+    "nombre": "Expositor Refrigerado Visi Cooler Gelopar 820 Lts -2 a +10",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -12942,7 +12942,7 @@
   {
     "id": "2219",
     "sku": "PIME_MB_20",
-    "nombre": "Picadora de Carne Buje 22 1 HP Monof Acero Inox",
+    "nombre": "Picadora de Carne Buje 22 1 Hp Monof Acero Inox",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -13149,7 +13149,7 @@
   {
     "id": "2245",
     "sku": "PIME_PRCL_200",
-    "nombre": "Camara Fermentadora Progas Prcl 200",
+    "nombre": "Cámara Fermentadora Progas Prcl 200",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -13287,7 +13287,7 @@
   {
     "id": "2268",
     "sku": "1284",
-    "nombre": "Cafetera Expreso Tactil Automatica Molino y Espumador 7203",
+    "nombre": "Cafetera Expreso Tactil Automática Molino Y Espumador 7203",
     "categoria": "Equipamiento y servicio > Café > Cafeteras profesionales",
     "categories": [
       "Equipamiento y servicio",
@@ -13313,7 +13313,7 @@
   {
     "id": "2287",
     "sku": "1285",
-    "nombre": "Cafetera Expreso Tactil Automatica Profesional Molino 819",
+    "nombre": "Cafetera Expreso Tactil Automática Profesional Molino 819",
     "categoria": "Equipamiento y servicio > Café > Cafeteras profesionales",
     "categories": [
       "Equipamiento y servicio",
@@ -13340,7 +13340,7 @@
   {
     "id": "2305",
     "sku": "Gel_fhenx16100",
-    "nombre": "Freezer Horizontal Fhenx16100 Funcion Dual Enxuta 95 LTS Tg",
+    "nombre": "Freezer Horizontal Fhenx16100 Funcion Dual Enxuta 95 Lts Tg",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -13365,7 +13365,7 @@
   {
     "id": "2334",
     "sku": "DALO_BBB_380",
-    "nombre": "Expositor Vertical 368 LTS 1 Puerta Demet China",
+    "nombre": "Expositor Vertical 368 Lts 1 Puerta Demet China",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -13388,7 +13388,7 @@
   {
     "id": "2337",
     "sku": "DALO_BBB_280",
-    "nombre": "Expositor Vertical Demet 280 LTS Una Puerta",
+    "nombre": "Expositor Vertical Demet 280 Lts Una Puerta",
     "categoria": "Refrigeración > Exhibición > Heladeras y exhibidoras",
     "categories": [
       "Refrigeración",
@@ -13410,7 +13410,7 @@
   {
     "id": "2354",
     "sku": "UNQ_HEF-12L-2",
-    "nombre": "Freidora Fritador Unique Comercial 1212 Lt Llave P Desague",
+    "nombre": "Fritador Unique Comercial 1212 Lt Llave P Desague",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -13434,7 +13434,7 @@
   {
     "id": "2427",
     "sku": "UNQ_HEB8F",
-    "nombre": "Horno Electrico Conveccion Comercial 60x40 4 Bandejas",
+    "nombre": "Horno Eléctrico Conveccion Comercial 60x40 4 Bandejas",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -13458,7 +13458,7 @@
   {
     "id": "2429",
     "sku": "UNQ_HP-6B",
-    "nombre": "Maquina Pop Popera Electrica 1 44 Kw Comercial",
+    "nombre": "Maquina Pop Popera Eléctrica 1 44 Kw Comercial",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -13484,7 +13484,7 @@
   {
     "id": "2435",
     "sku": "UNQ_HEG-813",
-    "nombre": "Grill Electrico Doble Comercial Pan Sandwiches 58x40 Cm",
+    "nombre": "Grill Eléctrico Doble Comercial Pan Sandwiches 58x40 Cm",
     "categoria": "Descuentos",
     "categories": [
       "Descuentos"
@@ -13570,7 +13570,7 @@
   {
     "id": "2445",
     "sku": "UNQ_HEF-779",
-    "nombre": "Freidora Fritador Comercial Electrico 18 Lt de Mesa",
+    "nombre": "Fritador Comercial Eléctrico 18 Lt de Mesa",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -13592,7 +13592,7 @@
   {
     "id": "2447",
     "sku": "UNQ_H20",
-    "nombre": "Amasadoras Comercial Panaderia 20 LTS Modelo H20",
+    "nombre": "Amasadoras Comercial Panaderia 20 Lts Modelo H20",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -13614,7 +13614,7 @@
   {
     "id": "2449",
     "sku": "UNQ_HEG-818",
-    "nombre": "Plancha Chivitera Electrica Comercial 55x43 Cm Comercial",
+    "nombre": "Plancha Chivitera Eléctrica Comercial 55x43 Cm Comercial",
     "categoria": "Descuentos, Cocción > A la plancha > Planchas",
     "categories": [
       "Descuentos, Cocción",
@@ -13707,7 +13707,7 @@
   {
     "id": "2459",
     "sku": "UNQ_HGF181C",
-    "nombre": "Fritador Freidora a Gas Una Cuba 18 Lt Comercial",
+    "nombre": "Fritador a Gas Una Cuba 18 Lt Comercial",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -13847,7 +13847,7 @@
   {
     "id": "2473",
     "sku": "UNQ_H60",
-    "nombre": "Amasadora de Espiral 60 LTS H60 2 Vel Panaderia Unique",
+    "nombre": "Amasadora de Espiral 60 Lts H60 2 Vel Panaderia Unique",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -13871,7 +13871,7 @@
   {
     "id": "2477",
     "sku": "dalo_6L",
-    "nombre": "Freidora Fritador Demet Profesional 6l Modelo 6l Electrico",
+    "nombre": "Fritador Demet Profesional 6l Modelo 6l Eléctrico",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -13986,7 +13986,7 @@
   {
     "id": "2499",
     "sku": "HEO-08",
-    "nombre": "Horno Electrico con Convector Unique 60x40 Cm 4 Bandejas",
+    "nombre": "Horno Eléctrico con Convector Unique 60x40 Cm 4 Bandejas",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -14358,7 +14358,7 @@
   {
     "id": "2568",
     "sku": "DALO_H30",
-    "nombre": "Amasadoras Comercial Panadera Demet 30 LTS Modelo H30",
+    "nombre": "Amasadoras Comercial Panadera Demet 30 Lts Modelo H30",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -14380,7 +14380,7 @@
   {
     "id": "2571",
     "sku": "DALO_H20",
-    "nombre": "Amasadoras Comercial Panadera Demet 20 LTS Modelo H20",
+    "nombre": "Amasadoras Comercial Panadera Demet 20 Lts Modelo H20",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -14670,7 +14670,7 @@
   {
     "id": "2616",
     "sku": "",
-    "nombre": "Vitrina Expositor Vertical Briket Argentina 501 LTS",
+    "nombre": "Vitrina Expositor Vertical Briket Argentina 501 Lts",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -14694,7 +14694,7 @@
   {
     "id": "2621",
     "sku": "",
-    "nombre": "Vitrina Expositor Vertical Briket Argentina 417 LTS",
+    "nombre": "Vitrina Expositor Vertical Briket Argentina 417 Lts",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -14718,7 +14718,7 @@
   {
     "id": "2624",
     "sku": "",
-    "nombre": "Vitrina Expositor Vertical Briket Argentina 315 LTS",
+    "nombre": "Vitrina Expositor Vertical Briket Argentina 315 Lts",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -14742,7 +14742,7 @@
   {
     "id": "2629",
     "sku": "Master 1200",
-    "nombre": "Vitrina Expositor Vertical Briket Argentina 120 LTS",
+    "nombre": "Vitrina Expositor Vertical Briket Argentina 120 Lts",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -14766,7 +14766,7 @@
   {
     "id": "2640",
     "sku": "dalo_HEPSL-03",
-    "nombre": "Maquina de Algodon de Azucar Carro Sonido y Luces Demet",
+    "nombre": "Maquina de Algodón de Azucar Carro Sonido Y Luces Demet",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -14790,7 +14790,7 @@
   {
     "id": "2653",
     "sku": "PIME_SD_182",
-    "nombre": "Freezer 182l 2 Puertas Vidrio Curvo Ruedas y Canastos Sd 18",
+    "nombre": "Freezer 182l 2 Puertas Vidrio Curvo Ruedas Y Canastos Sd 18",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -14812,7 +14812,7 @@
   {
     "id": "2655",
     "sku": "ACS-C1 LED",
-    "nombre": "Balanza Electronica LED con Calculo de Precio 30kg Latu",
+    "nombre": "Balanza Electronica Led con Calculo de Precio 30kg Latu",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -14861,7 +14861,7 @@
   {
     "id": "2662",
     "sku": "GEL_VENX9310",
-    "nombre": "Vitrina Comercial Enxuta 309lts con Cenefa LED Dimm T G",
+    "nombre": "Vitrina Comercial Enxuta 309lts con Cenefa Led Dimm T G",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -14887,7 +14887,7 @@
   {
     "id": "2674",
     "sku": "BPEL-05",
-    "nombre": "Batidora 5 LTS Planetaria Braesi Bpel 05 Premium G2",
+    "nombre": "Batidora 5 Lts Planetaria Braesi Bpel 05 Premium G2",
     "categoria": "Elaboración > Masas > Batidoras planetarias",
     "categories": [
       "Elaboración",
@@ -14911,7 +14911,7 @@
   {
     "id": "2677",
     "sku": "ACS-C1 LCD",
-    "nombre": "Balanza Electronica LCD con Calculo de Precio 30kg Latu",
+    "nombre": "Balanza Electronica Lcd con Calculo de Precio 30kg Latu",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -15184,7 +15184,7 @@
   {
     "id": "2879",
     "sku": "INS_316_4009",
-    "nombre": "Laminadora Sobadora Electrica Anodilar 28cm Corta Tallarines",
+    "nombre": "Laminadora Sobadora Eléctrica Anodilar 28cm Corta Tallarines",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -15209,7 +15209,7 @@
   {
     "id": "2884",
     "sku": "INS_8037_4067 + INS_7979_404",
-    "nombre": "Sobadora Laminadora Electrica de Mesa 39 Cm Andoilar",
+    "nombre": "Sobadora Laminadora Eléctrica de Mesa 39 Cm Andoilar",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -15306,7 +15306,7 @@
   {
     "id": "2919",
     "sku": "PUNKTAL_PK-HS543",
-    "nombre": "Freezer Horizontal Punktal Pk Hs543 418 Litros Eficneicia A",
+    "nombre": "Freezer Horizontal Punktal Pk Hs543 418 Litros Eficneicia a",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -15378,7 +15378,7 @@
   {
     "id": "2943",
     "sku": "",
-    "nombre": "Anafe Electrico Dos Discos 1000w 1000w Portatil Decakila",
+    "nombre": "Anafe Eléctrico Dos Discos 1000w 1000w Portatil Decakila",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -15639,7 +15639,7 @@
   {
     "id": "3000",
     "sku": "",
-    "nombre": "Freezer Vertical James 82 LTS Clase a Fvj 100 Kn Color Blanco",
+    "nombre": "Freezer Vertical James 82 Lts Clase a Fvj 100 Kn Color Blanco",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -15661,7 +15661,7 @@
   {
     "id": "3001",
     "sku": "PK_hs129",
-    "nombre": "Freezer Heladera Horizontal Punktal 99 L Frio Natural Ltc Color Blanco",
+    "nombre": "Freezer Horizontal Punktal 99 L Frio Natural Ltc Color Blanco",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -15689,7 +15689,7 @@
   {
     "id": "3009",
     "sku": "HEG-580",
-    "nombre": "Plancha Chivitera Electrica Gratinador Industrial 58x40",
+    "nombre": "Plancha Chivitera Eléctrica Gratinador Industrial 58x40",
     "categoria": "Descuentos, Cocción > A la plancha > Planchas",
     "categories": [
       "Descuentos, Cocción",
@@ -15952,7 +15952,7 @@
   {
     "id": "3050",
     "sku": "UNQ_KS-100E",
-    "nombre": "Cuchillo Electrico para Kebab Shawarma Comercial",
+    "nombre": "Cuchillo Eléctrico para Kebab Shawarma Comercial",
     "categoria": "Cocción > Horneado > Hornos shawarma",
     "categories": [
       "Cocción",
@@ -16140,7 +16140,7 @@
   {
     "id": "3078",
     "sku": "",
-    "nombre": "Freezer Heladera James 150 Horizontal Doble Accion Color Blanco",
+    "nombre": "Freezer James 150 Horizontal Doble Accion Color Blanco",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -16255,7 +16255,7 @@
   {
     "id": "3094",
     "sku": "",
-    "nombre": "Freezer Heladera James 310 Horizontal",
+    "nombre": "Freezer James 310 Horizontal",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -16654,7 +16654,7 @@
   {
     "id": "3154",
     "sku": "UNQ_HGF778S",
-    "nombre": "Fritador Freidora a Gas Una Cuba 25 Lt Comercial 2 Canastos",
+    "nombre": "Fritador a Gas Una Cuba 25 Lt Comercial 2 Canastos",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -16846,7 +16846,7 @@
   {
     "id": "3180",
     "sku": "UNQ_HGF182C",
-    "nombre": "Fritador Freidora a Gas Dos Cubas 18 Lt C Una Comercial",
+    "nombre": "Fritador a Gas Dos Cubas 18 Lt C Una Comercial",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -16958,7 +16958,7 @@
   {
     "id": "3197",
     "sku": "UNQ_TBS1070",
-    "nombre": "Mesada Mesa de Trabajo 1 Mt X 0 70 Unique Refrozada Ac Inox",
+    "nombre": "Mesada Mesa de Trabajo 1 Mt x 0 70 Unique Refrozada Ac Inox",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -16982,7 +16982,7 @@
   {
     "id": "3206",
     "sku": "UNQ_TBS-1270",
-    "nombre": "Mesa Mesada de Trabajo Unique Refrozada 1 2 X 0 70 Mt",
+    "nombre": "Mesa Mesada de Trabajo Unique Refrozada 1 2 x 0 70 Mt",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17107,7 +17107,7 @@
   {
     "id": "3236",
     "sku": "TB3-1270",
-    "nombre": "Mesada de Trabajo 2 Estantes 1.2 X 0.7 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1.2 x 0.7 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17131,7 +17131,7 @@
   {
     "id": "3240",
     "sku": "TB3-1070",
-    "nombre": "Mesada de Trabajo 2 Estantes 1 X 0.7 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1 x 0.7 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17155,7 +17155,7 @@
   {
     "id": "3244",
     "sku": "unq_TBS-1580",
-    "nombre": "Mesada de Trabajo Reforzada Unique 1 5 X 0 80 Mt",
+    "nombre": "Mesada de Trabajo Reforzada Unique 1 5 x 0 80 Mt",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17179,7 +17179,7 @@
   {
     "id": "3248",
     "sku": "unq_TB3-1860",
-    "nombre": "Mesada de Trabajo 2 Estantes 1.8 X 0.6 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1.8 x 0.6 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17203,7 +17203,7 @@
   {
     "id": "3252",
     "sku": "UNQ_TB3-1560",
-    "nombre": "Mesada de Trabajo 2 Estantes 1.5 X 0.6 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1.5 x 0.6 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17227,7 +17227,7 @@
   {
     "id": "3256",
     "sku": "unq_TBS-1870",
-    "nombre": "Mesada de Trabajo Reforzada Unique 1 8 X 0 70 Mt",
+    "nombre": "Mesada de Trabajo Reforzada Unique 1 8 x 0 70 Mt",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17251,7 +17251,7 @@
   {
     "id": "3260",
     "sku": "unq_TB3-1260",
-    "nombre": "Mesada de Trabajo con 2 Estantes 1.2 X 0.6 Mt Reforzada",
+    "nombre": "Mesada de Trabajo con 2 Estantes 1.2 x 0.6 Mt Reforzada",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17275,7 +17275,7 @@
   {
     "id": "3264",
     "sku": "unq_TB3-1060",
-    "nombre": "Mesada de Trabajo con 2 Estantes Reforzada 1 X 0.6 Mt",
+    "nombre": "Mesada de Trabajo con 2 Estantes Reforzada 1 x 0.6 Mt",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17299,7 +17299,7 @@
   {
     "id": "3268",
     "sku": "unq_TBS-1880",
-    "nombre": "Mesada de Trabajo Reforzada 1.8 X 0.8 Mt Unique",
+    "nombre": "Mesada de Trabajo Reforzada 1.8 x 0.8 Mt Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17323,7 +17323,7 @@
   {
     "id": "3278",
     "sku": "unq_TBS-1570",
-    "nombre": "Mesada de Trabajo Unique 1 5 X 0 70 Mt Reforzada",
+    "nombre": "Mesada de Trabajo Unique 1 5 x 0 70 Mt Reforzada",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17347,7 +17347,7 @@
   {
     "id": "3283",
     "sku": "unq_TV-10LE",
-    "nombre": "Embutidora de Chorizos Electrica Automatica 10 LTS Unique",
+    "nombre": "Embutidora de Chorizos Eléctrica Automática 10 Lts Unique",
     "categoria": "Elaboración > Carnes > Embutidoras",
     "categories": [
       "Elaboración",
@@ -17395,7 +17395,7 @@
   {
     "id": "3291",
     "sku": "unq_tbb-1870",
-    "nombre": "Mesada de Trabajo con Zocalo Unique 1.8 X 0.7 Mt Reforzada",
+    "nombre": "Mesada de Trabajo con Zocalo Unique 1.8 x 0.7 Mt Reforzada",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17419,7 +17419,7 @@
   {
     "id": "3295",
     "sku": "unq_tbb-1570",
-    "nombre": "Mesada de Trabajo con Zocalo Unique 1.5 X 0.7 Mt Reforzada",
+    "nombre": "Mesada de Trabajo con Zocalo Unique 1.5 x 0.7 Mt Reforzada",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17443,7 +17443,7 @@
   {
     "id": "3299",
     "sku": "unq_tbb-1270",
-    "nombre": "Mesada de Trabajo con Zocalo Unique 1.2 X 0.7 Mt Reforzada",
+    "nombre": "Mesada de Trabajo con Zocalo Unique 1.2 x 0.7 Mt Reforzada",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17539,7 +17539,7 @@
   {
     "id": "3318",
     "sku": "unq_TB3-1880",
-    "nombre": "Mesada de Trabajo 2 Estantes 1.8 X 0.8 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1.8 x 0.8 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17563,7 +17563,7 @@
   {
     "id": "3322",
     "sku": "unq_TB3-1580",
-    "nombre": "Mesada de Trabajo 2 Estantes 1.5 X 0.8 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1.5 x 0.8 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17587,7 +17587,7 @@
   {
     "id": "3326",
     "sku": "unq_TB3-1870",
-    "nombre": "Mesada de Trabajo 2 Estantes 1.8 X 0.7 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1.8 x 0.7 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -17611,7 +17611,7 @@
   {
     "id": "3330",
     "sku": "unq_TB3-1570",
-    "nombre": "Mesada de Trabajo 2 Estantes 1.5 X 0.7 Mt Reforzada Unique",
+    "nombre": "Mesada de Trabajo 2 Estantes 1.5 x 0.7 Mt Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -18095,7 +18095,7 @@
   {
     "id": "3480",
     "sku": "hen-4a",
-    "nombre": "Cuece Cocinador de Pasta Electrico 4 Canastos Gris",
+    "nombre": "Cuece Cocinador de Pasta Eléctrico 4 Canastos Gris",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -18141,7 +18141,7 @@
   {
     "id": "3493",
     "sku": "INS_8203_4152",
-    "nombre": "Rallador de Queso y Legumbres And con 3 Discos",
+    "nombre": "Rallador de Queso Y Legumbres And con 3 Discos",
     "categoria": "Elaboración > Procesamiento > Procesadoras",
     "categories": [
       "Elaboración",
@@ -18165,7 +18165,7 @@
   {
     "id": "3507",
     "sku": "INS_316-4030",
-    "nombre": "Sobadora Laminadora Electrica 28 Cm And Cortador Tallarines",
+    "nombre": "Sobadora Laminadora Eléctrica 28 Cm And Cortador Tallarines",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -18263,7 +18263,7 @@
   {
     "id": "3530",
     "sku": "INS_8037-4146",
-    "nombre": "Sobadora Electrica de Mesa 39 Cm Antiadherente Anodilar Rosa",
+    "nombre": "Sobadora Eléctrica de Mesa 39 Cm Antiadherente Anodilar Rosa",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -18288,7 +18288,7 @@
   {
     "id": "3535",
     "sku": "INS_8037-4147",
-    "nombre": "Sobadora Electrica de Mesa 39 Cm Verde Agua And",
+    "nombre": "Sobadora Eléctrica de Mesa 39 Cm Verde Agua And",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -18358,7 +18358,7 @@
   {
     "id": "3556",
     "sku": "ins_316-4028",
-    "nombre": "Sobadora Laminadora Electrica 28cm And Negra",
+    "nombre": "Sobadora Laminadora Eléctrica 28cm And Negra",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -18382,7 +18382,7 @@
   {
     "id": "3623",
     "sku": "UNQ_CH5L",
-    "nombre": "Chocolatera Electrica Maquina de Chocolate Caliente 5 Litros",
+    "nombre": "Chocolatera Eléctrica Maquina de Chocolate Caliente 5 Litros",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -18482,7 +18482,7 @@
   {
     "id": "3659",
     "sku": "UNQ_HEP-340A",
-    "nombre": "Horno Pizzero de Mesa Portatil Electrico Unique",
+    "nombre": "Horno Pizzero de Mesa Portatil Eléctrico Unique",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -18530,7 +18530,7 @@
   {
     "id": "3674",
     "sku": "UNQ_HEO-11",
-    "nombre": "Horno Electrico de Mesa Comercial Unique",
+    "nombre": "Horno Eléctrico de Mesa Comercial Unique",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -18556,7 +18556,7 @@
   {
     "id": "3678",
     "sku": "UNQ_HEP-01-1",
-    "nombre": "Horno Electrico de Mesa Pizzero Pizza Unique",
+    "nombre": "Horno Eléctrico de Mesa Pizzero Pizza Unique",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -18724,7 +18724,7 @@
   {
     "id": "3706",
     "sku": "UNQ_SSB-1570LR",
-    "nombre": "Mesada de Trabajo 150 X 0.7 M 1 Pileta Acero Inox Unique",
+    "nombre": "Mesada de Trabajo 150 x 0.7 M 1 Pileta Acero Inox Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -18771,7 +18771,7 @@
   {
     "id": "3716",
     "sku": "UNQ_300ES-A",
-    "nombre": "Cortadora de Fiambre Automatica Unique Disco 30 Cm",
+    "nombre": "Cortadora de Fiambre Automática Unique Disco 30 Cm",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
@@ -18841,7 +18841,7 @@
   {
     "id": "3736",
     "sku": "unq_1819",
-    "nombre": "Mesada Pileta 45x45 Cm con Zocalo y Estante Reforzada Unique",
+    "nombre": "Mesada Pileta 45x45 Cm con Zocalo Y Estante Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -18863,7 +18863,7 @@
   {
     "id": "3738",
     "sku": "",
-    "nombre": "Mesada Pileta 50x50cm con Zocalo y Estante Reforzada Unique",
+    "nombre": "Mesada Pileta 50x50cm con Zocalo Y Estante Reforzada Unique",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -19029,7 +19029,7 @@
   {
     "id": "3793",
     "sku": "Pime_CA9312MH",
-    "nombre": "Camara Fermentadora 12 Bandejas Dogado Ca9312mh",
+    "nombre": "Cámara Fermentadora 12 Bandejas Dogado Ca9312mh",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -19078,7 +19078,7 @@
   {
     "id": "3827",
     "sku": "james_3700",
-    "nombre": "Cafetera Automatica James 7000 Panel Tactil",
+    "nombre": "Cafetera Automática James 7000 Panel Tactil",
     "categoria": "Equipamiento y servicio > Café > Cafeteras profesionales",
     "categories": [
       "Equipamiento y servicio",
@@ -19153,7 +19153,7 @@
   {
     "id": "3852",
     "sku": "pime_gf-71",
-    "nombre": "Freidora Industrial a Gas Lundar Gf 71 6 Lt 1 Cuba",
+    "nombre": "Fritador Industrial a Gas Lundar Gf 71 6 Lt 1 Cuba",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -19177,7 +19177,7 @@
   {
     "id": "3856",
     "sku": "PIME_FG3D",
-    "nombre": "Freidora Doble a Gas Metvisa de 6 Litros Fg3d",
+    "nombre": "Fritador Doble a Gas Metvisa de 6 Litros Fg3d",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -19384,7 +19384,7 @@
   {
     "id": "3903",
     "sku": "dalo_etv-10l",
-    "nombre": "Embutidora Vertical Automatica Demet Etv 10l 10 Litros",
+    "nombre": "Embutidora Vertical Automática Demet Etv 10l 10 Litros",
     "categoria": "Elaboración > Carnes > Embutidoras",
     "categories": [
       "Elaboración",
@@ -20325,7 +20325,7 @@
   {
     "id": "4193",
     "sku": "SJR_CM1001",
-    "nombre": "Cafetera Automatica Expreso Tactil con Molinillo 19 Programa",
+    "nombre": "Cafetera Automática Expreso Tactil con Molinillo 19 Programa",
     "categoria": "Equipamiento y servicio > Café > Cafeteras profesionales",
     "categories": [
       "Equipamiento y servicio",
@@ -20350,7 +20350,7 @@
   {
     "id": "4210",
     "sku": "PIME_TR_L20",
-    "nombre": "Gavillar para 20 Bandejas 60 X 40 Cm Lundar Tr L20",
+    "nombre": "Gavillar para 20 Bandejas 60 x 40 Cm Lundar Tr L20",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -20373,7 +20373,7 @@
   {
     "id": "4222",
     "sku": "Pk_ar-7590",
-    "nombre": "Seca Manos Encendido Automatico Ariete Punktal",
+    "nombre": "Seca Manos Encendido Automática Ariete Punktal",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -20595,7 +20595,7 @@
   {
     "id": "4272",
     "sku": "INN_709S",
-    "nombre": "Mesada Acero Inox 140 X 70 Cm Innal",
+    "nombre": "Mesada Acero Inox 140 x 70 Cm Innal",
     "categoria": "Descuentos, Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Descuentos, Equipamiento y servicio",
@@ -20619,7 +20619,7 @@
   {
     "id": "4277",
     "sku": "INN_ML1C55X117-G",
-    "nombre": "Mesada Acero Inox con Pileta 117 X 55 Cm Innal",
+    "nombre": "Mesada Acero Inox con Pileta 117 x 55 Cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20643,7 +20643,7 @@
   {
     "id": "4281",
     "sku": "INN_711S",
-    "nombre": "Mesada Acero Inox 190 X 90 Cm Innal",
+    "nombre": "Mesada Acero Inox 190 x 90 Cm Innal",
     "categoria": "Descuentos, Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Descuentos, Equipamiento y servicio",
@@ -20667,7 +20667,7 @@
   {
     "id": "4285",
     "sku": "inn_210S",
-    "nombre": "Mesada Acero Inox 190 X 90 Cm Innal 2",
+    "nombre": "Mesada Acero Inox 190 x 90 Cm Innal 2",
     "categoria": "Descuentos, Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Descuentos, Equipamiento y servicio",
@@ -20691,7 +20691,7 @@
   {
     "id": "4289",
     "sku": "INN_170S",
-    "nombre": "Mesada Acero Inox 140 X 70 Cm Innal con Estante Rejilla",
+    "nombre": "Mesada Acero Inox 140 x 70 Cm Innal con Estante Rejilla",
     "categoria": "Descuentos, Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Descuentos, Equipamiento y servicio",
@@ -20717,7 +20717,7 @@
   {
     "id": "4295",
     "sku": "INN_ML55X190-G",
-    "nombre": "Mesada Acero Inox 190 X 55cm Innal",
+    "nombre": "Mesada Acero Inox 190 x 55cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20741,7 +20741,7 @@
   {
     "id": "4299",
     "sku": "INN_710S",
-    "nombre": "Mesada Acero Inox 190 X 70 Cm Innal",
+    "nombre": "Mesada Acero Inox 190 x 70 Cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20765,7 +20765,7 @@
   {
     "id": "4303",
     "sku": "INN_708S",
-    "nombre": "Mesada Acero Inox 112 X 70 Cm Innal",
+    "nombre": "Mesada Acero Inox 112 x 70 Cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20813,7 +20813,7 @@
   {
     "id": "4311",
     "sku": "INN_150S",
-    "nombre": "Mesada de Trabajo Acero Inox 112 X 70 Cm Innal",
+    "nombre": "Mesada de Trabajo Acero Inox 112 x 70 Cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20837,7 +20837,7 @@
   {
     "id": "4316",
     "sku": "INN_140S",
-    "nombre": "Mesada Acero Inox 112 X 70 Cm Innal 2",
+    "nombre": "Mesada Acero Inox 112 x 70 Cm Innal 2",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20862,7 +20862,7 @@
   {
     "id": "4321",
     "sku": "INN_MF60X60",
-    "nombre": "Mesada Acero Inox 60 X 60cm para Horno con Gavillar Innal",
+    "nombre": "Mesada Acero Inox 60 x 60cm para Horno con Gavillar Innal",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -20886,7 +20886,7 @@
   {
     "id": "4325",
     "sku": "INN_ML55X117-G",
-    "nombre": "Mesada Acero Inox 117 X 55cm Innal",
+    "nombre": "Mesada Acero Inox 117 x 55cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20910,7 +20910,7 @@
   {
     "id": "4329",
     "sku": "INN_ML55X93-G",
-    "nombre": "Mesada Acero Inox 93 X 55cm Innal",
+    "nombre": "Mesada Acero Inox 93 x 55cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -20935,7 +20935,7 @@
   {
     "id": "4334",
     "sku": "INN_580-D",
-    "nombre": "Bandeja Asadera Lisa 58 X 68 Cm Innal",
+    "nombre": "Bandeja Asadera Lisa 58 x 68 Cm Innal",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -20959,7 +20959,7 @@
   {
     "id": "4338",
     "sku": "INN_460-D",
-    "nombre": "Bandeja Asadera Lisa 60 X 40 Cm Innal",
+    "nombre": "Bandeja Asadera Lisa 60 x 40 Cm Innal",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos, Descuentos",
     "categories": [
       "Equipamiento y servicio",
@@ -20983,7 +20983,7 @@
   {
     "id": "4342",
     "sku": "INN_460-4",
-    "nombre": "Bandeja Asadera Perforada Ondulada 60 X 40 Cm Innal",
+    "nombre": "Bandeja Asadera Perforada Ondulada 60 x 40 Cm Innal",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -21034,7 +21034,7 @@
   {
     "id": "4369",
     "sku": "INN_ML2C55X190-G",
-    "nombre": "Mesada de Trabajo Acero Inox Doble Pileta 190 X 55 Cm Innal",
+    "nombre": "Mesada de Trabajo Acero Inox Doble Pileta 190 x 55 Cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -21084,7 +21084,7 @@
   {
     "id": "4379",
     "sku": "INN_ML1C55X190-G",
-    "nombre": "Mesada de Trabajo Acero Inox con Pileta 190 X 55 Cm Innal",
+    "nombre": "Mesada de Trabajo Acero Inox con Pileta 190 x 55 Cm Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -21132,7 +21132,7 @@
   {
     "id": "4389",
     "sku": "FLP4B2DP5",
-    "nombre": "Anafe Comercial Gas 4 Quemadores Llama Simple y Doble Innal",
+    "nombre": "Anafe Comercial Gas 4 Quemadores Llama Simple Y Doble Innal",
     "categoria": "Cocción > Calor > Anafes y quemadores, Descuentos",
     "categories": [
       "Cocción",
@@ -21154,7 +21154,7 @@
   {
     "id": "4391",
     "sku": "INN_FLP6B3DP5",
-    "nombre": "Anafe Comercial Gas 6 Quemadores Llama Simple y Doble Innal",
+    "nombre": "Anafe Comercial Gas 6 Quemadores Llama Simple Y Doble Innal",
     "categoria": "Cocción > Calor > Anafes y quemadores, Descuentos",
     "categories": [
       "Cocción",
@@ -21176,7 +21176,7 @@
   {
     "id": "4393",
     "sku": "INN_FLP2B1DP5",
-    "nombre": "Anafe Comercial Gas Innal 2 Quemadores Llama Simple y Doble",
+    "nombre": "Anafe Comercial Gas Innal 2 Quemadores Llama Simple Y Doble",
     "categoria": "Cocción > Calor > Anafes y quemadores",
     "categories": [
       "Cocción",
@@ -21267,7 +21267,7 @@
   {
     "id": "4426",
     "sku": "UNQ_HP-16A",
-    "nombre": "Maquina Pop Popera Electrica Grande 2 34 Kw Comercial",
+    "nombre": "Maquina Pop Popera Eléctrica Grande 2 34 Kw Comercial",
     "categoria": "Descuentos, Elaboración > Otros > Dulces y helados",
     "categories": [
       "Descuentos, Elaboración",
@@ -21292,7 +21292,7 @@
   {
     "id": "4431",
     "sku": "UNQ_LSP10LX2",
-    "nombre": "Dispensador de Jugos 2 Cubas X 10 Lt C Enfriamiento Unique C",
+    "nombre": "Dispensador de Jugos 2 Cubas x 10 Lt C Enfriamiento Unique C",
     "categoria": "Descuentos, Equipamiento y servicio > Bebidas > Jugos y licuados",
     "categories": [
       "Descuentos, Equipamiento y servicio",
@@ -21314,7 +21314,7 @@
   {
     "id": "4435",
     "sku": "UNQ_HCM-400",
-    "nombre": "Crepera Panquequera Electrica Comercial 40 Cm Unique",
+    "nombre": "Crepera Panquequera Eléctrica Comercial 40 Cm Unique",
     "categoria": "Cocción > Bocadillos > Creperas, Descuentos",
     "categories": [
       "Cocción",
@@ -21434,7 +21434,7 @@
   {
     "id": "4466",
     "sku": "UNQ_HEN-4HX",
-    "nombre": "Cocinador Cuece Pasta Comercial 4 Canastos Electrico Unique",
+    "nombre": "Cocinador Cuece Pasta Comercial 4 Canastos Eléctrico Unique",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -21458,7 +21458,7 @@
   {
     "id": "4470",
     "sku": "UNQ_HES-E2",
-    "nombre": "Horno Spiedo para Shawarma Electrico 3 Quemadores Unique",
+    "nombre": "Horno Spiedo para Shawarma Eléctrico 3 Quemadores Unique",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -21530,7 +21530,7 @@
   {
     "id": "4483",
     "sku": "UNQ_HEG-500",
-    "nombre": "Plancha Chivetera Electrica 50x40 Cm Unique",
+    "nombre": "Plancha Chivetera Eléctrica 50x40 Cm Unique",
     "categoria": "Descuentos, Cocción > A la plancha > Planchas",
     "categories": [
       "Descuentos, Cocción",
@@ -21554,7 +21554,7 @@
   {
     "id": "4498",
     "sku": "hef82a",
-    "nombre": "Freidora Industrial 12l Gris Grupo Mayor",
+    "nombre": "Fritador Industrial 12l Gris Grupo Mayor",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -21746,7 +21746,7 @@
   {
     "id": "4718",
     "sku": "1261115",
-    "nombre": "Molinillo de Cafe Delonghi Electrico 3 Ajustes 12 Tazas Dimm Color Negro",
+    "nombre": "Molinillo de Cafe Delonghi Eléctrico 3 Ajustes 12 Tazas Dimm Color Negro",
     "categoria": "Equipamiento y servicio > Café > Molinillos de café",
     "categories": [
       "Equipamiento y servicio",
@@ -21774,7 +21774,7 @@
   {
     "id": "4726",
     "sku": "1261010",
-    "nombre": "Cafetera Portatil Delonghi Dedica Ec685 Automatica Roja Expreso",
+    "nombre": "Cafetera Portatil Delonghi Dedica Ec685 Automática Roja Expreso",
     "categoria": "Equipamiento y servicio > Café > Cafeteras profesionales",
     "categories": [
       "Equipamiento y servicio",
@@ -22119,7 +22119,7 @@
   {
     "id": "4828",
     "sku": "JS_JS-E50C",
-    "nombre": "Olla Arrocera Electrica Inteligente Smart Josoo 900w 5lt",
+    "nombre": "Olla Arrocera Eléctrica Inteligente Smart Josoo 900w 5lt",
     "categoria": "Cocción > Bocadillos > Arroceras",
     "categories": [
       "Cocción",
@@ -22292,7 +22292,7 @@
   {
     "id": "4870",
     "sku": "",
-    "nombre": "Vitrina Comercial Enxuta 309lts con Cenefa LED Dimm Color Blanco",
+    "nombre": "Vitrina Comercial Enxuta 309lts con Cenefa Led Dimm Color Blanco",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -22465,7 +22465,7 @@
   {
     "id": "4933",
     "sku": "INN_ML1C55X93-G",
-    "nombre": "Mesada de Trabajo Acero Inox 93 X 55 Cm con Pileta Innal",
+    "nombre": "Mesada de Trabajo Acero Inox 93 x 55 Cm con Pileta Innal",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -22558,7 +22558,7 @@
   {
     "id": "5054",
     "sku": "PIME_SL300ES",
-    "nombre": "Cortadora de Fiambre Electrica 30cm Ziliani Sl300es",
+    "nombre": "Cortadora de Fiambre Eléctrica 30cm Ziliani Sl300es",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
@@ -22582,7 +22582,7 @@
   {
     "id": "5058",
     "sku": "PIME_SL250ES",
-    "nombre": "Cortadora de Fiambre Electrica 25 Cm Ziliani Sl250es",
+    "nombre": "Cortadora de Fiambre Eléctrica 25 Cm Ziliani Sl250es",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
@@ -22606,7 +22606,7 @@
   {
     "id": "5066",
     "sku": "PIME_SL-330",
-    "nombre": "Cortadora de Fiambre Automatica Manual Ziliani 33 Cm",
+    "nombre": "Cortadora de Fiambre Automática Manual Ziliani 33 Cm",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
@@ -22628,7 +22628,7 @@
   {
     "id": "5068",
     "sku": "PIME_SL-300",
-    "nombre": "Cortadora de Fiambre Automatica Manual Ziliani 30 Cm",
+    "nombre": "Cortadora de Fiambre Automática Manual Ziliani 30 Cm",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
@@ -22697,7 +22697,7 @@
   {
     "id": "5100",
     "sku": "PIME_CH-HOR",
-    "nombre": "Chivetero a Gas con Plancha Gratinador y Hornalla Morelli",
+    "nombre": "Chivetero a Gas con Plancha Gratinador Y Hornalla Morelli",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -22790,7 +22790,7 @@
   {
     "id": "5116",
     "sku": "TITA_FGED_MAXX_5BDIG",
-    "nombre": "Horno Comercial Tita Giratorio Electrico 5 Bandejas Digital",
+    "nombre": "Horno Comercial Tita Giratorio Eléctrico 5 Bandejas Digital",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -22814,7 +22814,7 @@
   {
     "id": "5120",
     "sku": "PIME_fge_rack4b_dig",
-    "nombre": "Horno de Mesa Electrico Tita Giratorio 4 Bandejas Digital",
+    "nombre": "Horno de Mesa Eléctrico Tita Giratorio 4 Bandejas Digital",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -22838,7 +22838,7 @@
   {
     "id": "5124",
     "sku": "TITA_FGE-4B",
-    "nombre": "Horno Electrico de Sobremesa Tita Horno Rotativo Horno Fge4 de Acero Inoxidable",
+    "nombre": "Horno Eléctrico de Sobremesa Tita Horno Rotativo Horno Fge4 de Acero Inoxidable",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -22934,7 +22934,7 @@
   {
     "id": "5139",
     "sku": "TITA_FETPD_MAXX5A_DIG",
-    "nombre": "Horno Comercial Tita Electrico Digital 5 Bandejas Fetpd Maxx",
+    "nombre": "Horno Comercial Tita Eléctrico Digital 5 Bandejas Fetpd Maxx",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -23026,7 +23026,7 @@
   {
     "id": "5269",
     "sku": "LP_3en1",
-    "nombre": "Raviolera Tallarinera y Noquera Automatica la Picola",
+    "nombre": "Raviolera Tallarinera Y Noquera Automática la Picola",
     "categoria": "Elaboración > Masas > Máquinas de pasta",
     "categories": [
       "Elaboración",
@@ -23053,7 +23053,7 @@
   {
     "id": "5276",
     "sku": "LP_0001",
-    "nombre": "Noquera Maquina de Noquis Automatica Electrica la Picola",
+    "nombre": "Noquera Maquina de Noquis Automática Eléctrica la Picola",
     "categoria": "Elaboración > Masas > Máquinas de pasta",
     "categories": [
       "Elaboración",
@@ -23078,7 +23078,7 @@
   {
     "id": "5281",
     "sku": "INS_7397-3562",
-    "nombre": "Nivelador de Cobertura para Tortas Electrico Rosa Liso And",
+    "nombre": "Nivelador de Cobertura para Tortas Eléctrico Rosa Liso And",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -23106,7 +23106,7 @@
   {
     "id": "5291",
     "sku": "JC_XI-HV100",
-    "nombre": "Vitrina Refrigerada Para Mostrador 100 Litros Xion Xi-hv100 Estilo De Vidrio Curvo",
+    "nombre": "Vitrina Refrigerada para Mostrador 100 Litros Xion Xi-hv100 Estilo de Vidrio Curvo",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -23151,7 +23151,7 @@
   {
     "id": "5301",
     "sku": "JC_ XI-H330",
-    "nombre": "Heladeras Vitrinas Refrigeradas Botellero Xion 330 LTS",
+    "nombre": "Heladeras Vitrinas Refrigeradas Botellero Xion 330 Lts",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -23171,7 +23171,7 @@
   {
     "id": "5306",
     "sku": "JC_ XI-H192",
-    "nombre": "Heladera Vitrina Expositor Botellero Comercial Xion 192 LTS",
+    "nombre": "Heladera Vitrina Expositor Botellero Comercial Xion 192 Lts",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -23290,7 +23290,7 @@
   {
     "id": "5338",
     "sku": "INS_7521-3808",
-    "nombre": "Sobadora Industrial de Mesa And 39 Cm 1 HP",
+    "nombre": "Sobadora Industrial de Mesa And 39 Cm 1 Hp",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -23397,7 +23397,7 @@
   {
     "id": "5384",
     "sku": "PIME_PR-70E",
-    "nombre": "Freidora Industrial Progas Pr 70 el 7l Plateada 50 Hz X 60 Hz",
+    "nombre": "Fritador Industrial Progas Pr 70 el 7l Plateada 50 Hz x 60 Hz",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23425,7 +23425,7 @@
   {
     "id": "5392",
     "sku": "PIME_PR-150E",
-    "nombre": "Fritador Electrico Progas Pr 150e 18 Lt Agua y Aceite",
+    "nombre": "Fritador Eléctrico Progas Pr 150e 18 Lt Agua Y Aceite",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23447,7 +23447,7 @@
   {
     "id": "5395",
     "sku": "PIME_PR-100E",
-    "nombre": "Freidora Industrial Progas Pr 100 E 18l Plata",
+    "nombre": "Fritador Industrial Progas Pr 100 E 18l Plata",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -23469,7 +23469,7 @@
   {
     "id": "5397",
     "sku": "PIME_PR-20G",
-    "nombre": "Freidora a Gas Rectangular Progas Pr 20g GN 2 Cestas",
+    "nombre": "Fritador a Gas Rectangular Progas Pr 20g Gn 2 Cestas",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23493,7 +23493,7 @@
   {
     "id": "5401",
     "sku": "PIME_PR-10G",
-    "nombre": "Freidora Industrial Progas Style Pr 10 G G2 4l de Acero Inoxidable",
+    "nombre": "Fritador Industrial Progas Style Pr 10 G G2 4l de Acero Inoxidable",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23590,7 +23590,7 @@
   {
     "id": "5468",
     "sku": "PIME_F-35AUTO",
-    "nombre": "Morelli Freidora a Gas Alto Rendimiento F 35 Potenciada para 35 Litros Acero Inoxidable",
+    "nombre": "Morelli Fritador a Gas Alto Rendimiento F 35 Potenciada para 35 Litros Acero Inoxidable",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23636,7 +23636,7 @@
   {
     "id": "5474",
     "sku": "PIME_F-35",
-    "nombre": "Freidora Auto Industrial Morelli F 35 35l Acero Inoxidable",
+    "nombre": "Fritador Auto Industrial Morelli F 35 35l Acero Inoxidable",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23663,7 +23663,7 @@
   {
     "id": "5481",
     "sku": "PIME_F-15",
-    "nombre": "Freidora Industrial Morelli Potenciado F 15 15l Acero Inox Color Acero Inoxidable",
+    "nombre": "Fritador Industrial Morelli Potenciado F 15 15l Acero Inox Color Acero Inoxidable",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23862,7 +23862,7 @@
   {
     "id": "5522",
     "sku": "UNQ_CC-01A",
-    "nombre": "Maquina de Algodon de Azucar Unique Cc 01a",
+    "nombre": "Maquina de Algodón de Azucar Unique Cc 01a",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -23886,7 +23886,7 @@
   {
     "id": "5527",
     "sku": "unq_6l+6l+6l",
-    "nombre": "Fritador Electrico 3 Cubas 6 Lt Cada Una Unique",
+    "nombre": "Fritador Eléctrico 3 Cubas 6 Lt Cada Una Unique",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -23911,7 +23911,7 @@
   {
     "id": "5532",
     "sku": "UNQ_6L+6L",
-    "nombre": "Fritador Electrico Dos Cubas 6.6 Lt Unique con Tapa",
+    "nombre": "Fritador Eléctrico Dos Cubas 6.6 Lt Unique con Tapa",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -24051,7 +24051,7 @@
   {
     "id": "5563",
     "sku": "GP_CS500",
-    "nombre": "Sobadora G Paniz de Pie Cilindro 500 Mm 1.5 HP 220v Reforzad",
+    "nombre": "Sobadora G Paniz de Pie Cilindro 500 Mm 1.5 Hp 220v Reforzad",
     "categoria": "Descuentos, Elaboración > Masas > Sobadoras",
     "categories": [
       "Descuentos, Elaboración",
@@ -24101,7 +24101,7 @@
   {
     "id": "5579",
     "sku": "GP_AE15G2",
-    "nombre": "Amasadora en Espiral de Acero Inoxidable de 3 Velocidades de 15 Kg Ae15 G2 Gpaniz 220v Monofasica",
+    "nombre": "Amasadora en Espiral de Acero Inoxidable de 3 Velocidades de 15 Kg Ae15 G2 Gpaniz 220v Monofásica",
     "categoria": "Elaboración > Masas > Amasadoras, Descuentos",
     "categories": [
       "Elaboración",
@@ -24128,7 +24128,7 @@
   {
     "id": "5588",
     "sku": "TG_FETP4A",
-    "nombre": "Horno Electrico de Encimera Tita Fetp 4 de Acero Inoxidable",
+    "nombre": "Horno Eléctrico de Encimera Tita Fetp 4 de Acero Inoxidable",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -24152,7 +24152,7 @@
   {
     "id": "5593",
     "sku": "TG_FETP4A_DIG",
-    "nombre": "Horno Electrico de Sobremesa 4 Bandejas para Hornear Digital Fetpd4 Tita",
+    "nombre": "Horno Eléctrico de Sobremesa 4 Bandejas para Hornear Digital Fetpd4 Tita",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -24198,7 +24198,7 @@
   {
     "id": "5600",
     "sku": "MC_FOE-15M",
-    "nombre": "Freidora Industrial Metalcubas Foe 15 M 15l Agua y Aceite",
+    "nombre": "Fritador Industrial Metalcubas Foe 15 M 15l Agua Y Aceite",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -24222,7 +24222,7 @@
   {
     "id": "5605",
     "sku": "MC_GFAO-30P",
-    "nombre": "Freidora Electrica de Agua y Aceite Metalcubas 29l Gfao30p",
+    "nombre": "Fritador Eléctrica de Agua Y Aceite Metalcubas 29l Gfao30p",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -24319,7 +24319,7 @@
   {
     "id": "5625",
     "sku": "GP_FLE800PG",
-    "nombre": "Horno Pizzero Electrico Piedra Refactaria para Pizza 80x60",
+    "nombre": "Horno Pizzero Eléctrico Piedra Refactaria para Pizza 80x60",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -24343,7 +24343,7 @@
   {
     "id": "5629",
     "sku": "GP_SF310",
-    "nombre": "Sierra para Carne Carnicera G Paniz Sf 310 2 HP de Pie",
+    "nombre": "Sierra para Carne Carnicera G Paniz Sf 310 2 Hp de Pie",
     "categoria": "Elaboración > Carnes > Picadoras",
     "categories": [
       "Elaboración",
@@ -24389,7 +24389,7 @@
   {
     "id": "5639",
     "sku": "MC_FOE-15P",
-    "nombre": "Freidora Industrial Metalcubas Foe 15 P 8000w 15l Acero Inoxidable",
+    "nombre": "Fritador Industrial Metalcubas Foe 15 P 8000w 15l Acero Inoxidable",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -24459,7 +24459,7 @@
   {
     "id": "5706",
     "sku": "PIME_FIG20",
-    "nombre": "Fritador Metvisa Fig20 a Gas 20 Lt con Corte Automatico",
+    "nombre": "Fritador Metvisa Fig20 a Gas 20 Lt con Corte Automática",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -24508,7 +24508,7 @@
   {
     "id": "5718",
     "sku": "UNQ_ERC-23LA",
-    "nombre": "Olla Arrocera 8 Lt Electrica Unique",
+    "nombre": "Olla Arrocera 8 Lt Eléctrica Unique",
     "categoria": "Cocción > Bocadillos > Arroceras",
     "categories": [
       "Cocción",
@@ -24530,7 +24530,7 @@
   {
     "id": "5721",
     "sku": "UNQ_MDXZ-16A",
-    "nombre": "Fritador Electrico de Presion 16 Lt Unique",
+    "nombre": "Fritador Eléctrico de Presion 16 Lt Unique",
     "categoria": "Descuentos, Cocción > Calor > Freidoras",
     "categories": [
       "Descuentos, Cocción",
@@ -24554,7 +24554,7 @@
   {
     "id": "5725",
     "sku": "UNQ_ERC-10LA",
-    "nombre": "Olla Arrocera Electrica Unique 4.2 Lt",
+    "nombre": "Olla Arrocera Eléctrica Unique 4.2 Lt",
     "categoria": "Cocción > Bocadillos > Arroceras",
     "categories": [
       "Cocción",
@@ -24671,7 +24671,7 @@
   {
     "id": "5746",
     "sku": "UNQ_ERC-18LA",
-    "nombre": "Olla Arrocera 6.6 Lt Electrica Unique",
+    "nombre": "Olla Arrocera 6.6 Lt Eléctrica Unique",
     "categoria": "Cocción > Bocadillos > Arroceras",
     "categories": [
       "Cocción",
@@ -24696,7 +24696,7 @@
   {
     "id": "5751",
     "sku": "UNQ_HT36",
-    "nombre": "Olla Arrocera 3.6 Lt Electrica Unique Todo Gastro",
+    "nombre": "Olla Arrocera 3.6 Lt Eléctrica Unique Todo Gastro",
     "categoria": "Cocción > Bocadillos > Arroceras",
     "categories": [
       "Cocción",
@@ -24838,7 +24838,7 @@
   {
     "id": "5822",
     "sku": "UNQ_HSD-B36-G12",
-    "nombre": "Cocina a Gas Industrial con Plancha y 4 Hornallas Americano",
+    "nombre": "Cocina a Gas Industrial con Plancha Y 4 Hornallas Americano",
     "categoria": "Descuentos, Cocción > A la plancha > Planchas",
     "categories": [
       "Descuentos, Cocción",
@@ -25052,7 +25052,7 @@
   {
     "id": "5860",
     "sku": "JLC_1410",
-    "nombre": "Licuadora Industrial Jl Colombo 2 Litros 3500 RPM 700 W",
+    "nombre": "Licuadora Industrial Jl Colombo 2 Litros 3500 Rpm 700 W",
     "categoria": "Descuentos, Elaboración > Procesamiento > Licuadoras y batidoras",
     "categories": [
       "Descuentos, Elaboración",
@@ -25076,7 +25076,7 @@
   {
     "id": "5864",
     "sku": "JLC_1450",
-    "nombre": "Licuadora Industrial de Baja Rotacion de 10 Litros y 800 Vatios Color Acero Inoxidable",
+    "nombre": "Licuadora Industrial de Baja Rotacion de 10 Litros Y 800 Vatios Color Acero Inoxidable",
     "categoria": "Elaboración > Procesamiento > Licuadoras y batidoras",
     "categories": [
       "Elaboración",
@@ -25317,7 +25317,7 @@
   {
     "id": "5930",
     "sku": "UNQ_UN40-5P",
-    "nombre": "Abatidor de 5 Bandejas 60 X 40 Cm Unique",
+    "nombre": "Abatidor de 5 Bandejas 60 x 40 Cm Unique",
     "categoria": "Refrigeración > Producción > Abatidores",
     "categories": [
       "Refrigeración",
@@ -25511,7 +25511,7 @@
   {
     "id": "6020",
     "sku": "TD_FTT-150E",
-    "nombre": "Horno Electrico Turbo Ftt150e de 5 Correas 58 X 70 Cm Tedesco Color Gris 220 Monofasico",
+    "nombre": "Horno Eléctrico Turbo Ftt150e de 5 Correas 58 x 70 Cm Tedesco Color Gris 220 Monofasico",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -25588,7 +25588,7 @@
   {
     "id": "6033",
     "sku": "UNQ_UN40-10P",
-    "nombre": "Abatidor de Temperatura para 10 Bandejas 60 X 40 Cm Unique",
+    "nombre": "Abatidor de Temperatura para 10 Bandejas 60 x 40 Cm Unique",
     "categoria": "Refrigeración > Producción > Abatidores",
     "categories": [
       "Refrigeración",
@@ -25714,7 +25714,7 @@
   {
     "id": "6063",
     "sku": "TD_FTT-300E trif",
-    "nombre": "Horno Turbo Electrico 10 Bandejas Ftt300e Trif 220 V Tedesco",
+    "nombre": "Horno Turbo Eléctrico 10 Bandejas Ftt300e Trif 220 V Tedesco",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -25881,7 +25881,7 @@
   {
     "id": "6124",
     "sku": "UNQ_PM-6A",
-    "nombre": "Maquina de Pop Popera Unique Pm 6a Electrica Profesional",
+    "nombre": "Maquina de Pop Popera Unique Pm 6a Eléctrica Profesional",
     "categoria": "Elaboración > Otros > Dulces y helados",
     "categories": [
       "Elaboración",
@@ -25929,7 +25929,7 @@
   {
     "id": "6132",
     "sku": "UNQ_UHC-2",
-    "nombre": "Horno Spiedo Shawarma Electrico 29x27x48 Cm",
+    "nombre": "Horno Spiedo Shawarma Eléctrico 29x27x48 Cm",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -25983,7 +25983,7 @@
   {
     "id": "6147",
     "sku": "UNQ_HSD-B60-G24",
-    "nombre": "Cocina Industrial a Gas Inox 6 Hornallas Plancha y 2 Hornos",
+    "nombre": "Cocina Industrial a Gas Inox 6 Hornallas Plancha Y 2 Hornos",
     "categoria": "Cocción > Calor > Cocinas y hornos, Descuentos",
     "categories": [
       "Cocción",
@@ -26035,7 +26035,7 @@
   {
     "id": "6159",
     "sku": "UNQ_HSD-B60-G24S",
-    "nombre": "Cocina a Gas Industrial Plancha y Gratinador Est Americano",
+    "nombre": "Cocina a Gas Industrial Plancha Y Gratinador Est Americano",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -26144,7 +26144,7 @@
   {
     "id": "6188",
     "sku": "UNQ_HGF-71AF",
-    "nombre": "Fritador a Gas Unique Termostato y Canilla de Desagote 15lt",
+    "nombre": "Fritador a Gas Unique Termostato Y Canilla de Desagote 15lt",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -26195,7 +26195,7 @@
   {
     "id": "6199",
     "sku": "UNQ_HBT-1200",
-    "nombre": "Mesada Electrica para Empanado Unique 1 12x0 5x0 86 Mt",
+    "nombre": "Mesada Eléctrica para Empanado Unique 1 12x0 5x0 86 Mt",
     "categoria": "Descuentos, Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Descuentos, Equipamiento y servicio",
@@ -26687,7 +26687,7 @@
   {
     "id": "6322",
     "sku": "PIME_500",
-    "nombre": "Sobadora de Pie 50 Cm Ma Ar Acrilic 3 HP Reforzada",
+    "nombre": "Sobadora de Pie 50 Cm Ma Ar Acrilic 3 Hp Reforzada",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -26777,7 +26777,7 @@
   {
     "id": "6326",
     "sku": "PIME_GESK_190",
-    "nombre": "Freezer Pozo Frio Gelopar 670 LTS Vidrios Curvos Luz LED",
+    "nombre": "Freezer Pozo Frio Gelopar 670 Lts Vidrios Curvos Luz Led",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -27474,7 +27474,7 @@
   {
     "id": "6493",
     "sku": "UX-XF043",
-    "nombre": "Horno Unox con Convector Domenica 4 Bandejas 60 X 40 Cm",
+    "nombre": "Horno Unox con Convector Domenica 4 Bandejas 60 x 40 Cm",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -27530,7 +27530,7 @@
   {
     "id": "6509",
     "sku": "UX-XEVC-1011-E1RM",
-    "nombre": "Horno Unox Electrico Chef Top Mind One 10 Bandejas GN 1 1",
+    "nombre": "Horno Unox Eléctrico Chef Top Mind One 10 Bandejas Gn 1 1",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -27613,7 +27613,7 @@
   {
     "id": "6532",
     "sku": "UX-XEFT-10EU-ELRV",
-    "nombre": "Horno Unox LED Camilla 10 Bandejas 60 X 40 Cm",
+    "nombre": "Horno Unox Led Camilla 10 Bandejas 60 x 40 Cm",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -27639,7 +27639,7 @@
   {
     "id": "6538",
     "sku": "UX-EFT-06EU-ELRV",
-    "nombre": "Horno Unox LED Vittoria 6 Bandejas 60 X 40 Cm",
+    "nombre": "Horno Unox Led Vittoria 6 Bandejas 60 x 40 Cm",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -27668,7 +27668,7 @@
   {
     "id": "6547",
     "sku": "UX-XEFT-04EU-ELDV",
-    "nombre": "Unox Horno Electrico Conveccion Industrial Xafr 04fs Etdv Rosella",
+    "nombre": "Unox Horno Eléctrico Conveccion Industrial Xafr 04fs Etdv Rosella",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -27852,7 +27852,7 @@
   {
     "id": "6588",
     "sku": "",
-    "nombre": "Freezer Vertical James 82 LTS Clase a Fvj 100 Kn Color Blanco 2",
+    "nombre": "Freezer Vertical James 82 Lts Clase a Fvj 100 Kn Color Blanco 2",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -27876,7 +27876,7 @@
   {
     "id": "6589",
     "sku": "",
-    "nombre": "Freezer Heladera James 150 Horizontal Doble Accion Color Blanco 2",
+    "nombre": "Freezer James 150 Horizontal Doble Accion Color Blanco 2",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -27967,7 +27967,7 @@
   {
     "id": "6605",
     "sku": "",
-    "nombre": "Crepera Electrica Progas Prk 06 Plateado 6 Cavidades 1750w",
+    "nombre": "Crepera Eléctrica Progas Prk 06 Plateado 6 Cavidades 1750w",
     "categoria": "Cocción > Bocadillos > Creperas, Descuentos",
     "categories": [
       "Cocción",
@@ -27990,7 +27990,7 @@
   {
     "id": "6610",
     "sku": "ACS-C LCD",
-    "nombre": "Balanza Comercial Digital Mercocity C LCD 30kg Pantalla Cliente Teclado Blanco",
+    "nombre": "Balanza Comercial Digital Mercocity C Lcd 30kg Pantalla Cliente Teclado Blanco",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -28037,7 +28037,7 @@
   {
     "id": "6620",
     "sku": "ACS-L2 LED",
-    "nombre": "Balanza Electronica LED con Calculo de Precio y Torre 30kg",
+    "nombre": "Balanza Electronica Led con Calculo de Precio Y Torre 30kg",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -28126,7 +28126,7 @@
   {
     "id": "6641",
     "sku": "XI-H550NF",
-    "nombre": "Heladera Vitrina Comercial Xion 550 LTS Frio Seco Xi H550nf Color Negro",
+    "nombre": "Heladera Vitrina Comercial Xion 550 Lts Frio Seco Xi H550nf Color Negro",
     "categoria": "Refrigeración > Exhibición > Vitrinas",
     "categories": [
       "Refrigeración",
@@ -28218,7 +28218,7 @@
   {
     "id": "6653",
     "sku": "HSD-3",
-    "nombre": "Freidora a Gas 23 Lt Potenciado Unique 3 Quemadores",
+    "nombre": "Fritador a Gas 23 Lt Potenciado Unique 3 Quemadores",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -28244,7 +28244,7 @@
   {
     "id": "6659",
     "sku": "SARO_FT22",
-    "nombre": "Lampara de Cocina Electrica de 4 Vias con Horno Turbo de 220 V",
+    "nombre": "Lampara de Cocina Eléctrica de 4 Vias con Horno Turbo de 220 V",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -28521,7 +28521,7 @@
   {
     "id": "6719",
     "sku": "5002524",
-    "nombre": "Pan Clasico de Aluminio Pulido 27 X 10 X 6 Cm Panelux",
+    "nombre": "Pan Clasico de Aluminio Pulido 27 x 10 x 6 Cm Panelux",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -28543,7 +28543,7 @@
   {
     "id": "6721",
     "sku": "5002523",
-    "nombre": "Panelux Molde Rectangular de Aluminio 23 X 10 Cm",
+    "nombre": "Panelux Molde Rectangular de Aluminio 23 x 10 Cm",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -28589,7 +28589,7 @@
   {
     "id": "6725",
     "sku": "5002525",
-    "nombre": "Forma Clasica de Pudin de Alumbre Pulido 22 X 10 Cm Panelux",
+    "nombre": "Forma Clasica de Pudin de Alumbre Pulido 22 x 10 Cm Panelux",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -28610,7 +28610,7 @@
   {
     "id": "6730",
     "sku": "5002522",
-    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 28 X 7 Cm",
+    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 28 x 7 Cm",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -28630,7 +28630,7 @@
   {
     "id": "6731",
     "sku": "5002522",
-    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 28 X 7 Cm 2",
+    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 28 x 7 Cm 2",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -28650,7 +28650,7 @@
   {
     "id": "6734",
     "sku": "5002521",
-    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 24 X 7 Cm Aluminio",
+    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 24 x 7 Cm Aluminio",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -28670,7 +28670,7 @@
   {
     "id": "6735",
     "sku": "",
-    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 24 X 7 Cm Aluminio 2",
+    "nombre": "Panelux Clasico con Forma de Pajita de Alumbre Pulido de 24 x 7 Cm Aluminio 2",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -28692,7 +28692,7 @@
   {
     "id": "6738",
     "sku": "5002527",
-    "nombre": "Panelux Clasico de Alumbre Pulido con Forma Redonda de 28 X 7 Cm",
+    "nombre": "Panelux Clasico de Alumbre Pulido con Forma Redonda de 28 x 7 Cm",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -28712,7 +28712,7 @@
   {
     "id": "6740",
     "sku": "5002526",
-    "nombre": "Panelux Clasico de Aluminio Pulido con Forma Redonda de 24 X 7 Cm",
+    "nombre": "Panelux Clasico de Aluminio Pulido con Forma Redonda de 24 x 7 Cm",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -28954,7 +28954,7 @@
   {
     "id": "6788",
     "sku": "5000186",
-    "nombre": "Sarten Clasica Panelux Gris N o 20 Negro",
+    "nombre": "Sarten Clasica Panelux Gris N O 20 Negro",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -29065,7 +29065,7 @@
   {
     "id": "6801",
     "sku": "5002619",
-    "nombre": "Magnifico Juego de Utensilios de Cocina Panelux de Aluminio y Grafito de 6 Piezas",
+    "nombre": "Magnifico Juego de Utensilios de Cocina Panelux de Aluminio Y Grafito de 6 Piezas",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -29118,7 +29118,7 @@
   {
     "id": "6817",
     "sku": "",
-    "nombre": "Freezer Horizontal 328 LTS con Puerta de Vidrio Xi Hf328v Blanco",
+    "nombre": "Freezer Horizontal 328 Lts con Puerta de Vidrio Xi Hf328v Blanco",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -29141,7 +29141,7 @@
   {
     "id": "6820",
     "sku": "PIME_ESP",
-    "nombre": "Exprimidor Electrico Industrial Metvisa Esp 60 LTS H 186 425w Plateado Negro 60 Hz",
+    "nombre": "Exprimidor Eléctrico Industrial Metvisa Esp 60 Lts H 186 425w Plateado Negro 60 Hz",
     "categoria": "Equipamiento y servicio > Bebidas > Jugos y licuados",
     "categories": [
       "Equipamiento y servicio",
@@ -29217,7 +29217,7 @@
   {
     "id": "6840",
     "sku": "PIME_PR_500E",
-    "nombre": "Grill Plancha Electrica Doble Contacto Progas48x40cm Pr 500e Color Gris",
+    "nombre": "Grill Plancha Eléctrica Doble Contacto Progas48x40cm Pr 500e Color Gris",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -29288,7 +29288,7 @@
   {
     "id": "6853",
     "sku": "",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm150ps Imperial Grey X 60 Hz 220 V Gray",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm150ps Imperial Grey x 60 Hz 220 V Gray",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -29558,7 +29558,7 @@
   {
     "id": "6908",
     "sku": "",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Pistachio 50 Hz X 60 Hz 220 V",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Pistachio 50 Hz x 60 Hz 220 V",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -29579,7 +29579,7 @@
   {
     "id": "6915",
     "sku": "",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Ice Blue 50 Hz X 60 Hz 220 V",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Ice Blue 50 Hz x 60 Hz 220 V",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -29602,7 +29602,7 @@
   {
     "id": "6921",
     "sku": "",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Silk Pink 50 Hz X 60 Hz 220 V",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Silk Pink 50 Hz x 60 Hz 220 V",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -29694,7 +29694,7 @@
   {
     "id": "6937",
     "sku": "UNQ_HES-938",
-    "nombre": "Gratinador Electrico Comercial Bandeja 40x30",
+    "nombre": "Gratinador Eléctrico Comercial Bandeja 40x30",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -29770,7 +29770,7 @@
   {
     "id": "6969",
     "sku": "MUB03-27",
-    "nombre": "Sarten Hierro Fundido Liso 21 Cm con Mango y Tabla de Madera",
+    "nombre": "Sarten Hierro Fundido Liso 21 Cm con Mango Y Tabla de Madera",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -29874,7 +29874,7 @@
   {
     "id": "6993",
     "sku": "MUB03-26",
-    "nombre": "Sarten Hierro Fundido Liso 19 Cm con Mango y Tabla de Madera",
+    "nombre": "Sarten Hierro Fundido Liso 19 Cm con Mango Y Tabla de Madera",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos, Descuentos",
     "categories": [
       "Equipamiento y servicio",
@@ -30078,7 +30078,7 @@
   {
     "id": "7037",
     "sku": "MUB03-35",
-    "nombre": "Olla de Hierro Fundido Horno con Asas y Tapa Cacerola 5.8 Lt",
+    "nombre": "Olla de Hierro Fundido Horno con Asas Y Tapa Cacerola 5.8 Lt",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -30104,7 +30104,7 @@
   {
     "id": "7043",
     "sku": "MUB03-36",
-    "nombre": "Olla de Hierro Fundido Horno con Asas y Tapa Cacerola 6.7 Lt",
+    "nombre": "Olla de Hierro Fundido Horno con Asas Y Tapa Cacerola 6.7 Lt",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -30507,7 +30507,7 @@
   {
     "id": "7126",
     "sku": "prix 5",
-    "nombre": "Balanza Comercial Digital Toledo Prix 5 Plus 30kg con Mastil Negro 27 Cm X 43.7 Cm",
+    "nombre": "Balanza Comercial Digital Toledo Prix 5 Plus 30kg con Mastil Negro 27 Cm x 43.7 Cm",
     "categoria": "Elaboración > Otros > Balanzas",
     "categories": [
       "Elaboración",
@@ -30529,7 +30529,7 @@
   {
     "id": "7131",
     "sku": "VS-100007",
-    "nombre": "Campana Mural con Filtro 300 X 93 X 32 Cm Ventus",
+    "nombre": "Campana Mural con Filtro 300 x 93 x 32 Cm Ventus",
     "categoria": "Equipamiento y servicio > Complementos > Campanas y extractores",
     "categories": [
       "Equipamiento y servicio",
@@ -30553,7 +30553,7 @@
   {
     "id": "7135",
     "sku": "VS-100006",
-    "nombre": "Campana Mural con Filtro 250 X 93 X 32 Cm Ventus",
+    "nombre": "Campana Mural con Filtro 250 x 93 x 32 Cm Ventus",
     "categoria": "Equipamiento y servicio > Complementos > Campanas y extractores",
     "categories": [
       "Equipamiento y servicio",
@@ -30577,7 +30577,7 @@
   {
     "id": "7139",
     "sku": "VS-100003",
-    "nombre": "Campana Mural con Filtro 200 X 93 X 32 Cm Ventus",
+    "nombre": "Campana Mural con Filtro 200 x 93 x 32 Cm Ventus",
     "categoria": "Equipamiento y servicio > Complementos > Campanas y extractores",
     "categories": [
       "Equipamiento y servicio",
@@ -30602,7 +30602,7 @@
   {
     "id": "7144",
     "sku": "VS-100002",
-    "nombre": "Campana Mural con Filtro 150 X 93 X 32 Cm Ventus",
+    "nombre": "Campana Mural con Filtro 150 x 93 x 32 Cm Ventus",
     "categoria": "Equipamiento y servicio > Complementos > Campanas y extractores",
     "categories": [
       "Equipamiento y servicio",
@@ -30627,7 +30627,7 @@
   {
     "id": "7149",
     "sku": "VS-100008",
-    "nombre": "Campana Central con Filtro 200 X 130 X 32 Cm Ventus",
+    "nombre": "Campana Central con Filtro 200 x 130 x 32 Cm Ventus",
     "categoria": "Equipamiento y servicio > Complementos > Campanas y extractores",
     "categories": [
       "Equipamiento y servicio",
@@ -30649,7 +30649,7 @@
   {
     "id": "7151",
     "sku": "VS-100001",
-    "nombre": "Campana Mural con Filtro 100 X 93 X 32 Cm Ventus",
+    "nombre": "Campana Mural con Filtro 100 x 93 x 32 Cm Ventus",
     "categoria": "Equipamiento y servicio > Complementos > Campanas y extractores",
     "categories": [
       "Equipamiento y servicio",
@@ -30698,7 +30698,7 @@
   {
     "id": "7161",
     "sku": "VS-100010",
-    "nombre": "Estanteria de 4 Estantes de Metal 91 X 46 X 180 Cm Ventus",
+    "nombre": "Estanteria de 4 Estantes de Metal 91 x 46 x 180 Cm Ventus",
     "categoria": "Equipamiento y servicio > Mobiliario > Mesadas y estantes",
     "categories": [
       "Equipamiento y servicio",
@@ -30818,7 +30818,7 @@
   {
     "id": "7199",
     "sku": "",
-    "nombre": "Isla Pozo de Frio Freezer Comercial 520 LTS Vidrio Curvo",
+    "nombre": "Isla Pozo de Frio Freezer Comercial 520 Lts Vidrio Curvo",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -31707,7 +31707,7 @@
   {
     "id": "7396",
     "sku": "UNQ_CANASTOHGF778",
-    "nombre": "Canasto de Repuesto para Fritador Freidora 14x33x14 Cm",
+    "nombre": "Canasto de Repuesto para Fritador 14x33x14 Cm",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -31731,7 +31731,7 @@
   {
     "id": "7400",
     "sku": "UNQ_CANASTOHEF88",
-    "nombre": "Canasto de Repuesto para Fritador Freidora 21x20x15 Cm",
+    "nombre": "Canasto de Repuesto para Fritador 21x20x15 Cm",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -31755,7 +31755,7 @@
   {
     "id": "7404",
     "sku": "unq_canastohef81a",
-    "nombre": "Canasto de Repuesto para Fritador Freidora 21x18x10 Cm",
+    "nombre": "Canasto de Repuesto para Fritador 21x18x10 Cm",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -31803,7 +31803,7 @@
   {
     "id": "7412",
     "sku": "",
-    "nombre": "Freidora a Gas 23 Lt Potenciado Unique 3 Quemadores 2",
+    "nombre": "Fritador a Gas 23 Lt Potenciado Unique 3 Quemadores 2",
     "categoria": "Cocción > Calor > Freidoras",
     "categories": [
       "Cocción",
@@ -31829,7 +31829,7 @@
   {
     "id": "7418",
     "sku": "",
-    "nombre": "Horno Electrico de Mesa Comercial Industrial Unique",
+    "nombre": "Horno Eléctrico de Mesa Comercial Industrial Unique",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -31903,7 +31903,7 @@
   {
     "id": "7435",
     "sku": "LFC-5V1",
-    "nombre": "Cutter Procesadora De Alimentos Industrial Unique Lfc-5v1",
+    "nombre": "Cutter Procesadora de Alimentos Industrial Unique Lfc-5v1",
     "categoria": "Descuentos, Elaboración > Procesamiento > Procesadoras",
     "categories": [
       "Descuentos, Elaboración",
@@ -31952,7 +31952,7 @@
   {
     "id": "7444",
     "sku": "unq_rep_moldecono",
-    "nombre": "Molde De Cono De Helado Cucurucho En Madera",
+    "nombre": "Molde de Cono de Helado Cucurucho en Madera",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -31976,7 +31976,7 @@
   {
     "id": "7448",
     "sku": "setx3-UQ005",
-    "nombre": "Tablas de Picar Plasticas Set X 3 Verde Blanco y Rojo 44x30",
+    "nombre": "Tablas de Picar Plasticas Set x 3 Verde Blanco Y Rojo 44x30",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -31999,7 +31999,7 @@
   {
     "id": "7453",
     "sku": "UQ001",
-    "nombre": "Tablas De Picar Plasticas Set X 3 Verde Blanco Y Rojo 33x20",
+    "nombre": "Tablas de Picar Plasticas Set x 3 Verde Blanco Y Rojo 33x20",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -32022,7 +32022,7 @@
   {
     "id": "7458",
     "sku": "unq_HQP-S002",
-    "nombre": "Cortador De Frutas Y Verduras Con Disco Manual Unique",
+    "nombre": "Cortador de Frutas Y Verduras con Disco Manual Unique",
     "categoria": "Elaboración > Corte > Cortadoras de papas, Descuentos",
     "categories": [
       "Elaboración",
@@ -32093,7 +32093,7 @@
   {
     "id": "7473",
     "sku": "UNQ_HX-BW",
-    "nombre": "Enmatecador De Pan Butter Roller Profesional Para Panaderías y Cocinas Industriales – Acero Inoxidable",
+    "nombre": "Enmatecador de Pan Butter Roller Profesional para Panaderías Y Cocinas Industriales – Acero Inoxidable",
     "categoria": "Descuentos",
     "categories": [
       "Descuentos"
@@ -32120,7 +32120,7 @@
   {
     "id": "7482",
     "sku": "HX-EBW",
-    "nombre": "Rodillo Aplicador de Manteca Uso Comercial Electrico Unique",
+    "nombre": "Rodillo Aplicador de Manteca Uso Comercial Eléctrico Unique",
     "categoria": "Descuentos",
     "categories": [
       "Descuentos"
@@ -32436,7 +32436,7 @@
   {
     "id": "7556",
     "sku": "",
-    "nombre": "Isla Pozo de Frio Freezer Comercial 520 LTS Vidrio Curvo 2",
+    "nombre": "Isla Pozo de Frio Freezer Comercial 520 Lts Vidrio Curvo 2",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -32497,7 +32497,7 @@
   {
     "id": "7564",
     "sku": "PIME_GESV_190",
-    "nombre": "Isla Pozo de Frio Freezer Comercial 520 LTS Vidrio Curvo - Blanco",
+    "nombre": "Isla Pozo de Frio Freezer Comercial 520 Lts Vidrio Curvo - Blanco",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -32515,7 +32515,7 @@
   {
     "id": "7565",
     "sku": "",
-    "nombre": "Isla Pozo de Frio Freezer Comercial 520 LTS Vidrio Curvo 2 - Negro",
+    "nombre": "Isla Pozo de Frio Freezer Comercial 520 Lts Vidrio Curvo 2 - Negro",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -32801,7 +32801,7 @@
   {
     "id": "7628",
     "sku": "HC-02A",
-    "nombre": "Cortador de Papas y Vegetales en Baston Manual Unique",
+    "nombre": "Cortador de Papas Y Vegetales en Baston Manual Unique",
     "categoria": "Elaboración > Corte > Cortadoras de papas, Descuentos",
     "categories": [
       "Elaboración",
@@ -32825,7 +32825,7 @@
   {
     "id": "7634",
     "sku": "",
-    "nombre": "Reparacion y Service de Maquinas Gastronomicas Comerciales",
+    "nombre": "Reparacion Y Service de Maquinas Gastronomicas Comerciales",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -33012,7 +33012,7 @@
   {
     "id": "7678",
     "sku": "UNQ_REP3_B7S",
-    "nombre": "Globo Batidor para Batidora Planetaria 7 y 8 Litros",
+    "nombre": "Globo Batidor para Batidora Planetaria 7 Y 8 Litros",
     "categoria": "Elaboración > Masas > Batidoras planetarias",
     "categories": [
       "Elaboración",
@@ -33036,7 +33036,7 @@
   {
     "id": "7702",
     "sku": "UNQ_REP_H40",
-    "nombre": "Gancho para Amasadora de 40 Lt H40 y de 50lt H50",
+    "nombre": "Gancho para Amasadora de 40 Lt H40 Y de 50lt H50",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -33308,7 +33308,7 @@
   {
     "id": "7764",
     "sku": "PIME_CB-28-G2",
-    "nombre": "Sobadora Electrica 28 Cm de Mesa Braesi Cb 28",
+    "nombre": "Sobadora Eléctrica 28 Cm de Mesa Braesi Cb 28",
     "categoria": "Elaboración > Masas > Sobadoras",
     "categories": [
       "Elaboración",
@@ -33372,7 +33372,7 @@
   {
     "id": "7772",
     "sku": "UNQ_HC-12",
-    "nombre": "Nivelador de Cobertura de Tortas Electrico Unique Hc 12",
+    "nombre": "Nivelador de Cobertura de Tortas Eléctrico Unique Hc 12",
     "categoria": "Descuentos, Sin categorizar",
     "categories": [
       "Descuentos, Sin categorizar"
@@ -33412,7 +33412,7 @@
   {
     "id": "7778",
     "sku": "5KSM175PSEDR",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Silk Pink 50 Hz X 60 Hz 220 V",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Silk Pink 50 Hz x 60 Hz 220 V",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -33430,7 +33430,7 @@
   {
     "id": "7779",
     "sku": "5KSM175PSEIC",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Ice Blue 50 Hz X 60 Hz 220 V",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Ice Blue 50 Hz x 60 Hz 220 V",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -33448,7 +33448,7 @@
   {
     "id": "7780",
     "sku": "5ksm175psept",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Pistachio 50 Hz X 60 Hz 220 V",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm175ps Rksm175psrca Pistachio 50 Hz x 60 Hz 220 V",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -33538,7 +33538,7 @@
   {
     "id": "7785",
     "sku": "ksm150pseob",
-    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm150ps Imperial Grey X 60 Hz 220 V Gray",
+    "nombre": "Batidora de Pie Kitchenaid Artisan Ksm150ps Imperial Grey x 60 Hz 220 V Gray",
     "categoria": "Sin categoría",
     "categories": [
       "Sin categoría"
@@ -33602,7 +33602,7 @@
   {
     "id": "7833",
     "sku": "UNQ_HSW-2A",
-    "nombre": "Dispensador de Salsa Quesos Dos Picos Acero Unique Electrico",
+    "nombre": "Dispensador de Salsa Quesos Dos Picos Acero Unique Eléctrico",
     "categoria": "Descuentos, Sin categorizar",
     "categories": [
       "Descuentos, Sin categorizar"
@@ -33652,7 +33652,7 @@
   {
     "id": "7847",
     "sku": "UNQ_HSW-3A",
-    "nombre": "Dispensador de Salsa Quesos Tres Picos Unique Electrico",
+    "nombre": "Dispensador de Salsa Quesos Tres Picos Unique Eléctrico",
     "categoria": "Descuentos, Sin categorizar",
     "categories": [
       "Descuentos, Sin categorizar"
@@ -33674,7 +33674,7 @@
   {
     "id": "7851",
     "sku": "UNQ_HSW-1A",
-    "nombre": "Dispensador de Salsas Dulces Electrico Un Pico Acero Unique",
+    "nombre": "Dispensador de Salsas Dulces Eléctrico Un Pico Acero Unique",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos, Descuentos",
     "categories": [
       "Equipamiento y servicio",
@@ -33790,7 +33790,7 @@
   {
     "id": "7957",
     "sku": "",
-    "nombre": "Horno Electrico Progas Turbo Trifasico St 380v con 8 Correas Gris",
+    "nombre": "Horno Eléctrico Progas Turbo Trifasico St 380v con 8 Correas Gris",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -33813,7 +33813,7 @@
   {
     "id": "7960",
     "sku": "",
-    "nombre": "Amasadoras Comercial Panadera Demet 20 LTS Modelo H20 Fama",
+    "nombre": "Amasadoras Comercial Panadera Demet 20 Lts Modelo H20 Fama",
     "categoria": "Elaboración > Masas > Amasadoras",
     "categories": [
       "Elaboración",
@@ -33890,7 +33890,7 @@
   {
     "id": "7977",
     "sku": "",
-    "nombre": "Horno Turbo Electrico Negro Prp004 Plus Progas Digital",
+    "nombre": "Horno Turbo Eléctrico Negro Prp004 Plus Progas Digital",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -33964,7 +33964,7 @@
   {
     "id": "8023",
     "sku": "5001656",
-    "nombre": "Olla Cacerola Antiadherente 18 Cm con Mango y Tapa Panelux",
+    "nombre": "Olla Cacerola Antiadherente 18 Cm con Mango Y Tapa Panelux",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -34068,7 +34068,7 @@
   {
     "id": "8054",
     "sku": "5001658",
-    "nombre": "Olla Cacerola Antiadherente 20 Cm con Mango y Tapa Panelux",
+    "nombre": "Olla Cacerola Antiadherente 20 Cm con Mango Y Tapa Panelux",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -34095,7 +34095,7 @@
   {
     "id": "8062",
     "sku": "5000021",
-    "nombre": "Olla a presión Panelux con revestimiento antiadherente de 7 litros",
+    "nombre": "Olla a Presión Panelux con Revestimiento Antiadherente de 7 Litros",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -34126,7 +34126,7 @@
   {
     "id": "8075",
     "sku": "5000020",
-    "nombre": "Magnific Olla a presión de aluminio Graphite Panelux de 4,5 l",
+    "nombre": "Magnific Olla a Presión de Aluminio Graphite Panelux de 4,5 L",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -34193,7 +34193,7 @@
   {
     "id": "8395",
     "sku": "5000123",
-    "nombre": "Jarro Hervidor De Leche Panelux 1.2 Lt Grafito 5000123",
+    "nombre": "Jarro Hervidor de Leche Panelux 1.2 Lt Grafito 5000123",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -34216,7 +34216,7 @@
   {
     "id": "8400",
     "sku": "5000141",
-    "nombre": "Sartén Profunda Antiadherente 22 Cm Tapa De Cristal Panelux",
+    "nombre": "Sartén Profunda Antiadherente 22 Cm Tapa de Cristal Panelux",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -34243,7 +34243,7 @@
   {
     "id": "8407",
     "sku": "5000184",
-    "nombre": "Panelux Magnific Olla 16Cm Magnific Cacerola",
+    "nombre": "Panelux Magnific Olla 16cm Magnific Cacerola",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -34265,7 +34265,7 @@
   {
     "id": "8409",
     "sku": "5001193",
-    "nombre": "Olla Con Mango Antiadherente Panelux 18 Cm 1.8 Lt Con Tapa",
+    "nombre": "Olla con Mango Antiadherente Panelux 18 Cm 1.8 Lt con Tapa",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -34427,7 +34427,7 @@
   {
     "id": "8441",
     "sku": "5000134",
-    "nombre": "Sartén Antiadherente Para Huevos 12 Cm Color Grafito Panelux",
+    "nombre": "Sartén Antiadherente para Huevos 12 Cm Color Grafito Panelux",
     "categoria": "Equipamiento y servicio > Complementos > Accesorios y repuestos",
     "categories": [
       "Equipamiento y servicio",
@@ -34582,7 +34582,7 @@
   {
     "id": "8498",
     "sku": "",
-    "nombre": "Gelopar GHBS-510",
+    "nombre": "Gelopar Ghbs-510",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -34678,7 +34678,7 @@
   {
     "id": "8519",
     "sku": "",
-    "nombre": "Xion Espresso XI-CM308 Eléctrica - Negro",
+    "nombre": "Xion Espresso Xi-cm308 Eléctrica - Negro",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -34700,7 +34700,7 @@
   {
     "id": "8523",
     "sku": "",
-    "nombre": "Cámara de crecimiento PCA-200n, 20 alfombrillas corrugadas Progas",
+    "nombre": "Cámara de Crecimiento Pca-200n, 20 Alfombrillas Corrugadas Progas",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -34722,7 +34722,7 @@
   {
     "id": "8525",
     "sku": "",
-    "nombre": "Cámara de crecimiento expuesta, 20 alfombrillas, 5 tiras, Pce200 Progas",
+    "nombre": "Cámara de Crecimiento Expuesta, 20 Alfombrillas, 5 Tiras, Pce200 Progas",
     "categoria": "Refrigeración > Almacenamiento > Cámaras",
     "categories": [
       "Refrigeración",
@@ -34816,7 +34816,7 @@
   {
     "id": "8539",
     "sku": "",
-    "nombre": "Braesi DVB-30N",
+    "nombre": "Braesi Dvb-30n",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -34838,7 +34838,7 @@
   {
     "id": "8543",
     "sku": "CH062",
-    "nombre": "Chivetero A Gas Nacional Ch062 Con Gratinador",
+    "nombre": "Chivetero a Gas Nacional Ch062 con Gratinador",
     "categoria": "Cocción > A la plancha > Planchas",
     "categories": [
       "Cocción",
@@ -34862,7 +34862,7 @@
   {
     "id": "8547",
     "sku": "",
-    "nombre": "Horno refractario de gas infrarrojo. Vidrio templado Progas Propi800",
+    "nombre": "Horno Refractario de Gas Infrarrojo. Vidrio Templado Progas Propi800",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -34886,7 +34886,7 @@
   {
     "id": "8551",
     "sku": "",
-    "nombre": "Horno refractario de gas infrarrojo. Vidrio templado Propi900, a prueba de",
+    "nombre": "Horno Refractario de Gas Infrarrojo. Vidrio Templado Propi900, a Prueba de",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -34910,7 +34910,7 @@
   {
     "id": "8555",
     "sku": "",
-    "nombre": "Horno Refractario a Gas Progás PRP-1000 Vidrio Templado y Placas Refractarias",
+    "nombre": "Horno Refractario a Gas Progás Prp-1000 Vidrio Templado Y Placas Refractarias",
     "categoria": "Cocción > Calor > Cocinas y hornos",
     "categories": [
       "Cocción",
@@ -34933,7 +34933,7 @@
   {
     "id": "8558",
     "sku": "",
-    "nombre": "Progás PRUNO-40",
+    "nombre": "Progás Pruno-40",
     "categoria": "Sin categorizar",
     "categories": [
       "Sin categorizar"
@@ -34953,7 +34953,7 @@
   {
     "id": "8563",
     "sku": "",
-    "nombre": "Freezer FC-142 Panavox Frío Húmedo 142l Color Blanco",
+    "nombre": "Freezer Fc-142 Panavox Frío Húmedo 142l Color Blanco",
     "categoria": "Refrigeración > Almacenamiento > Freezers",
     "categories": [
       "Refrigeración",
@@ -35004,7 +35004,7 @@
   {
     "id": "8576",
     "sku": "DNBAL",
-    "nombre": "Estufa A Leña Doble Combustión Dunamis Con Caños 85 M3",
+    "nombre": "Estufa a Leña Doble Combustión Dunamis con Caños 85 M3",
     "categoria": "Descuentos, Sin categorizar",
     "categories": [
       "Descuentos, Sin categorizar"
@@ -35028,7 +35028,7 @@
   {
     "id": "8585",
     "sku": "",
-    "nombre": "Cortadora De Fiambre Unique 300a_12 Hoja 30cm Comercial Aluminio Plateado",
+    "nombre": "Cortadora de Fiambre Unique 300a_12 Hoja 30cm Comercial Aluminio Plateado",
     "categoria": "Elaboración > Corte > Cortadoras de fiambre",
     "categories": [
       "Elaboración",
