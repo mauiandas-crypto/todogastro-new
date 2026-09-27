@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { FormEvent } from 'react';
 
 interface Producto {
   id: string;
@@ -20,7 +21,38 @@ interface Producto {
 export default function Home() {
   const [productos, setProductos] = useState<Producto[]>([]);
   const [loading, setLoading] = useState(true);
-  // Force rebuild - Using local API routes
+  const [newsletterEmail, setNewsletterEmail] = useState('');
+  const [newsletterLoading, setNewsletterLoading] = useState(false);
+  const [newsletterMessage, setNewsletterMessage] = useState('');
+  const [newsletterError, setNewsletterError] = useState('');
+
+  const handleNewsletterSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setNewsletterLoading(true);
+    setNewsletterMessage('');
+    setNewsletterError('');
+
+    try {
+      const response = await fetch('/api/newsletter/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: newsletterEmail }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setNewsletterMessage('¡Suscripción exitosa! Revisa tu email para confirmar.');
+        setNewsletterEmail('');
+      } else {
+        setNewsletterError(data.message || 'Error en la suscripción');
+      }
+    } catch (error) {
+      setNewsletterError('Error procesando suscripción');
+    } finally {
+      setNewsletterLoading(false);
+    }
+  };
 
   useEffect(() => {
     const cargarProductos = async () => {
@@ -50,6 +82,13 @@ export default function Home() {
 
   return (
     <div className="bg-white">
+      {/* BANNER PROMOCIONAL */}
+      <section className="bg-red-600 text-white py-4 px-4 text-center font-bold">
+        <div className="max-w-7xl mx-auto">
+          🎉 PROMOCIÓN: Usa el cupón <span className="font-black text-lg">BIENVENIDA10</span> y obtén <span className="font-black text-lg">10% DESCUENTO</span>
+        </div>
+      </section>
+
       {/* 1. SLIDER PRINCIPAL (Banners) */}
       <section className="bg-black text-white py-24 px-4 text-center">
         <div className="max-w-7xl mx-auto">
@@ -154,7 +193,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. BLOQUE INSTITUCIONAL */}
+      {/* 5. ¿POR QUÉ ELEGIR TODOGASTRO? */}
+      <section className="border-b-2 border-black px-4 py-12">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-black mb-12 text-gray-900 text-center">¿POR QUÉ ELEGIR TODOGASTRO?</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { icon: '⚡', title: 'Entrega Rápida', desc: 'Despachamos en 24-48hs' },
+              { icon: '💰', title: 'Mejores Precios', desc: 'Hasta 12 cuotas sin interés' },
+              { icon: '🔧', title: 'Soporte Técnico', desc: 'Asesoramiento profesional' },
+              { icon: '✅', title: 'Garantía Oficial', desc: 'Todos nuestros productos' },
+            ].map((item, idx) => (
+              <div key={idx} className="border-2 border-black p-6 text-center hover:shadow-lg transition">
+                <div className="text-5xl mb-4">{item.icon}</div>
+                <h3 className="text-lg font-bold mb-2 text-gray-900">{item.title}</h3>
+                <p className="text-sm text-gray-700">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 5.5 BLOQUE INSTITUCIONAL */}
       <section className="bg-gray-50 border-b-2 border-black px-4 py-12">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-black mb-4 text-gray-900">SOMOS TODOGASTRO</h2>
@@ -172,13 +233,34 @@ export default function Home() {
       {/* 6. NEWSLETTER */}
       <section className="border-b-2 border-black px-4 py-12">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-2xl font-black mb-4 text-gray-900">RECIBÍ NOVEDADES Y DESCUENTOS</h2>
-          <form className="flex gap-2">
-            <input type="email" placeholder="Tu email..." className="flex-1 px-4 py-3 border-2 border-black focus:outline-none text-gray-900" required />
-            <button type="submit" className="px-6 py-3 bg-black text-white font-bold hover:bg-gray-800">
-              SUSCRIBIR
+          <h2 className="text-2xl font-black mb-2 text-gray-900">RECIBÍ NOVEDADES Y DESCUENTOS</h2>
+          <p className="text-gray-700 mb-6 text-sm">Entérate de nuestras promociones exclusivas y nuevo equipamiento</p>
+
+          <form onSubmit={handleNewsletterSubmit} className="flex gap-2 mb-4">
+            <input
+              type="email"
+              placeholder="Tu email..."
+              value={newsletterEmail}
+              onChange={(e) => setNewsletterEmail(e.target.value)}
+              className="flex-1 px-4 py-3 border-2 border-black focus:outline-none text-gray-900"
+              required
+              disabled={newsletterLoading}
+            />
+            <button
+              type="submit"
+              disabled={newsletterLoading}
+              className="px-6 py-3 bg-black text-white font-bold hover:bg-gray-800 disabled:opacity-50 transition"
+            >
+              {newsletterLoading ? 'Suscribiendo...' : 'SUSCRIBIR'}
             </button>
           </form>
+
+          {newsletterMessage && (
+            <p className="text-green-600 text-sm font-semibold">{newsletterMessage}</p>
+          )}
+          {newsletterError && (
+            <p className="text-red-600 text-sm">{newsletterError}</p>
+          )}
         </div>
       </section>
 

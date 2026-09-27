@@ -1,15 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-// Nota: Para integración real, necesitarías:
-// 1. Instalar npm install mercadopago
-// 2. Configurar credenciales de Mercado Pago
-// 3. Implementar la API real
+const MercadoPago = require('mercadopago')
+
+const mercadoPagoClient = new MercadoPago.MercadoPagoConfig({
+  accessToken: process.env.MERCADOPAGO_ACCESS_TOKEN || '',
+})
 
 export async function POST(request: NextRequest) {
   try {
-    const { items, email, orderId } = await request.json()
+    const { items, email, orderId, shippingCost, discount } = await request.json()
 
-    // Validar datos
     if (!items || !email || !orderId) {
       return NextResponse.json(
         { error: 'Datos incompletos' },
@@ -17,24 +17,65 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // TODO: Implementar con SDK real de Mercado Pago
-    // Por ahora retornamos un response de ejemplo
+    if (!process.env.MERCADOPAGO_ACCESS_TOKEN) {
+      return NextResponse.json(
+        { error: 'Mercado Pago no está configurado' },
+        { status: 500 }
+      )
+    }
 
-    const total = items.reduce((sum: number, item: any) => sum + (item.price * item.quantity), 0)
+    const preferenceClient = new (require('mercadopago')).Preference(mercadoPagoClient)
 
-    console.log('Preference request:', {
-      items,
-      email,
-      orderId,
-      total,
-    })
+    const mp_items = items.map((item: any) => ({
+      id: item.id,
+      title: item.name,
+      quantity: item.quantity,
+      unit_price: item.price,
+      currency_id: 'UYU',
+    }))
 
-    // Response de ejemplo (requiere implementación real)
+    if (shippingCost && shippingCost > 0) {
+      mp_items.push({
+        id: 'shipping',
+        title: 'Envío',
+        quantity: 1,
+        unit_price: shippingCost,
+        currency_id: 'UYU',
+      })
+    }
+
+    if (discount && discount > 0) {
+      mp_items.push({
+        id: 'discount',
+        title: 'Descuento',
+        quantity: 1,
+        unit_price: -discount,
+        currency_id: 'UYU',
+      })
+    }
+
+    const preferenceBody = {
+      items: mp_items,
+      payer: {
+        email: email,
+      },
+      external_reference: orderId,
+      back_urls: {
+        success: `${process.env.NEXT_PUBLIC_URL || 'http://localhost:3000'}/checkout/confirmacion?status=success&id=${orderId}`,
+        failure: `${process.env.NEXT_PUBLIC_URL || 'http://localhost:3000'}/checkout/confirmacion?status=failure&id=${orderId}`,
+        pending: `${process.env.NEXT_PUBLIC_URL || 'http://localhost:3000'}/checkout/confirmacion?status=pending&id=${orderId}`,
+      },
+      notification_url: `${process.env.NEXT_PUBLIC_URL || 'http://localhost:3000'}/api/webhooks/mercadopago`,
+      auto_return: 'approved',
+    }
+
+    const response = await preferenceClient.create({ body: preferenceBody })
+
     return NextResponse.json({
-      id: 'mp-' + Date.now(),
-      init_point: null, // En producción sería la URL de Mercado Pago
+      id: response.id,
+      init_point: response.init_point,
+      sandbox_init_point: response.sandbox_init_point,
       success: true,
-      message: 'Preference creada. Necesita SDK real de Mercado Pago',
     })
   } catch (error) {
     console.error('Error creating payment preference:', error)

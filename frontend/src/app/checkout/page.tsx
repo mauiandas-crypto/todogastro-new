@@ -118,6 +118,25 @@ export default function CheckoutPage() {
         throw new Error('Error al crear la orden')
       }
 
+      // Enviar email de confirmación
+      fetch('/api/emails/send-confirmation', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: formData.email,
+          orden: {
+            id: orderId,
+            fecha: now.toISOString(),
+            cliente: formData,
+            items: items,
+            shippingCost,
+            discount: descuento,
+            total: totalFinal,
+            metodoPago,
+          },
+        }),
+      }).catch((err) => console.error('Error sending email:', err))
+
       // Si es Mercado Pago, crear preference
       if (metodoPago === 'mercadopago') {
         const mpResponse = await fetch('/api/payments/create-preference', {
