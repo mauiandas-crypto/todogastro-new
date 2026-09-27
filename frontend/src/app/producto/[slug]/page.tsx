@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useCartStore } from '@/store/cartStore';
 import GaleriaProducto from '@/components/GaleriaProducto';
 
 interface Producto {
@@ -24,9 +26,14 @@ interface Props {
 }
 
 export default function PaginaProducto({ params }: Props) {
+  const router = useRouter();
+  const addItem = useCartStore((state) => state.addItem);
+
   const [producto, setProducto] = useState<Producto | null>(null);
   const [loading, setLoading] = useState(true);
   const [slug, setSlug] = useState<string | null>(null);
+  const [addingToCart, setAddingToCart] = useState(false);
+  const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
     let mounted = true;
@@ -118,10 +125,56 @@ export default function PaginaProducto({ params }: Props) {
               {producto.in_stock ? `✓ EN STOCK` : 'AGOTADO'}
             </div>
 
+            {/* Cantidad */}
+            <div className="mb-6">
+              <label className="block text-sm font-bold mb-2">Cantidad:</label>
+              <div className="flex gap-3">
+                <button
+                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                  className="w-12 h-12 border-2 border-black font-bold hover:bg-black hover:text-white transition"
+                >
+                  −
+                </button>
+                <input
+                  type="number"
+                  min="1"
+                  value={quantity}
+                  onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
+                  className="flex-1 border-2 border-black px-3 font-bold text-center"
+                />
+                <button
+                  onClick={() => setQuantity(quantity + 1)}
+                  className="w-12 h-12 border-2 border-black font-bold hover:bg-black hover:text-white transition"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
             {/* Botones */}
             <div className="space-y-3 mb-8">
-              <button className="w-full bg-black text-white py-3 font-bold hover:bg-gray-800">
-                🛒 AGREGAR AL CARRITO
+              <button
+                onClick={() => {
+                  setAddingToCart(true);
+                  if (producto?.images?.[0]?.src) {
+                    addItem({
+                      id: producto.sku,
+                      sku: producto.sku,
+                      name: producto.name,
+                      price: producto.price,
+                      currency: producto.currency,
+                      image: producto.images[0].src,
+                    }, quantity);
+                  }
+                  setTimeout(() => {
+                    setAddingToCart(false);
+                    router.push('/carrito');
+                  }, 500);
+                }}
+                disabled={addingToCart || !producto.in_stock}
+                className="w-full bg-black text-white py-3 font-bold hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition"
+              >
+                {addingToCart ? '⏳ Agregando...' : '🛒 AGREGAR AL CARRITO'}
               </button>
               <a
                 href={`https://wa.me/598927155555?text=Me interesa el producto: ${producto.name}`}
