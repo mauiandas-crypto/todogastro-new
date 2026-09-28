@@ -67,9 +67,9 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
             <p>&copy; {currentYear} TodoGastro. Todos los derechos reservados.</p>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <a href="#" className="hover:text-white transition">Términos y condiciones</a>
-              <a href="#" className="hover:text-white transition">Privacidad</a>
-              <a href="#" className="hover:text-white transition">Devoluciones</a>
+              <Link href="/terminos" className="hover:text-white transition">Términos y condiciones</Link>
+              <Link href="/privacidad" className="hover:text-white transition">Privacidad</Link>
+              <a href="https://wa.me/598927155555" className="hover:text-white transition">Devoluciones</a>
             </div>
           </div>
         </div>
